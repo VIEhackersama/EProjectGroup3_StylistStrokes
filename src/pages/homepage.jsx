@@ -1,6 +1,6 @@
 import AboutUs from "../components/about";
 import VideoPage from "./Videopage";
-function Homepage1() {
+function Home() {
     return (
         <div className="container">
             <AboutUs></AboutUs>
@@ -8,4 +8,4 @@ function Homepage1() {
         </div>
     );
 }
-export default Homepage1;
+export default Home;
