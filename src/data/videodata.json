@@ -2,32 +2,32 @@
     {
         "name":"The art of Vietnam caligraphy",
         "description":"lorem9",
-        "image":"thu-phap-viet-nam_042610346.jpg"
+        "image":"image/thu-phap-viet-nam_042610346.jpg"
     },
 
     {
         "name":"The art of Korea Caligraphy",
         "description":"lorem isum",
-        "image":"caligraphy korean.jpg"
+        "image":"image/caligraphy korean.jpg"
     },
     {
         "name":"The art of Arabic Caligraphy",
         "description":"Loremisum9",
-        "image":"caligraphyarabic.png"
+        "image":"image/caligraphy arabic.png"
     },
     {
         "name":"The art of South China Caligraphy",
         "description":"Lorem isum9",
-        "image":"chinesde caligraphy.jpg"
+        "image":"image/chinesdecaligraphy.jpg"
     },
     {
         "name":"The art of Japan Caligraphy",
         "description":"Lorempath",
-        "image":"japancaligraphy.jpg"
+        "image":"image/japancaligraphy.jpg"
     },
     {
         "name":"The art of Western countries Caligraphy",
         "description":"Loremmath",
-        "image":"westerncaligraphy.jpg"
+        "image":"image/westerncaligraphy.jpg"
     }
 ]

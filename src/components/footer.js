@@ -1,18 +1,20 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import { NavLink } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button'
+import Footer_1 from "./footer1";
+import Footer_2 from "./footer2";
 // import '../style/header.css';
-
 function Footer_js() {
-    return (
-        <Navbar style={{backgroundColor:""}} className='bg justify-content-between border border-dark-subtle' expand='lg'>
-            <div className='container justify-content-end'>
-                <h5 className='text-end'>No 8- Ton That Thuyet- My Dinh - Nam Tu Liem - HN</h5>
-            </div>
-        </Navbar>
-    );
+  return (
+    <div>
+      <footer
+        style={{ backgroundColor: "#1b1c1b" }}
+        className="text-white py-5"
+      >
+        <div className="container">
+          <Footer_1></Footer_1>
+          <Footer_2></Footer_2>
+        </div>
+      </footer>
+    </div>
+  );
 }
 
 export default Footer_js;
