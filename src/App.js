@@ -5,6 +5,7 @@ import Homepage from './pages/home';
 import Footer_js from './components/footer';
 import AboutUs from './components/about';
 import VideoPage from './pages/Videopage';
+import Homepage1 from './pages/homepage';
 function App() {
   return (
     <div className="App">
@@ -12,8 +13,7 @@ function App() {
         <Header_JS></Header_JS>
         <main className="content">
           <Routes>
-            <Route path="/homepage" element={<Homepage></Homepage>}></Route>
-            <Route path="/" element={<Homepage></Homepage>}></Route>
+            <Route path="/" element={<Homepage1></Homepage1>}></Route>
           </Routes>
         </main>
         <Footer_js></Footer_js>
