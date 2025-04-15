@@ -2,7 +2,7 @@ import AboutUs from "../components/about";
 import VideoPage from "./Videopage";
 function Homepage1() {
     return (
-        <div>
+        <div className="container">
             <AboutUs></AboutUs>
             <VideoPage></VideoPage>
         </div>
