@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Thư Pháp: Tâm An",
+    "city": "Hà Nội",
+    "address": "Phố cổ Hà Nội",
+    "distance": 10,
+    "price": 199,
+    "maxGroupSize": 1,
+    "desc": "Tác phẩm thể hiện sự bình an trong tâm hồn, mang lại cảm giác tĩnh tại và sâu lắng.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img01",
+    "featured": true
+  },
+  {
+    "title": "Thư Pháp: Nhẫn",
+    "city": "Huế",
+    "address": "Đường Lê Lợi, TP Huế",
+    "distance": 5,
+    "price": 149,
+    "maxGroupSize": 1,
+    "desc": "Chữ 'Nhẫn' thể hiện tinh thần kiên nhẫn, bền bỉ và chịu đựng để thành công.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img02",
+    "featured": false
+  },
+  {
+    "title": "Thư Pháp: Hiếu",
+    "city": "TP. Hồ Chí Minh",
+    "address": "Chợ Bến Thành",
+    "distance": 3,
+    "price": 179,
+    "maxGroupSize": 1,
+    "desc": "Chữ 'Hiếu' là giá trị đạo đức truyền thống, nhấn mạnh lòng biết ơn cha mẹ.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img03",
+    "featured": true
+  },
+  {
+    "title": "Thư Pháp: Phúc",
+    "city": "Nam Định",
+    "address": "Làng nghề Viên Nội",
+    "distance": 20,
+    "price": 189,
+    "maxGroupSize": 1,
+    "desc": "Tác phẩm mang ý nghĩa cầu mong phúc lộc và niềm vui trọn vẹn trong cuộc sống.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img04",
+    "featured": true
+  },
+  {
+    "title": "Thư Pháp: Lộc",
+    "city": "Đà Nẵng",
+    "address": "Bãi biển Mỹ Khê",
+    "distance": 15,
+    "price": 139,
+    "maxGroupSize": 1,
+    "desc": "Chữ 'Lộc' biểu trưng cho tài lộc, tiền tài và sự sung túc trong làm ăn.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img05",
+    "featured": false
+  },
+  {
+    "title": "Thư Pháp: Đức",
+    "city": "Hội An",
+    "address": "Phố cổ Hội An",
+    "distance": 7,
+    "price": 159,
+    "maxGroupSize": 1,
+    "desc": "Chữ 'Đức' là lời nhắc sống có tâm, có đạo đức và nhân hậu.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img06",
+    "featured": false
+  },
+  {
+    "title": "Thư Pháp: Bình An",
+    "city": "Cần Thơ",
+    "address": "Bến Ninh Kiều",
+    "distance": 12,
+    "price": 169,
+    "maxGroupSize": 1,
+    "desc": "Chữ 'Bình An' mang ý nghĩa cầu mong sự an lành cho bản thân và gia đình.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img07",
+    "featured": true
+  },
+  {
+    "title": "Thư Pháp: Thịnh Vượng",
+    "city": "Vũng Tàu",
+    "address": "Bãi Sau Vũng Tàu",
+    "distance": 9,
+    "price": 209,
+    "maxGroupSize": 1,
+    "desc": "Tác phẩm thể hiện khát vọng về sự phát triển, hưng thịnh và sung túc.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img08",
+    "featured": true
+  },
+  {
+    "title": "Thư Pháp: Tài",
+    "city": "Bắc Ninh",
+    "address": "Làng tranh Đông Hồ",
+    "distance": 25,
+    "price": 159,
+    "maxGroupSize": 1,
+    "desc": "Chữ 'Tài' đề cao trí tuệ, sự sáng tạo và khả năng cá nhân.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img09",
+    "featured": false
+  },
+  {
+    "title": "Thư Pháp: Tri Ân",
+    "city": "Đà Lạt",
+    "address": "Hồ Xuân Hương",
+    "distance": 18,
+    "price": 179,
+    "maxGroupSize": 1,
+    "desc": "Tác phẩm truyền tải thông điệp tri ân và lòng biết ơn với những giá trị cuộc sống.",
+    "reviews": [],
+    "photo": "/caligraphy-images/caligraphy-img10",
+    "featured": true
+  }
+]
