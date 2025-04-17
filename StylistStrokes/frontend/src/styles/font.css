@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+CU:wght@100..400&family=Playwrite+MX+Guides&family=Special+Gothic+Expanded+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Fleur+De+Leah&family=Galada&family=Lavishly+Yours&family=Mea+Culpa&family=Quintessential&display=swap" );
 .playwrite-mx {
   font-family: "Playwrite MX Guides", sans-serif;
 }
@@ -18,3 +19,37 @@
   font-weight: 400;
   font-style: normal;
 }
+.galada-regular {
+  font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alegreya-regular {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
