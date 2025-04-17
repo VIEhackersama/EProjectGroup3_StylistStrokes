@@ -1,35 +1,38 @@
 [
     {
-        "name":"The art of Vietnam caligraphy",
-        "description":"lorem9",
-        "image":"thu-phap-viet-nam_042610346.jpg"
-        
-
+        "id":1,
+        "name":"The art of Vietnam Calligraphy.",
+        "des":"Traditional Vietnamese calligraphy with brush strokes.",
+        "image":"image/Vietnam.jpg"
     },
     {
-    
-        "name":"The art of Korea Caligraphy",
-        "description":"lorem isum",
-        "image":"demo-app/public/caligraphy korean.jpg"
+        "id":2,
+        "name":"The art of Korea Calligraphy.",
+        "des":"Beautiful Hangul characters written in calligraphy.",
+        "image":"image/Korean.jpg"
     },
     {
-        "name":"The art of Arabic Caligraphy",
-        "description":"Loremisum9",
-        "image":"demo-app/public/caligraphyarabic.png"
+        "id":3,
+        "name":"The art of Arabic Calligraphy.",
+        "des":"Arabic scripts with artistic forms.",
+        "image":"image/Arabic.png"
     },
     {
-        "name":"The art of South China Caligraphy",
-        "description":"Lorem isum9",
-        "image":"demo-app/public/chinesde caligraphy.jpg"
+        "id":4,
+        "name":"The art of South China Calligraphy.",
+        "des":"Flowing brush strokes from Chinese calligraphy.",
+        "image":"image/china.jpg"
     },
     {
-        "name":"The art of Japan Caligraphy",
-        "description":"Lorempath",
-        "image":"demo-app/public/japancaligraphy.jpg"
+        "id":5,
+        "name":"The art of Japan Calligraphy.",
+        "des":"Elegant Japanese calligraphy characters.",
+        "image":"image/Japan.jpg"
     },
     {
-        "name":"The art of Western countries Caligraphy",
-        "description":"Loremmath",
-        "image":"demo-app/public/westerncaligraphy.jpg"
+        "id":6,
+        "name":"The art of Western Calligraphy.",
+        "des":"Latin-based cursive writing in artistic styles.",
+        "image":"image/Western.jpg"
     }
 ]
