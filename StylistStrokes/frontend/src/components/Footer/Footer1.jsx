@@ -20,6 +20,7 @@ export default function Footer_1() {
                     <h5 className="fw-bold mb-4">Links</h5>
                     <FooterList
                         a1="Home"
+                        b1='https://google.com'
                         a2="About Us"
                         a3="Contact Us"
                         a4="Gallery"
