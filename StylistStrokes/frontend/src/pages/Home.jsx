@@ -11,6 +11,10 @@ import AboutMiddle from '../components/Home/aboutmiddle'
 import AboutTitle from '../components/Home/abouttitle'
 import '../styles/font.css'
 import SearchBar from "../shared/SeachBar";
+import ShopHeader from "../components/Home/shop_header";
+import ShopList from "../components/Home/shop_display";
+import GalleryHeader from "../components/Home/gallery_header";
+import GalleryList from "../components/Home/gallery_display";
 
 const Home = () => {
    return <>
@@ -71,6 +75,20 @@ const Home = () => {
                </div>
                <AboutMiddle></AboutMiddle>
             </div>
+         </div>
+      </section>
+      {/* Shop section */}
+      <section className="bg-white">
+         <div className="container">
+            <ShopHeader></ShopHeader>
+            <ShopList></ShopList>
+         </div>
+      </section>
+      {/* Gallery section */}
+      <section bg-white>
+         <div className="container">
+            <GalleryHeader></GalleryHeader>
+            <GalleryList></GalleryList>
          </div>
       </section>
    </>
