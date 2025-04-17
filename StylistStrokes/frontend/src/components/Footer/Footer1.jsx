@@ -7,7 +7,7 @@ export default function Footer_1() {
             <Row className="gy-4 mb-5">
                 <Col lg={3} md={6}>
                     <div className="mb-4">
-                        <img src="image/ss.png" height={45}></img>
+                        <img src="https://media.discordapp.net/attachments/1356595631610663052/1356982354396188682/image.png?ex=6802524c&is=680100cc&hm=34ebfa33da2bce67c71e637147881273ebc0516c31605c3092799914bcf3aa87&=&format=webp&quality=lossless&width=550&height=232" height={45}></img>
                     </div>
                     <p className="text-light mb-4">
                         {" "}
@@ -56,8 +56,8 @@ export default function Footer_1() {
                         </li>
                     </ul>
                     <div className="mt-4">
-                        <h5 className="fw-bold mb-3">Newsletter</h5>
-
+                        <h5 className="fw-bold mb-3">Map</h5>
+                        
                     </div>
                 </Col>
             </Row>
