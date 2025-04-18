@@ -6,12 +6,12 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Laravel\Pail\ValueObjects\Origin\Console;
 
 class AuthController extends Controller
 {
     public function register(Request $req)
     {
-        echo $req->name;
         $data = $req->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users',
@@ -23,7 +23,7 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
-    
+
         $token = $user->createToken('api-token')->plainTextToken;
 
         return response()->json([

@@ -9,6 +9,7 @@ export default function Register() {
   const [show, setShow] = useState(false);
 
   const registerAPI = async (e) => {
+    console.log("Register API called!");
     e.preventDefault();
     try {
       const res = await axios.post("http://127.0.0.1:8000/api/register", {
@@ -81,7 +82,7 @@ export default function Register() {
               {show ? "Hide password" : "Show password"}
             </div>
           </div>
-          <button type="submit" style={{backgroundColor:"orange"}} className="btn w-100 text-white">Create a new account</button>
+          <button type="submit" style={{ backgroundColor: "orange" }} className="btn w-100 text-white" >Create a new account</button>
         </form>
       </div>
     </div>
