@@ -15,8 +15,10 @@ const ShopCard=({product})=>{
     return(
         // <Link to={`/home`} style={{textDecoration: "none", color: "inherit"}}>
             <div className="card border-0 shadow-none p-0" style={{ backgroundColor: "white"}}>
-                <img className='img-fluid card-img-top rounded-0 w-100 object-fit-cover' src={require(`../../assets/images/But_long/${product.image}`)} alt={product.name}
-                style={{height:"300px"}}></img>
+                <Link to={`/caligraphy`} style={{textDecoration:"none"}}>
+                    <img className='img-fluid card-img-top rounded-0 w-100 object-fit-cover' src={require(`../../assets/images/But_long/${product.image}`)} alt={product.name}
+                    style={{height:"300px"}}></img>
+                </Link>
                 <div className='card-body px-0'>
                     <h5 className='card-title text-start fw-bold' style={{fontFamily: "serif"}}>{product.name}</h5>
                     <div className='px-0' style={{minHeight:"50px"}}>
@@ -29,7 +31,9 @@ const ShopCard=({product})=>{
                         <p className='fw-bold'>${product.price}</p>
                     </div>
                     <div className='col-auto text-end'>
-                        <FontAwesomeIcon icon={faCartShopping}/>
+                        <Link to={`/caligraphy`} style={{textDecoration:"none"}}>
+                            <FontAwesomeIcon icon={faCartShopping}/>
+                        </Link>
                     </div>
                 </div>
             </div>
