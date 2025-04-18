@@ -29,6 +29,7 @@
     border: 1px solid var(--secondary-color);
     object-fit: cover;
 }
+
 .card-hover-shadow {
   transition: box-shadow 0.3s ease;
 }
