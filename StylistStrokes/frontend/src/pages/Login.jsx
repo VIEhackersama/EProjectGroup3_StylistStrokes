@@ -18,8 +18,8 @@ export default function Login() {
     return () => clearTimeout(timeout);
   },[message,error])
 
-  const registerAPI = async (e) => {
-    console.log("Register API called!");
+  const loginAPI = async (e) => {
+    console.log("Login API called!");
     e.preventDefault();
     try {
       const res = await axios.post("http://127.0.0.1:8000/api/login", {
@@ -60,7 +60,7 @@ export default function Login() {
         <h3 className="mb-3 text-center">Log into your account</h3>
         {message && <div className="alert alert-success">{message}</div>}
         {error && <div className="alert alert-danger">{error}</div>}
-        <form onSubmit={registerAPI}>
+        <form onSubmit={loginAPI}>
 
           <div className="mb-3">
             <label className="form-label">Email</label>
