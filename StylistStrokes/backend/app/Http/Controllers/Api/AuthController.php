@@ -11,6 +11,7 @@ class AuthController extends Controller
 {
     public function register(Request $req)
     {
+        echo $req->name;
         $data = $req->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users',
@@ -22,8 +23,7 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
-
-        // trả về token
+    
         $token = $user->createToken('api-token')->plainTextToken;
 
         return response()->json([
