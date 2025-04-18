@@ -7,7 +7,7 @@ import CaligraphyDeltails from './../pages/CaligraphyDetails';
 import Login from './../pages/Login';
 import Register from './../pages/Register';
 import SeachResutlist from './../pages/SearchResultList';
-
+import Gallery from "../pages/Gallery";
 
 const Routers  = () => {
   return (
@@ -19,6 +19,7 @@ const Routers  = () => {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/caligraphy/search' element={<SeachResutlist/>}/>
+          <Route path='/gallery' element={<Gallery></Gallery>}/>
      </Routes>
   )
 };

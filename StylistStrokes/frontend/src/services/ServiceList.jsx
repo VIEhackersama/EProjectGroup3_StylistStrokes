@@ -25,6 +25,7 @@ const servicesData = [
 ]
 
 const ServiceList = () => {
+
     return (
         <>
             {servicesData.map((item, index) => (
