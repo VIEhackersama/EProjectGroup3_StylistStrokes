@@ -11,7 +11,7 @@ import worldImg from "../assets/images/world.png";
 import Subtitle from "./../shared/Subtitle";
 import SearchBar from "../shared/SeachBar";
 import ServiceList from "../services/ServiceList";
-import FeaturedCaligraphyList from "../components/Featured-caligraphy/FeaturedCaligraphyList";
+import FeaturedCalligraphyList from "../components/Featured-calligraphy/FeaturedCalligraphyList";
 
 import AboutMiddle from '../components/Home/aboutmiddle';
 import AboutTitle from '../components/Home/abouttitle';
@@ -72,7 +72,6 @@ const Home = () => {
               <h5 className="services__subtitle">What we serve</h5>
               <h2 className="services__title">We offer our best services</h2>
             </Col>
-<<<<<<< Updated upstream
             <ServiceList />
           </Row>
         </Container>
@@ -108,26 +107,6 @@ const Home = () => {
       </section>
     </>
   );
-=======
-            <ServiceList/>
-         </Row>
-      </Container>
-   </section>
-   {/* ========= featured caligraphy section start =========== */}
-    <section>
-      <Container>
-         <Row>
-            <Col lg='12' className="mb-5">
-               <Subtitle subtitle={"Explore"}/>
-               <h2 className="featured__caligraphy-title">Our featured caligraphy works</h2>
-            </Col>
-            <FeaturedCaligraphyList/>
-         </Row>
-      </Container>
-    </section>
-   {/* ========= featured caligraphy section end =========== */}
-  </>
->>>>>>> Stashed changes
 };
 
 export default Home;

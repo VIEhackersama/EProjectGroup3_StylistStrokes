@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Laravel\Pail\ValueObjects\Origin\Console;
 
 class AuthController extends Controller
 {
@@ -23,7 +24,6 @@ class AuthController extends Controller
             'password' => Hash::make($data['password']),
         ]);
 
-        // trả về token
         $token = $user->createToken('api-token')->plainTextToken;
 
         return response()->json([
