@@ -105,8 +105,21 @@ const Home = () => {
           <GalleryList />
         </div>
       </section>
-    </>
-  );
+      {/* Shop section */}
+      <section className="bg-white">
+         <div className="container">
+            <ShopHeader></ShopHeader>
+            <ShopList></ShopList>
+         </div>
+      </section>
+      {/* Gallery section */}
+      <section bg-white>
+         <div className="container">
+            <GalleryHeader></GalleryHeader>
+            <GalleryList></GalleryList>
+         </div>
+      </section>
+   </>
 };
 
 export default Home;

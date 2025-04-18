@@ -3,48 +3,60 @@
         "id":1,
         "name":"Huangzhou Han Shi",
         "image":"huangzhou_han_shi.jpg",
-        "style":"East Asia"
+        "style":"East Asia",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
     },
     {
         "id":2,
         "name":"Zhong Qiu Tie",
         "image":"zhong_qiu_tie.jpg",
-        "style":"East Asia"
+        "style":"East Asia",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
     },
     {
         "id":3,
         "name":"Turkish Calligraphy",
         "image":"turkish.jpg",
-        "style":"Middle East"
+        "style":"Middle East",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     },
     {
         "id":4,
         "name":"Siah Masho",
         "image":"siah_masho.jpg",
-        "style":"Middle East"
+        "style":"Middle East",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
     },
     {
         "id":5,
         "name":"Van de Velde",
         "image":"van_de_velde.jpg",
-        "style":"Europe"
+        "style":"Europe",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
     },
     {
         "id":6,
         "name":"Woman surrounded by calligraphy",
         "image":"woman_sur.jpg",
-        "style":"East Asia"
+        "style":"East Asia",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     },
     {
         "id":7,
         "name":"Woman surrounded by calligraphy",
         "image":"woman_sur.jpg",
-        "style":"East Asia"
+        "style":"East Asia",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     },
     {
         "id":8,
         "name":"Woman surrounded by calligraphy",
         "image":"woman_sur.jpg",
-        "style":"East Asia"
+        "style":"East Asia",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     }
 ]
