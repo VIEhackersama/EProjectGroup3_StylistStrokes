@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
       <footer
-        style={{ backgroundColor: "#1b1c1b" }}
+        style={{ backgroundColor: "#212f3c " }}
         className="text-white py-5"
       >
         <div className="container">

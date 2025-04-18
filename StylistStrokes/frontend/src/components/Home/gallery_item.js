@@ -34,6 +34,7 @@ const GalleryCard = ({art})=>{
                 </div>
             </div>
         </Link>
+
     )
 }
 export default GalleryCard

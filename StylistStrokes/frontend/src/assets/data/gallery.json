@@ -19,6 +19,7 @@
         "image":"turkish.jpg",
         "style":"Middle East",
         "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     },
     {
         "id":4,
@@ -40,6 +41,7 @@
         "image":"woman_sur.jpg",
         "style":"East Asia",
         "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     },
     {
         "id":7,
@@ -47,6 +49,7 @@
         "image":"woman_sur.jpg",
         "style":"East Asia",
         "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     },
     {
         "id":8,
@@ -54,5 +57,6 @@
         "image":"woman_sur.jpg",
         "style":"East Asia",
         "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+
     }
 ]

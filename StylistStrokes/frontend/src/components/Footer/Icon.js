@@ -1,10 +1,13 @@
+import { TiSocialTwitter } from "react-icons/ti";
+import { SlSocialInstagram, SlSocialFacebook, SlSocialReddit } from "react-icons/sl";
+import '../Footer/Icon.css';
 export default function Icon() {
     return (
-        <div className="d-flex gap-3">
-            <img src='../assets/images/facebook.png' height={60}></img>
-            <img src='../assets/images/instagram.png' height={60}></img>
-            <img src='src/assets/images/youtube.png' height={60}></img>
-            <img src='../assets/images/twitter.png' height={60}></img>
+        <div className="d-flex gap-3 social-icons">
+            <a href="https://facebook.com" className="text-white me-2"><TiSocialTwitter size={20} /></a>
+            <a href="https://youtube.com" className="text-white me-2"><SlSocialInstagram size={20} /></a>
+            <a href="https://instagram.com" className="text-white"><SlSocialFacebook size={20} /></a>     
+            <a href="https://instagram.com" className="text-white"><SlSocialReddit size={20} /></a>           
         </div>
     )
 }
