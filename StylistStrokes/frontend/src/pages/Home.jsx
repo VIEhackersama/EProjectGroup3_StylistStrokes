@@ -22,7 +22,7 @@ import GalleryList from "../components/Home/gallery_display";
 
 const Home = () => {
   return (
-    <>
+    <div>
       {/* ======== Hero Section ========= */}
       <section>
         <Container>
@@ -107,19 +107,19 @@ const Home = () => {
       </section>
       {/* Shop section */}
       <section className="bg-white">
-         <div className="container">
-            <ShopHeader></ShopHeader>
-            <ShopList></ShopList>
-         </div>
+        <div className="container">
+          <ShopHeader></ShopHeader>
+          <ShopList></ShopList>
+        </div>
       </section>
       {/* Gallery section */}
       <section bg-white>
-         <div className="container">
-            <GalleryHeader></GalleryHeader>
-            <GalleryList></GalleryList>
-         </div>
+        <div className="container">
+          <GalleryHeader></GalleryHeader>
+          <GalleryList></GalleryList>
+        </div>
       </section>
-   </>
-};
-
+    </div>
+  );
+}
 export default Home;
