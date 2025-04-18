@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name":"Bamboo brush",
+        "image":"but_long_1.jpg",
+        "description":"Handcrafted bamboo calligraphy in various size",
+        "price":450000
+    },
+    {
+        "id": 2,
+        "name":"Notebook",
+        "image":"but_long_2.jpg",
+        "description":"A book for practice",
+        "price":234000
+    },
+    {
+        "id": 3,
+        "name":"Ink block",
+        "image":"but_long_3.webp",
+        "description":"Japanese ink block made by adkad",
+        "price":10000
+    },
+    {
+        "id": 4,
+        "name":"Ink block",
+        "image":"but_long_4.jpg",
+        "description":"Japanese ink block made by adkad",
+        "price":10000
+    },
+    {
+        "id": 5,
+        "name":"Ink block",
+        "image":"but_long_4.jpg",
+        "description":"Japanese ink block made by adkad",
+        "price":10000
+    },
+    {
+        "id": 6,
+        "name":"Ink block",
+        "image":"but_long_4.jpg",
+        "description":"Japanese ink block made by adkad",
+        "price":10000
+    }
+]

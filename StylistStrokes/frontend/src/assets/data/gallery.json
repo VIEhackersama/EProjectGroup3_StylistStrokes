@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"Huangzhou Han Shi",
+        "image":"huangzhou_han_shi.jpg",
+        "style":"East Asia"
+    },
+    {
+        "id":2,
+        "name":"Zhong Qiu Tie",
+        "image":"zhong_qiu_tie.jpg",
+        "style":"East Asia"
+    },
+    {
+        "id":3,
+        "name":"Turkish Calligraphy",
+        "image":"turkish.jpg",
+        "style":"Middle East"
+    },
+    {
+        "id":4,
+        "name":"Siah Masho",
+        "image":"siah_masho.jpg",
+        "style":"Middle East"
+    },
+    {
+        "id":5,
+        "name":"Van de Velde",
+        "image":"van_de_velde.jpg",
+        "style":"Europe"
+    },
+    {
+        "id":6,
+        "name":"Woman surrounded by calligraphy",
+        "image":"woman_sur.jpg",
+        "style":"East Asia"
+    },
+    {
+        "id":7,
+        "name":"Woman surrounded by calligraphy",
+        "image":"woman_sur.jpg",
+        "style":"East Asia"
+    },
+    {
+        "id":8,
+        "name":"Woman surrounded by calligraphy",
+        "image":"woman_sur.jpg",
+        "style":"East Asia"
+    }
+]
