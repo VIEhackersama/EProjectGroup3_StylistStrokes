@@ -1,56 +1,74 @@
-.hero__subtitle img{
-    width: 2.3rem;
-    height: 2.3rem;
-}
-
-.hero__content h1{
-    font-size: 3.2rem;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+.hero__subtitle img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero__content {
+    padding-top: 4rem;
+  }
+  
+  .hero__content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 1rem 0 2.5rem;
     color: var(--heading-color);
-}
-
-.hero__content h1 .highlight {
-   color: var(--secondary-color);
-}
-
-.hero__content p{
-    font-size: 1.1rem;
+    line-height: 1.2;
+    position: relative;
+  }
+  
+  .hero__content h1 .highlight {
+    color: var(--secondary-color);
+    background: linear-gradient(to right, var(--secondary-color), #fda085);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero__content p {
+    font-size: 1.15rem;
     color: var(--text-color);
     line-height: 2rem;
-}
-
-.hero__img-box img,
-.hero__img-box video{
-    width: 100%;
-    height: 350px;
-    border-radius:20px ;
-    border: 1px solid var(--secondary-color);
-    object-fit: cover;
-}
-
-.card-hover-shadow {
-  transition: box-shadow 0.3s ease;
-}
-.card-hover-shadow:hover {
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0,2);
-}
-.hero__content{
-    padding-top: 3.5rem;
-}
-.hero__img-box{
+    max-width: 600px;
+  }
+  
+  .hero__img-box {
     padding-top: 2rem;
-}
-
-.services__subtitle {
-    font-size: 2.2rem;
-    font-weight: 500;
+  }
+  
+  .hero__img-box img,
+  .hero__img-box video {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 1.2rem;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+  }
+  
+  .hero__img-box img:hover,
+  .hero__img-box video:hover {
+    transform: scale(1.03);
+  }
+  
+  .services__subtitle {
+    font-size: 2.4rem;
+    font-weight: 600;
     color: #ee6e6e;
     font-family: var(--subtitle-font-name);
-}
-
-.services__title {
-    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+  
+  .services__title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-bottom: 1.5rem;
+  }
+  
+.featured__calligraphy-title{
+    font-size: 2.3rem;
     font-weight: 500;
 }

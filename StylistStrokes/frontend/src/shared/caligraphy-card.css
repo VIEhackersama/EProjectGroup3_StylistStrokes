@@ -1,4 +1,6 @@
 
+
+
 .caligraphy__img img{
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -24,4 +26,58 @@
    color: #fff;
    padding: 0.3rem 0.5rem;  
    border-radius: 3px 0 0 0;
+}
+.card__top span i{
+    color: var(--secondary-color);
+}
+.caligraphy__rating {
+    font-size: 0.9rem;
+    color:var(--text-color);
+}
+.caligraphy__location {
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.caligraphy__rating i,
+.caligraphy__location i {
+    font-size: 1rem;
+}
+
+.caligraphy__title {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.caligraphy__title a{
+    text-decoration: none;
+    color: var(--heading-color);
+    transition: .3s;
+}
+.caligraphy__title a:hover{
+    color: var(--secondary-color);
+}
+.card__bottom h5 {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card__bottom h5 span {
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+.order__btn {
+    background: var(--secondary-color) !important;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem !important;
+}
+.order__btn a {
+     text-decoration: none;
+     font-size:  0.9rem;
+     color: #fff ;
+}
+.order__btn a:hover{
+    color: #fff;
 }
