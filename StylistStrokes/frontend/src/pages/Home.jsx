@@ -12,20 +12,27 @@ import SearchBar from "../shared/SeachBar";
 import ServiceList from "../services/ServiceList";
 import FeaturedCaligraphyList from "../components/Featured-caligraphy/FeaturedCaligraphyList";
 
-const Home = () =>  {
-  return <>
-   
-   {/* ========hero section start========= */}
-   <section>
-     <Container>
-        <Row>
-          <Col lg='6' >
-             <div className="hero__content">
-                  <div className="hero__subtitle d-flex align-items-center">
-                     <Subtitle subtitle={"Calligraphy is the art of the soul in ink"} />
-                     <img src={worldImg} alt=""/>
-                  </div>
-                  <h1>
+import AboutMiddle from '../components/Home/aboutmiddle';
+import AboutTitle from '../components/Home/abouttitle';
+import ShopHeader from "../components/Home/shop_header";
+import ShopList from "../components/Home/shop_display";
+import GalleryHeader from "../components/Home/gallery_header";
+import GalleryList from "../components/Home/gallery_display";
+
+const Home = () => {
+  return (
+    <div>
+      {/* ======== Hero Section ========= */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='6'>
+              <div className="hero__content">
+                <div className="hero__subtitle d-flex align-items-center">
+                  <Subtitle subtitle={"Calligraphy is the art of the soul in ink"} />
+                  <img src={worldImg} alt="" />
+                </div>
+                <h1>
                   Calligraphy connects hearts beyond borders – where ink speaks a universal language.{" "}
                     <span className="highlight">memories</span>
                   </h1>
@@ -121,10 +128,37 @@ const Home = () =>  {
       </Container>
     </section>
 
+<<<<<<< HEAD
    {/* ========= experience section end ============= */}
 =======
 >>>>>>> Stashed changes
   </>
 };
+=======
+      {/* ======== Gallery Section ========= */}
+      <section>
+        <div className="container">
+          <GalleryHeader />
+          <GalleryList />
+        </div>
+      </section>
+      {/* Shop section */}
+      <section className="bg-white">
+        <div className="container">
+          <ShopHeader></ShopHeader>
+          <ShopList></ShopList>
+        </div>
+      </section>
+      {/* Gallery section */}
+      <section bg-white>
+        <div className="container">
+          <GalleryHeader></GalleryHeader>
+          <GalleryList></GalleryList>
+        </div>
+      </section>
+    </div>
+  );
+}
+>>>>>>> ebb1d6836d534a39aa16599faff44c59e710277d
 
 export default Home;
