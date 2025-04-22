@@ -8,6 +8,8 @@ import Login from './../pages/Login';
 import Register from './../pages/Register';
 import SeachResutlist from './../pages/SearchResultList';
 import Gallery from "../pages/Gallery";
+import VideoPage from "../pages/Videopage";
+import LearnPage from "../pages/LearnPage";
 
 const Routers  = () => {
   return (
@@ -20,6 +22,8 @@ const Routers  = () => {
           <Route path='/register' element={<Register/>}/>
           <Route path='/caligraphy/search' element={<SeachResutlist/>}/>
           <Route path='/gallery' element={<Gallery></Gallery>}/>
+          <Route path='/about' element={<VideoPage></VideoPage>}/>
+          <Route path='/learn' element={<LearnPage/>}/>
      </Routes>
   )
 };
