@@ -89,6 +89,7 @@ const Home = () => {
    {/* ========= featured caligraphy section end =========== */}
 
 
+
    {/* ========= experience section start ============= */}
     <section>
       <Container>
@@ -127,6 +128,9 @@ const Home = () => {
       </Container>
     </section>
 
+  </>
+};
+=======
       {/* ======== Gallery Section ========= */}
       <section>
         <div className="container">
