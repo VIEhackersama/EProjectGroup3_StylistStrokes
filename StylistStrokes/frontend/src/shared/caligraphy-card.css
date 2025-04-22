@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> ebb1d6836d534a39aa16599faff44c59e710277d
 .caligraphy__img img{
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -32,11 +24,6 @@
    color: #fff;
    padding: 0.3rem 0.5rem;  
    border-radius: 3px 0 0 0;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-
->>>>>>> ebb1d6836d534a39aa16599faff44c59e710277d
 }
 .card__top span i{
     color: var(--secondary-color);
@@ -91,6 +78,4 @@
 }
 .order__btn a:hover{
     color: #fff;
-=======
->>>>>>> Stashed changes
 }

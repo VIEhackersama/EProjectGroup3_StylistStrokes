@@ -87,7 +87,7 @@ const Home = () => {
       </Container>
     </section>
    {/* ========= featured caligraphy section end =========== */}
-<<<<<<< Updated upstream
+
 
 
    {/* ========= experience section start ============= */}
@@ -128,10 +128,6 @@ const Home = () => {
       </Container>
     </section>
 
-<<<<<<< HEAD
-   {/* ========= experience section end ============= */}
-=======
->>>>>>> Stashed changes
   </>
 };
 =======
@@ -159,6 +155,5 @@ const Home = () => {
     </div>
   );
 }
->>>>>>> ebb1d6836d534a39aa16599faff44c59e710277d
 
 export default Home;
