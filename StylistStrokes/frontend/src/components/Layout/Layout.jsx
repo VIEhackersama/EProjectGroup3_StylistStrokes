@@ -9,7 +9,6 @@ export default function Layout () {
     <>
       <Header/>
       <Routers/>
-      <VideoPage/>
       <Footer></Footer>
     </>
   );
