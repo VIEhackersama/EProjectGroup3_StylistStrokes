@@ -8,37 +8,31 @@ import caligraphyImg07 from "../images/caligraphy-img07.jpg";
 import caligraphyImg08 from "../images/caligraphy-img08.jpg";
 import caligraphyImg09 from "../images/caligraphy-img09.jpg";
 import caligraphyImg10 from "../images/caligraphy-img10.jpg";
+import caligraphyImg11 from "../images/caligraphy-img11.jpg";
+import caligraphyImg12 from "../images/caligraphy-img12.jpg";
 
 const caligraphy = [
   {
     id: "01",
     title: "Thư Pháp: Tâm An",
     author: "Nguyễn Văn Thư", 
+    distance: 500,
     price: 199000,
     maxGroupSize: 10,
     desc: "Tác phẩm thư pháp viết tay với nội dung 'Tâm An', thể hiện sự bình yên nội tâm.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg01,
     featured: true,
   },
   {
     id: "02",
-    title: "hư Pháp: Nhẫn",
+    title: "Thư Pháp: Nhẫn",
     author: "Trần Hữu Lộc",
     price: 99,
+    maxGroupSize: 10,
     desc: "Tác phẩm thể hiện sự bình yên nội tâm, giúp tâm hồn tĩnh lặng giữa bộn bề cuộc sống.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg02,
     featured: true,
@@ -48,13 +42,9 @@ const caligraphy = [
     title: "Thư Pháp: Hiếu",
     author: "Lê Thị Mai",
     price: 99,
+    maxGroupSize: 10,
     desc: "Chữ 'Hiếu' là nền tảng đạo làm con, mang đậm giá trị truyền thống Việt.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg03,
     featured: true,
@@ -81,13 +71,9 @@ const caligraphy = [
     title: "Thư Pháp: Phúc",
     author: "Vũ Quang Huy",
     price: 189000,
+    maxGroupSize: 10,
     desc: "Chữ 'Phúc' tượng trưng cho may mắn, hạnh phúc trong gia đình.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg05,
     featured: false,
@@ -97,13 +83,9 @@ const caligraphy = [
     title: "Thư Pháp: Lộc",
     author: "Phan Văn Tài",
     price: 139000,
+    maxGroupSize: 10,
     desc: "Tác phẩm mang đến tài lộc, may mắn và phát đạt trong làm ăn.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg06,
     featured: false,
@@ -113,13 +95,9 @@ const caligraphy = [
     title: "Thư Pháp: Thịnh Vượng",
     author: "Lương Hữu Phước",
     price: 209000,
+    maxGroupSize: 10,
     desc: "Mang ý nghĩa cầu chúc thịnh vượng, phát triển bền vững.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg07,
     featured: false,
@@ -129,13 +107,9 @@ const caligraphy = [
     title: "Thư Pháp: Tài",
     author: "Đặng Minh Tuấn",
     price: 159000,
+    maxGroupSize: 10,
     desc: "Chữ 'Tài' là sự tôn vinh trí tuệ, năng lực và thành công cá nhân.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg08,
     featured: false,
@@ -145,13 +119,9 @@ const caligraphy = [
     title: "Thư Pháp: Bình An",
     author: "Nguyễn Hoàng Phúc",
     price: 169000,
+    maxGroupSize: 10,
     desc: "Chúc phúc sự bình an cho gia đạo, tâm hồn thư thái, nhẹ nhàng.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg09,
     featured: false,
@@ -163,14 +133,33 @@ const caligraphy = [
     price: 179000,
     maxGroupSize: 8,
     desc: "Thể hiện lòng biết ơn và trân trọng những giá trị xưa cũ, đạo lý làm người.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: caligraphyImg10,
+    featured: false,
+  },
+  {
+    id: "12",
+    title: "Thư Pháp: Tri Ân",
+    author: "Trần Văn Hòa",
+    price: 179000,
+    maxGroupSize: 8,
+    desc: "Thể hiện lòng biết ơn và trân trọng những giá trị xưa cũ, đạo lý làm người.",
+    reviews: [],
+    avgRating: 4.5,
+    photo: caligraphyImg11,
+    featured: false,
+  },
+  {
+    id: "12",
+    title: "Thư Pháp: Tri Ân",
+    author: "Trần Văn Hòa",
+    price: 179000,
+    maxGroupSize: 8,
+    desc: "Thể hiện lòng biết ơn và trân trọng những giá trị xưa cũ, đạo lý làm người.",
+    reviews: [],
+    avgRating: 4.5,
+    photo: caligraphyImg12,
     featured: false,
   },
 ];
