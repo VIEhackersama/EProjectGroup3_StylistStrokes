@@ -80,6 +80,7 @@ const Home = () =>  {
       </Container>
     </section>
    {/* ========= featured caligraphy section end =========== */}
+<<<<<<< Updated upstream
 
 
    {/* ========= experience section start ============= */}
@@ -121,6 +122,8 @@ const Home = () =>  {
     </section>
 
    {/* ========= experience section end ============= */}
+=======
+>>>>>>> Stashed changes
   </>
 };
 
