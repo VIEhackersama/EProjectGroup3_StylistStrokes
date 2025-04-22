@@ -1,6 +1,3 @@
-
-
-
 .caligraphy__img img{
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -26,6 +23,7 @@
    color: #fff;
    padding: 0.3rem 0.5rem;  
    border-radius: 3px 0 0 0;
+
 }
 .card__top span i{
     color: var(--secondary-color);
