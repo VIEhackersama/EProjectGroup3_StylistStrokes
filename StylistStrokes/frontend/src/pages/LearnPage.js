@@ -2,7 +2,7 @@ import Learnlist from "../components/learnlist";
 function LearnPage() {
   return (
     <div>
-      <section className="bg-[src('/image/title.jpg')] bg-cover bg-center text-white text-center py-32">
+      <section className="bg-[url('/image/th.png')] bg-cover bg-center text-white text-center py-32">
         <div className="bg-black bg-opacity-60 p-10 rounded-md inline-block">
           <h2 className="text-5xl font-bold mb-4">
             Master the Art of Calligraphy
