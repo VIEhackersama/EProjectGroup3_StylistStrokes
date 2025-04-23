@@ -4,8 +4,8 @@ import {Routes, Route, Navigate} from 'react-router-dom'
 import Home from './../pages/Home';
 import Caligraphy from './../pages/Caligraphy';
 import CaligraphyDeltails from './../pages/CaligraphyDetails';
-import Login from './../pages/Login';
-import Register from './../pages/Register';
+import Login from './../pages/LoginAuth';
+import Register from './../pages/RegisterAuth';
 import SeachResutlist from './../pages/SearchResultList';
 import Gallery from "../pages/Gallery";
 import VideoPage from "../pages/Videopage";

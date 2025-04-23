@@ -6,33 +6,29 @@ import heroImg from "../assets/images/hero-img01.jpg"
 import heroImg02 from "../assets/images/hero-img02.jpg"
 import heroVideo from "../assets/images/hero-video.mp4"
 import worldImg from "../assets/images/world.png"
+import experienceImg from '../assets/images/experience.png';
+
 import Subtitle from "./../shared/Subtitle";
 
 import SearchBar from "../shared/SeachBar";
 import ServiceList from "../services/ServiceList";
 import FeaturedCaligraphyList from "../components/Featured-caligraphy/FeaturedCaligraphyList";
+import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 
-import AboutMiddle from '../components/Home/aboutmiddle';
-import AboutTitle from '../components/Home/abouttitle';
-import ShopHeader from "../components/Home/shop_header";
-import ShopList from "../components/Home/shop_display";
-import GalleryHeader from "../components/Home/gallery_header";
-import GalleryList from "../components/Home/gallery_display";
-
-const Home = () => {
-  return (
-    <div>
-      {/* ======== Hero Section ========= */}
-      <section>
-        <Container>
-          <Row>
-            <Col lg='6'>
-              <div className="hero__content">
-                <div className="hero__subtitle d-flex align-items-center">
-                  <Subtitle subtitle={"Calligraphy is the art of the soul in ink"} />
-                  <img src={worldImg} alt="" />
-                </div>
-                <h1>
+const Home = () =>  {
+  return <>
+   
+   {/* ========hero section start========= */}
+   <section>
+     <Container>
+        <Row>
+          <Col lg='6' >
+             <div className="hero__content">
+                  <div className="hero__subtitle d-flex align-items-center">
+                     <Subtitle subtitle={"Calligraphy is the art of the soul in ink"} />
+                     <img src={worldImg} alt=""/>
+                  </div>
+                  <h1>
                   Calligraphy connects hearts beyond borders – where ink speaks a universal language.{" "}
                     <span className="highlight">memories</span>
                   </h1>
@@ -122,34 +118,35 @@ const Home = () => {
                   </div>
                </div>
             </Col>
-            <Col lg='6'></Col>
+            <Col lg='6'>
+               <div className="experience__img">
+                   <img src={experienceImg} alt=""/>
+               </div>
+            </Col>
          </Row>
       </Container>
     </section>
 
-      {/* ======== Gallery Section ========= */}
-      <section>
-        <div className="container">
-          <GalleryHeader />
-          <GalleryList />
-        </div>
-      </section>
-      {/* Shop section */}
-      <section className="bg-white">
-        <div className="container">
-          <ShopHeader></ShopHeader>
-          <ShopList></ShopList>
-        </div>
-      </section>
-      {/* Gallery section */}
-      <section bg-white>
-        <div className="container">
-          <GalleryHeader></GalleryHeader>
-          <GalleryList></GalleryList>
-        </div>
-      </section>
-    </div>
-  );
-}
+   {/* ========= experience section end ============= */}
+
+   {/* ========= gallery section start ========== */}
+    <section>
+      <Container>
+         <Row>
+            <Col lg='12'>
+                <Subtitle subtitle={'Gallery'}/>
+                <h2 className="gallery__title">
+                   Visit our customers tour gallery
+                </h2>
+            </Col>
+            <Col lg='12' >
+            </Col>
+            <MasonryImagesGallery/>
+         </Row>
+      </Container>
+    </section>
+   {/* ========= gallery section start ========== */}
+  </>
+};
 
 export default Home;
