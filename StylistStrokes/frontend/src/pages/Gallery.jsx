@@ -6,6 +6,7 @@ import introArt from "../assets/images/gallery-art3.jpg"
 import introArt2 from "../assets/images/gallery-art2.jpg"
 
 import GalleryDisplay from "../components/Gallery_page/g_page_display";
+import HighlightDisplay from "../components/Gallery_page/highlight_display";
 
 const Gallery = () => {
   return <>
@@ -29,8 +30,26 @@ const Gallery = () => {
             </Row>
         </Container>
     </section>
+    {/* Highlights */}
     <section>
-        <div className="container-fluid p-0 bg-black">
+        <div className="container">
+            <Row className="justify-content-center text-center pb-4"> 
+                <h1>Highlights</h1>
+            </Row>
+            <Row className="justify-content-center text-center pb-4"> 
+                <p>These are some of the best artworks from our collection</p>
+            </Row>
+            <HighlightDisplay></HighlightDisplay>
+        </div>
+    </section>
+    {/* Collection */}
+    <section>
+        <div className="container">
+            <div>
+                <Row className="justify-content-center text-center pb-4">
+                    <h1 className="fw-bold fst-italic">Our Collection</h1>
+                </Row>
+            </div>
             <GalleryDisplay></GalleryDisplay>
         </div>
             

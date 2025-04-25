@@ -3,60 +3,85 @@
         "id":1,
         "name":"Huangzhou Han Shi",
         "image":"huangzhou_han_shi.jpg",
-        "style":"East Asia",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"China",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
     },
     {
         "id":2,
         "name":"Zhong Qiu Tie",
         "image":"zhong_qiu_tie.jpg",
-        "style":"East Asia",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"China",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
     },
     {
         "id":3,
         "name":"Turkish Calligraphy",
         "image":"turkish.jpg",
-        "style":"Middle East",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"Arabic",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
 
     },
     {
         "id":4,
-        "name":"Siah Masho",
+        "name":"Siah Mashq",
         "image":"siah_masho.jpg",
-        "style":"Middle East",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"Arabic",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"Reza Abedini",
+        "popularity":100,
+        "period":2004
+        
     },
     {
         "id":5,
         "name":"Van de Velde",
         "image":"van_de_velde.jpg",
-        "style":"Europe",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"Western",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
     },
     {
         "id":6,
         "name":"Woman surrounded by calligraphy",
         "image":"woman_sur.jpg",
-        "style":"East Asia",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"Japan",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
 
     },
     {
         "id":7,
         "name":"Woman surrounded by calligraphy",
         "image":"woman_sur.jpg",
-        "style":"East Asia",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"Japan",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
 
     },
     {
         "id":8,
         "name":"Woman surrounded by calligraphy",
         "image":"woman_sur.jpg",
-        "style":"East Asia",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt."
+        "style":"Japan",
+        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004
 
     }
 ]
