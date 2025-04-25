@@ -10,6 +10,7 @@ import SeachResutlist from './../pages/SearchResultList';
 import Gallery from "../pages/Gallery";
 import VideoPage from "../pages/Videopage";
 import LearnPage from "../pages/LearnPage";
+import AboutPage from "../pages/About";
 
 const Routers  = () => {
   return (
@@ -22,7 +23,7 @@ const Routers  = () => {
           <Route path='/register' element={<Register/>}/>
           <Route path='/caligraphy/search' element={<SeachResutlist/>}/>
           <Route path='/gallery' element={<Gallery></Gallery>}/>
-          <Route path='/about' element={<VideoPage></VideoPage>}/>
+          <Route path='/about' element={<AboutPage></AboutPage>}/>
           <Route path='/learn' element={<LearnPage/>}/>
      </Routes>
   )
