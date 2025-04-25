@@ -2,7 +2,11 @@ import Learnlist from "../components/learnlist";
 function LearnPage() {
   return (
     <div>
-      <section className="bg-[src('/image/title.jpg')] bg-cover bg-center text-white text-center py-32">
+      <section style={{
+        backgroundImage: `url('https://cdn.salaamgateway.com/posts/e49335a24e2955b4a9a7a4ef7f26a10a85b3d384.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }} className="bg-cover bg-center text-white text-center py-32">
         <div className="bg-black bg-opacity-60 p-10 rounded-md inline-block">
           <h2 className="text-5xl font-bold mb-4">
             Master the Art of Calligraphy
@@ -12,7 +16,7 @@ function LearnPage() {
           </p>
           <a
             href="#courses"
-            class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
+            class="text-WHITE px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
           >
             Explore Courses
           </a>
