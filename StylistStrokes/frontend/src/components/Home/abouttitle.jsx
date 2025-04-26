@@ -1,7 +1,17 @@
 import './font.css'
+import { motion } from 'framer-motion'
+
 export default function AboutTitle() {
     return (
-        <div className="row justify-content-center mb-5">
+        <motion.div
+            className="row justify-content-center mb-5"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            // initial={{ opacity: 0, scale: 0.8 }}
+            // animate={{ opacity: 1, scale: 1 }}
+            // transition={{ duration: 1.2, ease: 'easeOut' }}
+        >
             <div className="col col-lg-8 text-center">
                 <h1
                     className="mb-2 fw-medium playwrite-mx"
@@ -13,7 +23,7 @@ export default function AboutTitle() {
                     StylistStrokes: The Beauty of legacy and technology interwined
                 </h2>
                 <div
-                    className=" border-bottom border-danger-subtle mx-auto mb-4"
+                    className="border-bottom border-danger-subtle mx-auto mb-4"
                     style={{ width: "100px", height: "3px" }}
                 ></div>
                 <p className="lead fw-semibold">
@@ -23,6 +33,6 @@ export default function AboutTitle() {
                     ducimus ad id eos?
                 </p>
             </div>
-        </div>
-    );
+        </motion.div>
+    )
 }
