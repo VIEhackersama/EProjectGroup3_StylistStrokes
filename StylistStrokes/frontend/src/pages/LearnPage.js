@@ -1,28 +1,88 @@
+import React from "react";
 import Learnlist from "../components/learnlist";
+
 function LearnPage() {
   return (
-    <div>
-      <section className="bg-[url('/image/th.png')] bg-cover bg-center text-white text-center py-32">
-        <div className="bg-black bg-opacity-60 p-10 rounded-md inline-block">
-          <h2 className="text-5xl font-bold mb-4">
+    <div className=" container ">
+      <section
+        className="text-white text-center py-5"
+        style={{
+          backgroundImage: "url('/image/title.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="bg-light bg-opacity-75 p-5 rounded d-inline-block">
+          <h2 className="display-4 fw-bold mb-3 text-black">
             Master the Art of Calligraphy
           </h2>
-          <p className="text-xl mb-6">
+          <p className="lead mb-4 fw-bold text-black">
             Online calligraphy courses for beginners and advanced learners.
           </p>
-          <a
-            href="#courses"
-            class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
-          >
+          <a href="#courses" className="btn btn-warning btn-lg fw-semibold">
             Explore Courses
           </a>
         </div>
       </section>
-      <section id="courses" className="max-w-6xl mx-auto py-20 px-4">
-        <h3 className="text-4xl font-bold text-center mb-12">Our Courses</h3>
-        <Learnlist></Learnlist>
+      <div>
+        <p>Hello everyone!</p>
+
+        <p>
+          Are you fascinated by the elegance of flowing, graceful strokes? Would
+          you like to explore the art of calligraphy — where every line speaks
+          emotion, and every letter tells a story?
+        </p>
+
+        <p>
+          Join our <span class="highlight">Art of Calligraphy Course</span>,
+          where you will:
+        </p>
+        <ul>
+          <li>
+            Learn about the rich history and deep cultural meaning of
+            calligraphy
+          </li>
+          <li>Master techniques from basic strokes to advanced layouts</li>
+          <li>Create your own personal works of art with brush and ink</li>
+        </ul>
+
+        <p>
+          With experienced instructors and a creative, friendly environment,
+          we’ll guide you step by step into the beauty of this timeless art
+          form.
+        </p>
+
+        <p>
+          Don’t miss the chance to nurture your soul, practice patience, and
+          express yourself through every stroke.
+        </p>
+
+        <p class="highlight">
+          The Calligraphy Course – where your journey into the beauty of letters
+          begins.
+        </p>
+
+        <div class="register">
+          <p>
+            <strong>
+              Register today to reserve your spot and enjoy exclusive early-bird
+              offers!
+            </strong>
+          </p>
+          <div className="d-flex justify-content-center mt-4">
+            <a href="#courses" className="btn btn-warning">
+              Start now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section id="courses" className="container py-5">
+        <h3 className="text-center fw-bold mb-5 display-6">Our Courses</h3>
+        <Learnlist />
       </section>
     </div>
   );
 }
+
 export default LearnPage;
