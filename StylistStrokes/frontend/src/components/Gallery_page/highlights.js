@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './font.css'
-import { Link } from 'react-router-dom';
-import "./gallery.css"
+import '../../styles/font.css'
+import "../../styles/gallery_page.css"
+import testImg from "../../assets/images/Gallery/siah_masho.jpg"
 
-const GalleryCard = ({art})=>{
+
+const GalHighlights = ({art}) => {
     function getFont(style){
         switch (style){
             case "China":
@@ -22,9 +23,10 @@ const GalleryCard = ({art})=>{
                 return ''
         }
     }
-    
+
     return(
-        <Link to={`/gallery`} className='text-decoration-none'>
+
+        <div className="card border-0 shadow-none p-0 art-card">
             <div className="card border-0 shadow-none p-0 art-card">
                 <img className='img-fluid card-img-top object-fit-cover w-100 rounded-0' src={require(`../../assets/images/Gallery/${art.image}`)} alt={art.name}
                 style={{
@@ -36,8 +38,11 @@ const GalleryCard = ({art})=>{
                     <p className="text-white art-description m-0">{art.s_des}</p>
                 </div>
             </div>
-        </Link>
+        </div>
 
     )
+    
+
 }
-export default GalleryCard
+
+export default GalHighlights;
