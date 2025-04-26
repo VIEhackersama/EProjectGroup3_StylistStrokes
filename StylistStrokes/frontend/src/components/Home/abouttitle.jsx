@@ -33,7 +33,7 @@ export default function AboutTitle() {
                     ducimus ad id eos?
                 </p>
             </div>
-            <VideoPage></VideoPage>
+            <VideoPage/>
         </motion.div>
         
     )
