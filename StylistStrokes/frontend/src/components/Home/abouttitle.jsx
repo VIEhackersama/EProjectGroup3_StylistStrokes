@@ -1,6 +1,6 @@
 import './font.css'
 import { motion } from 'framer-motion'
-
+import VideoPage from '../../pages/Videopage'
 export default function AboutTitle() {
     return (
         <motion.div
@@ -33,6 +33,8 @@ export default function AboutTitle() {
                     ducimus ad id eos?
                 </p>
             </div>
+            <VideoPage></VideoPage>
         </motion.div>
+        
     )
 }
