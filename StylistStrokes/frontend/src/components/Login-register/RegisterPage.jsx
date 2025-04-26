@@ -64,6 +64,15 @@ export default function RegisterPage({
                             {show ? "Hide password" : "Show password"}
                         </div>
                     </div>
+                    <div className="mb-3">
+                        <label className="form-label">Confirm Password</label>
+                        <input
+                            type={show ? "text" : "password"}
+                            className="form-control"
+                            required
+                            placeholder="Please confirm your password"
+                        />
+                    </div>
                     <button
                         type="submit"
                         style={{ backgroundColor: "orange" }}
