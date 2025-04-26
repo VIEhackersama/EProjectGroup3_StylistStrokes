@@ -3,7 +3,7 @@ import Learnlist from "../components/learnlist";
 
 function LearnPage() {
   return (
-    <div className="bg-warning-subtle min-vh-100">
+    <div className=" container ">
       <section
         className="text-white text-center py-5"
         style={{
