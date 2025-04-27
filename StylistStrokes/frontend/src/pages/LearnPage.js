@@ -4,7 +4,7 @@ import "../styles/card.css";
 
 function LearnPage() {
   return (
-    <div className="container">
+    <div className=" container py-3">
       <section
         className="text-white text-center py-5"
         style={{

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Button, Collapse } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
 
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logoss.png";
 import "./Header.css";
 
 const nav__links = [
