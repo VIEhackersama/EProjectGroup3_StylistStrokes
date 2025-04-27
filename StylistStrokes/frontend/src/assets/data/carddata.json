@@ -1,0 +1,39 @@
+[
+    {
+      "title": "The art of Vietnam Calligraphy",
+      "description": "Traditional Vietnamese calligraphy with brush strokes.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Vietnamese_Calligraphy.jpg",
+      "link": "/vietnam"
+    },
+    {
+      "title": "The art of Korea Calligraphy",
+      "description": "Beautiful Hangul characters written in calligraphy.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Korean_Calligraphy.jpg",
+      "link": "/korea"
+    },
+    {
+      "title": "The art of Arabic Calligraphy",
+      "description": "Arabic scripts with artistic forms.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Arabic_Calligraphy.jpg",
+      "link": "/arabic"
+    },
+    {
+      "title": "The art of South China Calligraphy",
+      "description": "South Chinese traditional calligraphy style.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Chinese_Calligraphy.jpg",
+      "link": "/south-china"
+    },
+    {
+      "title": "The art of Japan Calligraphy",
+      "description": "Elegant brush strokes from Japan.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Japanese_Calligraphy.jpg",
+      "link": "/japan"
+    },
+    {
+      "title": "The art of Western Calligraphy",
+      "description": "Beautiful western style calligraphy.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Western_Calligraphy.jpg",
+      "link": "/western"
+    }
+  ]
+  

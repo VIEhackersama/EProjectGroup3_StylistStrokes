@@ -1,5 +1,6 @@
 import React from "react";
 import Learnlist from "../components/learnlist";
+import "../styles/card.css";  
 
 function LearnPage() {
   return (
@@ -19,12 +20,13 @@ function LearnPage() {
           <p className="lead mb-4 fw-bold text-black">
             Online calligraphy courses for beginners and advanced learners.
           </p>
-          <a href="#courses" className="btn btn-warning btn-lg fw-semibold">
+          <a href="#courses" className="btn btn-warning btn-lg fw-semibold hover-effect">
             Explore Courses
           </a>
         </div>
       </section>
-      <div>
+
+      <div className="text-center py-5">
         <p>Hello everyone!</p>
 
         <p>
@@ -34,10 +36,10 @@ function LearnPage() {
         </p>
 
         <p>
-          Join our <span class="highlight">Art of Calligraphy Course</span>,
+          Join our <span className="highlight text-warning">Art of Calligraphy Course</span>,
           where you will:
         </p>
-        <ul>
+        <ul className="list-unstyled">
           <li>
             Learn about the rich history and deep cultural meaning of
             calligraphy
@@ -57,12 +59,12 @@ function LearnPage() {
           express yourself through every stroke.
         </p>
 
-        <p class="highlight">
+        <p className="highlight text-warning">
           The Calligraphy Course – where your journey into the beauty of letters
           begins.
         </p>
 
-        <div class="register">
+        <div className="register">
           <p>
             <strong>
               Register today to reserve your spot and enjoy exclusive early-bird
@@ -70,7 +72,7 @@ function LearnPage() {
             </strong>
           </p>
           <div className="d-flex justify-content-center mt-4">
-            <a href="#courses" className="btn btn-warning">
+            <a href="#courses" className="btn btn-warning hover-effect">
               Start now
             </a>
           </div>
