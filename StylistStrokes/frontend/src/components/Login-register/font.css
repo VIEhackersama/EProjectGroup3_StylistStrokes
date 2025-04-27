@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Pacifico&family=Pattaya&family=Playwrite+CU:wght@100..400&family=Playwrite+MX+Guides&display=swap');
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input{
+    color: red;
+}
