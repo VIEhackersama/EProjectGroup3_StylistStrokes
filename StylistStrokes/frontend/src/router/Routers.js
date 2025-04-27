@@ -12,6 +12,7 @@ import Gallery from "../pages/Gallery";
 import LearnPage from "../pages/LearnPage";
 import AboutPage from "../pages/About";
 import GalleryDetails from "../pages/GalleryDetail";
+import ContactUs from "../pages/ContactUs";
 
 const Routers  = () => {
   return (
@@ -27,6 +28,8 @@ const Routers  = () => {
           <Route path='/about' element={<AboutPage></AboutPage>}/>
           <Route path='/learn' element={<LearnPage/>}/>
           <Route path="/gallery/:id" element={<GalleryDetails/>}/>
+          <Route path='/contact' element={<ContactUs></ContactUs>} />
+
      </Routes>
   )
 };

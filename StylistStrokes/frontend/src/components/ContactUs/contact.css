@@ -1,0 +1,26 @@
+.form-container {
+  background: #fdf6f0;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.section-title {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #a94442; 
+}
+
+.section-deco {
+    width: 100px; 
+    display: block;
+    margin: 0.5rem auto 0; 
+    opacity: 0.7;
+}
+
+.sub-title {
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
