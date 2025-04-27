@@ -8,10 +8,11 @@ import Login from './../pages/LoginAuth';
 import Register from './../pages/RegisterAuth';
 import SeachResutlist from './../pages/SearchResultList';
 import Gallery from "../pages/Gallery";
-// import VideoPage from "../pages/Videopage";
+
 import LearnPage from "../pages/LearnPage";
 import AboutPage from "../pages/About";
 import GalleryDetails from "../pages/GalleryDetail";
+
 
 const Routers  = () => {
   return (

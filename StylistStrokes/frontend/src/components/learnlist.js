@@ -3,9 +3,9 @@ import Learn from "../components/learn";
 
 function Learnlist() {
   return (
-    <div className="row g-5 m-2">
+    <div className="row g-4 m-2">
       {Learns.map((learn) => (
-        <div className="col col-4" key={learn.id}>
+        <div className="col-lg-4 col-md-6 col-sm-12" key={learn.id}>
           <div className="p-2">
             <Learn
               image={learn.image}
