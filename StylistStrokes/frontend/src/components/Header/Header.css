@@ -4,21 +4,33 @@
   font-weight: 400;
   font-style: normal;
 }
-
 .header {
   width: 100%;
-  height: 130px;
-  background: #fff;
-  border: none;
-  box-shadow: none;
+  padding: 5px 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 1s ease-in-out;
+  background: transparent;
 }
 
+/* Header khi cuộn xuống */
+.sticky__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* đổ bóng */
+  transition: all 0.3s ease-in-out;
+}
 .navbar {
   padding: 0.5rem 0;
 }
 
 .logo-img {
-  height: 100px;
+  height: 80px;
 }
 
 .menu {
@@ -76,8 +88,9 @@
   }
 }
 .grad-header {
-  background-image: linear-gradient(to bottom, #16114e, #212f3c 96%, white);
+  background-image: linear-gradient( 235deg, #52E5E7 10%, #130CB7 100%);
 }
+/* background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%); */
 .btn-header {
   background: linear-gradient(135deg, #e16015, #ed1414);
   border: none;
@@ -86,6 +99,7 @@
   transition: 0.4s ease, transform 0.3s ease;
   border-radius: 50px;
 }
+
 .btn-header:hover {
   background: linear-gradient(135deg, #066e6c 0%, #9865f6 100%);
   transform: scale(1.05);

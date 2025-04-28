@@ -33,8 +33,8 @@ export default function Googlebtn()
                             <path fill="none" d="M0 0h48v48H0z"></path>
                         </svg>
                     </div>
-                    <span className="gsi-material-button-contents">Sign in with Google (coming soon)</span>
-                    <span style={{ display: "none" }}>Sign in with Google (coming soon)</span>
+                    <span className="gsi-material-button-contents">Continue with Google (coming soon)</span>
+                    <span style={{ display: "none" }}>Continue with Google (coming soon)</span>
                 </div>
             </button>
         </div>

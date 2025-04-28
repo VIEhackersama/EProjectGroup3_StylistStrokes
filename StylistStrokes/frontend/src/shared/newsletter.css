@@ -1,0 +1,67 @@
+.newsletter {
+    background: #cae5f4;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.newsletter__content {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.newsletter__content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+.newsletter__input {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.5rem auto 2rem;
+    max-width: 500px;
+}
+
+.newsletter__input input {
+    flex: 1;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.newsletter__input input:focus {
+    outline: none;
+}
+
+.newsletter__btn {
+    background: #f9a826;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.newsletter__btn:hover {
+    background: #e6951d;
+}
+
+.newsletter__content p {
+    color: #333;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.newsletter__img img {
+    width: 70%; /* thu nhỏ còn 70% chiều ngang */
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 2rem auto 0; /* căn giữa */
+}
