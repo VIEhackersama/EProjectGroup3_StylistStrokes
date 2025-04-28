@@ -1,5 +1,8 @@
 import React from "react";
-
+import './font.css'
+import logo from "../../assets/images/logoss.png";
+import Googlebtn from "./googlebtn";
+import { motion } from "framer-motion";
 export default function LoginPage({
     email,
     password,
@@ -13,67 +16,96 @@ export default function LoginPage({
 }) {
     return (
         <div
-            className="d-flex justify-content-center align-items-center vh-100 my-4"
+            className="d-flex justify-content-center align-items-center p-5 "
             style={{
                 backgroundImage:
-                    "url(https://www.artnews.com/wp-content/uploads/2020/12/AdobeStock_391176229.jpeg)",
+                    "url(https://www.lettering-daily.com/wp-content/uploads/2018/09/Modern-Calligraphy-Lettering-Daily-Cover-Photo.webp)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
         >
-            <div
-                className="card p-4 shadow  "
-                style={{ minWidth: "1400px", maxWidth: "1000px" }}
+            <motion.div
+                initial={{ opacity: 0.8, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.2, ease: 'easeOut' }}
+                className="card p-4 shadow container"
+                style={{
+                    minWidth: "400px", maxWidth: "900px",
+                    // backgroundImage: "url(https://i.ytimg.com/vi/9fmjCi6Cb_o/maxresdefault.jpg)",
+                    //  backgroundPosition: "center", 
+                    // backgroundSize: "",
+                    backgroundImage: "linear-gradient( #60B5FF,rgb(3, 28, 103) 100%)"
+                }
+                }
             >
-                <h3 className="mb-3 text-center">Log into your account</h3>
-                <div className="row">
-                    <div className="col-md-6 d-flex align-items-center justify-content-center">
+                <div
+                    className="d-flex justify-content-center align-items-center mb-4"
+                >
+                    <img src={logo} alt="" style={{ filter: "invert(0%)", width: "300px" }} />
+                </div>
+                <h3 style={{ color: "#FFA500" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Already have an account? Welcome back!</h3>
+                <div className="d-flex justify-content-center">
+                    {/* <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <img
                             src="https://piecescalligraphy.com/wp-content/uploads/2016/01/img_20160117_190542.jpg"
                             className="img-fluid rounded-5"
                         />
-                    </div>
-                    <div className="col-md-6">
-                        <form onSubmit={LoginAPI}>
+                    </div> */}
+                    <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100%" }}>
+                        <form onSubmit={LoginAPI} style={{ maxWidth: "900px", width:"100%" }}>
                             <div className="mb-3">
-                                <label className="form-label">Email</label>
+                                <label style={{ color: "#edc891" }} className="form-label h3 pattaya-regular">Email</label>
                                 <input
                                     type="text"
-                                    className="form-control"
+                                    className="form-control border border-info-subtle rounded-3"
                                     value={email}
                                     onChange={(e) => SetEmail(e.target.value)}
                                     required
-                                    placeholder="Email is mandatory"
+                                    placeholder="awesome@likeyou.com"
                                 />
                             </div>
                             <div className="mb-3">
-                                <label className="form-label">Password</label>
+                                <label style={{ color: "#edc891" }} className="form-label h3 pattaya-regular">Password</label>
                                 <input
                                     type={show ? "text" : "password"}
-                                    className="form-control"
+                                    className="form-control border border-info-subtle rounded-3"
                                     value={password}
                                     onChange={(e) => SetPassword(e.target.value)}
                                     required
-                                    placeholder="Password is obligatory"
+                                    placeholder="Input password here. We are not watching :>"
                                 />
-                                <div onClick={() => setShow(!show)}>
-                                    {show ? "Hide password" : "Show password"}
+                                <div className="form-check mb-3 py-2">
+                                    <input
+                                        className="form-check-input"
+                                        type="checkbox"
+                                        required
+                                    />
+                                    <label className="text-white form-check-label" htmlFor="acceptTos">
+                                        Remember password?
+                                    </label>
                                 </div>
                             </div>
                             <button
                                 type="submit"
                                 style={{ backgroundColor: "orange" }}
-                                className="btn w-100 text-white"
+                                className=" btn w-100 text-white btn-gg"
                             >
-                                Create a new account
+                                <label className="special-gothic">Login</label>
                             </button>
+                            <div style={{color:"white"}} className="d-flex align-items-center my-1">
+                                <hr className="flex-grow-1" />
+                                <span className="mx-2">or</span>
+                                <hr className="flex-grow-1" />
+                            </div>
+                            <Googlebtn></Googlebtn>
+                            <label className="form-check-label text-white" htmlFor="acceptTos">
+                                By continuing with Google service, you are confirming that you have read and agreed to our <a className="fw-semibold tos" href="#">Terms of services</a>
+                            </label>
                         </form>
-                        {message && <div className="alert alert-success">{message}</div>}
-                        {error && <div className="alert alert-danger">{error}</div>}
                     </div>
                 </div>
-                
-            </div>
+
+            </motion.div>
         </div>
     );
 }

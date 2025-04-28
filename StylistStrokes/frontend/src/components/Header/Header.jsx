@@ -71,12 +71,12 @@ const Header = () => {
             <div className="nav__btns d-flex flex-column flex-lg-row gap-5">
               <Link to="/login">
                 <Button className="btn-header1 w-lg-auto">
-                  <label className="aclonica-regular">Register</label>
+                  <label className="aclonica-regular">Login</label>
                 </Button>
               </Link>
               <Link to="/register">
                 <Button className="btn-header galada-regular w-lg-auto">
-                  <label className="aclonica-regular">Log in</label>
+                  <label className="aclonica-regular">Register</label>
                 </Button>
               </Link>
             </div>

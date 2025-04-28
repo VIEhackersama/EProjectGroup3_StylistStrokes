@@ -25,9 +25,9 @@ export default function RegisterPage({
             }}
         >
             <motion.div
-                initial={{ opacity: 0.5, scale: 0.8 }}
+                initial={{ opacity: 0.8, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, ease: 'easeOut' }}
+                transition={{ duration: 0.2, ease: 'easeOut' }}
                 className="container card border shadow grad"
                 style={{ maxWidth: "1400px", backgroundColor: "#f5ecce" }}
             >
@@ -55,7 +55,7 @@ export default function RegisterPage({
                                     value={name}
                                     onChange={(e) => SetName(e.target.value)}
                                     required
-                                    placeholder="Provide your name, or nickname"
+                                    placeholder="Jane Doe? You have a much better name!"
                                 />
                             </div>
                             <div className="mb-3">
@@ -66,7 +66,7 @@ export default function RegisterPage({
                                     value={email}
                                     onChange={(e) => SetEmail(e.target.value)}
                                     required
-                                    placeholder="Email is mandatory"
+                                    placeholder="abc@example.com"
                                 />
                             </div>
                             <div className="mb-3">
