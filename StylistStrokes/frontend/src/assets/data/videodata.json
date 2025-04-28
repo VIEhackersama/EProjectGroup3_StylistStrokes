@@ -1,38 +1,44 @@
 [
     {
-        "id":1,
-        "name":"The art of Vietnam Calligraphy.",
-        "des":"Traditional Vietnamese calligraphy with brush strokes.",
-        "image":"image/Vietnam.jpg"
+        "id": 1,
+        "name": "The art of Vietnam Calligraphy.",
+        "des": "Traditional Vietnamese calligraphy with brush strokes.",
+        "image": "image/Vietnam.jpg",
+        "link": "https://en.wikipedia.org/wiki/Vietnamese_calligraphy"
     },
     {
-        "id":2,
-        "name":"The art of Korea Calligraphy.",
-        "des":"Beautiful Hangul characters written in calligraphy.",
-        "image":"image/Korean.jpg"
+        "id": 2,
+        "name": "The art of Korea Calligraphy.",
+        "des": "Beautiful Hangul characters written in calligraphy.",
+        "image": "image/Korean.jpg",
+        "link": "https://en.wikipedia.org/wiki/Korean_calligraphy"
     },
     {
-        "id":3,
-        "name":"The art of Arabic Calligraphy.",
-        "des":"Arabic scripts with artistic forms.",
-        "image":"image/Arabic.png"
+        "id": 3,
+        "name": "The art of Arabic Calligraphy.",
+        "des": "Arabic scripts with artistic forms.",
+        "image": "image/Arabic.png",
+        "link": "https://en.wikipedia.org/wiki/Arabic_calligraphy"
     },
     {
-        "id":4,
-        "name":"The art of South China Calligraphy.",
-        "des":"Flowing brush strokes from Chinese calligraphy.",
-        "image":"image/china.jpg"
+        "id": 4,
+        "name": "The art of South China Calligraphy.",
+        "des": "Flowing brush strokes from Chinese calligraphy.",
+        "image": "image/china.jpg",
+        "link": "https://en.wikipedia.org/wiki/Chinese_calligraphy"
     },
     {
-        "id":5,
-        "name":"The art of Japan Calligraphy.",
-        "des":"Elegant Japanese calligraphy characters.",
-        "image":"image/Japan.jpg"
+        "id": 5,
+        "name": "The art of Japan Calligraphy.",
+        "des": "Elegant Japanese calligraphy characters.",
+        "image": "image/Japan.jpg",
+        "link": "https://en.wikipedia.org/wiki/Japanese_calligraphy"
     },
     {
-        "id":6,
-        "name":"The art of Western Calligraphy.",
-        "des":"Latin-based cursive writing in artistic styles.",
-        "image":"image/Western.jpg"
+        "id": 6,
+        "name": "The art of Western Calligraphy.",
+        "des": "Latin-based cursive writing in artistic styles.",
+        "image": "image/Western.jpg",
+        "link": "https://en.wikipedia.org/wiki/Western_calligraphy"
     }
 ]

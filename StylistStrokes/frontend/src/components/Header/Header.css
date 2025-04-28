@@ -1,44 +1,107 @@
-.header {
-    width: 100%;
-    height:80px;
-    line-height: 80px;
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Galada&display=swap");
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.logo img {
-    width: 30%;
+.header {
+  width: 100%;
+  height: 130px;
+  background: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.logo-img {
+  height: 100px;
 }
 
 .menu {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.nav__item a{
-    text-decoration: none;
-    color: var(--heading-color);
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-.nav__item a:hover{
-    color: inherit;
+.nav-header {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 
-.nav__item a.active__link{
-    color:var(--secondary-color)
+.nav-header:hover {
+  color: rgb(236, 214, 85);
+}
+
+.active__link {
+  color: orange;
 }
 
 .mobile__menu {
-    font-size: 1.3rem;
-    color:var(--heading-color);
-    display: none;
+  font-size: 1.5rem;
+  color: orange;
+  display: block;
+  border: none;
+  background: transparent;
 }
 
-.sticky__header{
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-    background: #fff;
-    position: sticky;
-    top: 0;
-    left: 0;
-    box-shadow: 3px 3px 8px -3px #ddd;
+.mobile__nav {
+  background-color: #16114e;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav__btns {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .mobile__menu {
+    display: none;
+  }
+
+  .mobile__nav {
+    background: none;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .nav__btns {
+    width: auto;
+  }
+}
+.grad-header {
+  background-image: linear-gradient(to bottom, #16114e, #212f3c 96%, white);
+}
+.btn-header {
+  background: linear-gradient(135deg, #e16015, #ed1414);
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: 0.4s ease, transform 0.3s ease;
+  border-radius: 50px;
+}
+.btn-header:hover {
+  background: linear-gradient(135deg, #066e6c 0%, #9865f6 100%);
+  transform: scale(1.05);
+}
+.galada1 {
+  font-family: "Galada", cursive;
+}
+.btn-header1 {
+  background: linear-gradient(135deg, #e4af10, #ed7914);
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: 0.4s ease, transform 0.3s ease;
+  border-radius: 50px;
+}
+.btn-header1:hover {
+  background: linear-gradient(135deg, #066e6c 0%, #9865f6 100%);
+  transform: scale(1.05);
 }

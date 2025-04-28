@@ -32,7 +32,7 @@ const Gallery = () => {
     </section>
     {/* Highlights */}
     <section>
-        <div className="container">
+        <div className="container-fluid p-0">
             <Row className="justify-content-center text-center pb-4"> 
                 <h1>Highlights</h1>
             </Row>

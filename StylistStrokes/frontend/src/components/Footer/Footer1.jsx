@@ -1,5 +1,6 @@
 import Icon from "./../Footer/Icon";
 import FooterList from "./../Footer/FooterList";
+import logo from "../../assets/images/logoss.png";
 import { Col, Row } from "react-bootstrap";
 export default function Footer_1() {
     return (
@@ -7,7 +8,7 @@ export default function Footer_1() {
             <Row className="gy-4 mb-5">
                 <Col lg={3} md={6}>
                     <div className="mb-4">
-                        <img src="https://media.discordapp.net/attachments/1356595631610663052/1356982354396188682/image.png?ex=6802524c&is=680100cc&hm=34ebfa33da2bce67c71e637147881273ebc0516c31605c3092799914bcf3aa87&=&format=webp&quality=lossless&width=550&height=232" height={45}></img>
+                        <img src={logo} style={{filter:"invert(100%"}} height={100}></img>
                     </div>
                     <p className="text-light mb-4">
                         {" "}
@@ -55,10 +56,15 @@ export default function Footer_1() {
                             <span className="text-white">Closed</span>
                         </li>
                     </ul>
-                    <div className="mt-4">
-                        <h5 className="fw-bold mb-3">Map</h5>
-                        
-                    </div>
+                    {/* <div className="mt-4">
+                        <h5 className="fw-bold mb-3">Info</h5>
+                        <ul className="list-unstyled">
+                            <li className="d-flex justify-content-between mb-2">
+                                <span className="text-light opacity-75">CEO:</span>
+                                <span className="text-white">Dong Pham</span>
+                            </li>
+                        </ul>
+                    </div> */}
                 </Col>
             </Row>
         </div>
