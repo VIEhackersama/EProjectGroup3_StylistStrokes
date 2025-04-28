@@ -1,5 +1,7 @@
 import React from "react";
 import './font.css'
+import { motion } from "framer-motion";
+import Googlebtn from "./googlebtn";
 export default function RegisterPage({
     name,
     email,
@@ -14,24 +16,27 @@ export default function RegisterPage({
 }) {
     return (
         <div
-            className="d-flex justify-content-center align-items-center vh-100"
+            className="d-flex justify-content-center align-items-center py-5"
             style={{
                 backgroundImage:
-                    "url(https://media.cntraveler.com/photos/58a76bb1e85725558885abb3/16:9/w_2560%2Cc_limit/cherry-blossom-season.jpg)",
+                    "url(https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yoodle_calligraphy_homepage_promo.2e16d0ba.fill-1440x810.png)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
         >
-            <div
-                className="container card p-4 shadow"
-                style={{ maxWidth: "1400px", backgroundColor:"#edd8bb"}}
+            <motion.div
+                initial={{ opacity: 0.5, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
+                className="container card p-4 shadow grad"
+                style={{ maxWidth: "1400px", backgroundColor: "#f5ecce" }}
             >
-                <div className="cal-sans-regular h1 mb-3 text-center">Register now! It's free</div>
+                <div style={{ color: "#4E342E" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Create a StylistStroke account now! It's free!</div>
                 <div className="row">
                     <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <img
-                            src="https://images.squarespace-cdn.com/content/v1/6364bb76e5662e1fb6b69519/49cea5f8-a725-4f4a-90ed-06af04f71804/S175_6.jpg"
-                            className="img-fluid rounded"
+                            src="https://piecescalligraphy.com/wp-content/uploads/2016/01/img_20160117_190542.jpg"
+                            className="img-fluid rounded-5" 
                         />
                     </div>
 
@@ -39,21 +44,21 @@ export default function RegisterPage({
                         {message && <div className="alert alert-success">{message}</div>}
                         <form onSubmit={registerAPI}>
                             <div className="mb-3">
-                                <label className="form-label">Name</label>
+                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Please let me know your awesome name</label>
                                 <input
                                     type="text"
-                                    className="form-control"
+                                    className="form-control border border-danger-subtle rounded-3"
                                     value={name}
                                     onChange={(e) => SetName(e.target.value)}
                                     required
-                                    placeholder="Please provide your name, or nickname"
+                                    placeholder="Provide your name, or nickname"
                                 />
                             </div>
                             <div className="mb-3">
-                                <label className="form-label">Email</label>
+                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Email</label>
                                 <input
                                     type="text"
-                                    className="form-control"
+                                    className="form-control border border-danger-subtle rounded-3"
                                     value={email}
                                     onChange={(e) => SetEmail(e.target.value)}
                                     required
@@ -61,10 +66,10 @@ export default function RegisterPage({
                                 />
                             </div>
                             <div className="mb-3">
-                                <label className="form-label">Password</label>
+                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Set a strong password</label>
                                 <input
                                     type={show ? "text" : "password"}
-                                    className="form-control"
+                                    className="form-control border border-danger-subtle rounded-3"
                                     value={password}
                                     onChange={(e) => SetPassword(e.target.value)}
                                     required
@@ -75,10 +80,10 @@ export default function RegisterPage({
                                 </div>
                             </div>
                             <div className="mb-3">
-                                <label className="form-label">Confirm Password</label>
+                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Confirm Password</label>
                                 <input
                                     type={show ? "text" : "password"}
-                                    className="form-control"
+                                    className="form-control border border-danger-subtle rounded-3"
                                     required
                                     placeholder="Please confirm your password"
                                 />
@@ -95,15 +100,28 @@ export default function RegisterPage({
                             </div>
                             <button
                                 type="submit"
-                                style={{ backgroundColor: "blue" }}
-                                className="btn w-100 text-white py-2 my-3"
+                                className="btn w-100 text-white py-2 my-3 btn-inf"
                             >
                                 Create a new account
                             </button>
+
+                            <div className="d-flex align-items-center my-1">
+                                <hr className="flex-grow-1" />
+                                <span className="mx-2">or</span>
+                                <hr className="flex-grow-1" />
+                            </div>
+                            {/* <button type="button" className="btn w-100 btn-light border btn-gg">
+                                <img src="https://techdocs.akamai.com/identity-cloud/img/social-login/identity-providers/iconfinder-new-google-favicon-682665.png" alt="" />
+                            </button> */}
+                            <Googlebtn></Googlebtn>
+                            <label className="form-check-label mt-2" htmlFor="acceptTos">
+                                By logging in via Google service, you are agreeing to our <a className="fw-semibold" href="#">Terms of services</a> and any related affiliated parties' terms. All rights reserved
+                            </label>
                         </form>
+
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 }
