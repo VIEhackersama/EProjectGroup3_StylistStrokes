@@ -67,20 +67,18 @@
     }
   }
   
-  /* Font Styles */
-  body {
+  b {
     font-family: 'Great Vibes', cursive;
     font-size: 20px; /* Tăng kích thước phông chữ cho body */
   }
   
   h1, h2, h3, .display-4, .fw-bold {
     font-family: 'Dancing Script', cursive;
-    font-size: 36px; /* Tăng kích thước phông chữ cho tiêu đề */
+    font-size: 32px; /* Tăng kích thước phông chữ cho tiêu đề */
   }
   
-  p, ul, li {
-    font-family: 'Great Vibes', cursive;
-    font-size: 24px; /* Tăng kích thước phông chữ cho văn bản */
+  p {
+    font-size: 20px; /* Tăng kích thước phông chữ cho văn bản */
   }
   
   .btn-warning {

@@ -24,7 +24,6 @@ import { AnimatePresence } from "framer-motion";
 
 const Routers = () => {
   const location = useLocation(); // <== thêm dòng này để lấy location
-
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
