@@ -130,39 +130,39 @@ const Home = () => {
 
       {/* ========= experience section end ============= */}
 
-      {/* ========= gallery section start ========== */}
-      <section>
-         <Container>
-            <Row>
-               <Col lg='12'>
-                  <Subtitle subtitle={'Gallery'} />
-                  <h2 className="gallery__title">
-                     Visit our customers tour gallery
-                  </h2>
-               </Col>
-               <Col lg='12' >
-               </Col>
-               <MasonryImagesGallery />
-            </Row>
-         </Container>
-      </section>
-      {/* ========= gallery section start ========== */}
-      {/* ========= testimonial section start ========= */}
-      <section>
-         <Container>
-            <Row>
-               <Col lg='12'>
-                  <Subtitle subtitle={'Fans Love'} />
-                  <h2 className="testimonial__title">What our fans say about us</h2>
-               </Col>
-               <Col lg='12'>
-                  <Testimonials />
-               </Col>
-            </Row>
-         </Container>
-      </section>
-      {/* ========= testimonial section start ========= */}
-   </>
+   {/* ========= gallery section start ========== */}
+    <section>
+      <Container>
+         <Row>
+            <Col lg='12'>
+                <Subtitle subtitle={'Gallery'}/>
+                <h2 className="gallery__title">
+                   Visit our customers tour gallery
+                </h2>
+            </Col>
+            <Col lg='12' >
+            </Col>
+            <MasonryImagesGallery/>
+         </Row>
+      </Container>
+    </section>
+   {/* ========= gallery section start ========== */}
+   {/* ========= testimonial section start ========= */}
+   <section>
+      <Container>
+         <Row>
+            <Col lg='12'>
+               <Subtitle subtitle={'Fans Love'} />
+               <h2 className="testimonial__title">What our fans say about us</h2>
+            </Col>
+            <Col lg='12'>
+                <Testimonials />
+            </Col>
+         </Row>
+      </Container>
+   </section>
+   {/* ========= testimonial section start ========= */}
+  </>
 };
 
 export default Home;
