@@ -22,46 +22,57 @@ export default function LoginPage({
             }}
         >
             <div
-                className="card p-4 shadow"
-                style={{ minWidth: "400px", maxWidth: "1000px" }}
+                className="card p-4 shadow  "
+                style={{ minWidth: "1400px", maxWidth: "1000px" }}
             >
                 <h3 className="mb-3 text-center">Log into your account</h3>
-                {message && <div className="alert alert-success">{message}</div>}
-                {error && <div className="alert alert-danger">{error}</div>}
-                <form onSubmit={LoginAPI}>
-                    <div className="mb-3">
-                        <label className="form-label">Email</label>
-                        <input
-                            type="text"
-                            className="form-control"
-                            value={email}
-                            onChange={(e) => SetEmail(e.target.value)}
-                            required
-                            placeholder="Email is mandatory"
+                <div className="row">
+                    <div className="col-md-6 d-flex align-items-center justify-content-center">
+                        <img
+                            src="https://piecescalligraphy.com/wp-content/uploads/2016/01/img_20160117_190542.jpg"
+                            className="img-fluid rounded-5"
                         />
                     </div>
-                    <div className="mb-3">
-                        <label className="form-label">Password</label>
-                        <input
-                            type={show ? "text" : "password"}
-                            className="form-control"
-                            value={password}
-                            onChange={(e) => SetPassword(e.target.value)}
-                            required
-                            placeholder="Password is obligatory"
-                        />
-                        <div onClick={() => setShow(!show)}>
-                            {show ? "Hide password" : "Show password"}
-                        </div>
+                    <div className="col-md-6">
+                        <form onSubmit={LoginAPI}>
+                            <div className="mb-3">
+                                <label className="form-label">Email</label>
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    value={email}
+                                    onChange={(e) => SetEmail(e.target.value)}
+                                    required
+                                    placeholder="Email is mandatory"
+                                />
+                            </div>
+                            <div className="mb-3">
+                                <label className="form-label">Password</label>
+                                <input
+                                    type={show ? "text" : "password"}
+                                    className="form-control"
+                                    value={password}
+                                    onChange={(e) => SetPassword(e.target.value)}
+                                    required
+                                    placeholder="Password is obligatory"
+                                />
+                                <div onClick={() => setShow(!show)}>
+                                    {show ? "Hide password" : "Show password"}
+                                </div>
+                            </div>
+                            <button
+                                type="submit"
+                                style={{ backgroundColor: "orange" }}
+                                className="btn w-100 text-white"
+                            >
+                                Create a new account
+                            </button>
+                        </form>
+                        {message && <div className="alert alert-success">{message}</div>}
+                        {error && <div className="alert alert-danger">{error}</div>}
                     </div>
-                    <button
-                        type="submit"
-                        style={{ backgroundColor: "orange" }}
-                        className="btn w-100 text-white"
-                    >
-                        Create a new account
-                    </button>
-                </form>
+                </div>
+                
             </div>
         </div>
     );

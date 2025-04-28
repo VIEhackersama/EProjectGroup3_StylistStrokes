@@ -28,23 +28,27 @@ export default function RegisterPage({
                 initial={{ opacity: 0.5, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, ease: 'easeOut' }}
-                className="container card p-4 shadow grad"
+                className="container card border shadow grad"
                 style={{ maxWidth: "1400px", backgroundColor: "#f5ecce" }}
             >
-                <div style={{ color: "#4E342E" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Create a StylistStroke account now! It's free!</div>
+                {/* <div style={{ color: "#4E342E" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Create a StylistStrokes account now! It's free!</div> */}
                 <div className="row">
-                    <div className="col-md-6 d-flex align-items-center justify-content-center">
-                        <img
-                            src="https://piecescalligraphy.com/wp-content/uploads/2016/01/img_20160117_190542.jpg"
-                            className="img-fluid rounded-5" 
-                        />
-                    </div>
-
-                    <div className="col-md-6">
+                    <div
+                        className="col-md-6 rounded-start"
+                        style={{
+                            backgroundImage: "url('https://piecescalligraphy.com/wp-content/uploads/2016/01/img_20160117_190542.jpg')",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            borderTopLeftRadius: "0.5rem", 
+                            borderBottomLeftRadius: "0.5rem",
+                        }}
+                    ></div>
+                    <div className="col-md-6 p-4">
                         {message && <div className="alert alert-success">{message}</div>}
+                        <div style={{ color: "#4E342E" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Create a StylistStrokes account now! It's free!</div>
                         <form onSubmit={registerAPI}>
                             <div className="mb-3">
-                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Please let me know your awesome name</label>
+                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Let Us Know How To Call You</label>
                                 <input
                                     type="text"
                                     className="form-control border border-danger-subtle rounded-3"
@@ -66,7 +70,7 @@ export default function RegisterPage({
                                 />
                             </div>
                             <div className="mb-3">
-                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Set a strong password</label>
+                                <label style={{ color: "#4E342E" }} className="form-label h3 pattaya-regular ">Set password</label>
                                 <input
                                     type={show ? "text" : "password"}
                                     className="form-control border border-danger-subtle rounded-3"
@@ -75,8 +79,8 @@ export default function RegisterPage({
                                     required
                                     placeholder="Password is obligatory"
                                 />
-                                <div onClick={() => setShow(!show)}>
-                                    {show ? "Hide password" : "Show password"}
+                                <div className={`fw-semibold ${show ? "text-danger" : "text-success"}`} onClick={() => setShow(!show)}>
+                                    {show ? "Password is being shown! Click to hide" : "Password is hided! Click to show"}
                                 </div>
                             </div>
                             <div className="mb-3">
@@ -95,14 +99,14 @@ export default function RegisterPage({
                                     required
                                 />
                                 <label className="form-check-label" htmlFor="acceptTos">
-                                    By submitting this form, you are agreeing to our <a className="fw-semibold" href="#">Terms of services</a>
+                                    By creating account, you are confirming that you have read, understood and agreed to our <a className="fw-semibold" href="#">Terms and conditions</a>
                                 </label>
                             </div>
                             <button
                                 type="submit"
                                 className="btn w-100 text-white py-2 my-3 btn-inf"
                             >
-                                Create a new account
+                                <label className="special-gothic">Create an account</label>
                             </button>
 
                             <div className="d-flex align-items-center my-1">
@@ -114,7 +118,7 @@ export default function RegisterPage({
                                 <img src="https://techdocs.akamai.com/identity-cloud/img/social-login/identity-providers/iconfinder-new-google-favicon-682665.png" alt="" />
                             </button> */}
                             <Googlebtn></Googlebtn>
-                            <label className="form-check-label mt-2" htmlFor="acceptTos">
+                            <label className="form-check-label mt-2" htmlFor="">
                                 By logging in via Google service, you are agreeing to our <a className="fw-semibold" href="#">Terms of services</a> and any related affiliated parties' terms. All rights reserved
                             </label>
                         </form>
