@@ -1,0 +1,66 @@
+<<<<<<< Updated upstream
+=======
+.service__item {
+  padding: 1.2rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service__item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.service__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service__img {
+  width: 60px;
+  height: 60px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.service__img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.service__img img {
+  width: 60%;
+  height: auto;
+}
+
+.service__item h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--heading-color);
+  z-index: 1;
+  position: relative;
+}
+
+.service__item p {
+  font-size: 0.95rem;
+  color: var(--text-color);
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+>>>>>>> Stashed changes
