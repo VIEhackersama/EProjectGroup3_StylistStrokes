@@ -1,26 +1,42 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import "../styles/Calligraphy.css"; 
 
 function JapanCalligraphy() {
   return (
     <motion.div
-      className="container mt-5"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      className="calligraphy-container"
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -40 }}
+      transition={{ duration: 0.6 }}
     >
-      <h1>The Art of Japanese Calligraphy</h1>
-      <img src="/image/Japan.jpg" alt="Japanese Calligraphy" style={{ maxWidth: "100%" }} />
-      <p className="mt-3">
-        Known as "Shodo," Japanese calligraphy emphasizes simplicity, fluidity,
-        and discipline. Every character reflects beauty through balance and emotion,
-        offering a meditative practice tied deeply to Zen philosophy.
-      </p>
-      <a href="https://en.wikipedia.org/wiki/Japanese_calligraphy" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-3">
-        Learn More
-      </a>
-      <br />
-      <Link to="/" className="btn btn-secondary mt-3">Back to Home</Link>
+      <div className="content-box">
+        <h1>The Art of Japanese Calligraphy</h1>
+        <img
+          src="/image/Japan.jpg"
+          alt="Japanese Calligraphy"
+          className="calligraphy-image"
+        />
+        <p>
+          Known as "Shodo," Japanese calligraphy emphasizes simplicity, fluidity,
+          and discipline. Every character reflects beauty through balance and emotion,
+          offering a meditative practice tied deeply to Zen philosophy.
+        </p>
+        <div className="button-group">
+          <a
+            href="https://en.wikipedia.org/wiki/Japanese_calligraphy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn primary"
+          >
+            Learn More
+          </a>
+          <Link to="/" className="btn secondary">
+            Back to Home
+          </Link>
+        </div>
+      </div>
     </motion.div>
   );
 }
