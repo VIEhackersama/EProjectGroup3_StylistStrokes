@@ -18,8 +18,8 @@ export default function LoginPage({
         <div
             className="d-flex justify-content-center align-items-center p-5 "
             style={{
-                backgroundImage:
-                    "url(https://www.lettering-daily.com/wp-content/uploads/2018/09/Modern-Calligraphy-Lettering-Daily-Cover-Photo.webp)",
+                backgroundImage: `url(${require('../../assets/images/login_bg.webp')})`,
+                // backgroundImage: "url(https://cdn.britannica.com/09/157609-050-54CC600B/Hand-with-pencil-writing-on-page.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
@@ -43,7 +43,7 @@ export default function LoginPage({
                 >
                     <img src={logo} alt="" style={{ filter: "invert(0%)", width: "300px" }} />
                 </div>
-                <h3 style={{ color: "#FFA500" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Already have an account? Welcome back!</h3>
+                <h3 style={{ color: "#edc891" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Already have an account? Welcome back!</h3>
                 <div className="d-flex justify-content-center">
                     {/* <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <img
