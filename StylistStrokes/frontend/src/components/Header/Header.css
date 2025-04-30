@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Galada&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .aclonica-regular {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
@@ -15,14 +22,13 @@
   background: transparent;
 }
 
-/* Header khi cuộn xuống */
 .sticky__header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* đổ bóng */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   transition: all 0.3s ease-in-out;
 }
 .navbar {
@@ -49,7 +55,7 @@
 }
 
 .active__link {
-  color: orange;
+  color: rgb(19, 18, 17);
 }
 
 .mobile__menu {
@@ -72,7 +78,7 @@
   width: 100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   .mobile__menu {
     display: none;
   }
@@ -84,38 +90,82 @@
   }
 
   .nav__btns {
+    min-width: 300px;
     width: auto;
   }
 }
 .grad-header {
-  background-image: linear-gradient( 235deg, #52E5E7 10%, #130CB7 100%);
-}
-/* background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%); */
-.btn-header {
-  background: linear-gradient(135deg, #e16015, #ed1414);
-  border: none;
-  font-weight: 600;
-  padding: 10px 20px;
-  transition: 0.4s ease, transform 0.3s ease;
-  border-radius: 50px;
+  background-color: rgba(245, 234, 234, 0.657);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid #ccc;
 }
 
-.btn-header:hover {
-  background: linear-gradient(135deg, #066e6c 0%, #9865f6 100%);
-  transform: scale(1.05);
+.navbar-brand {
+  margin-right: auto;
+  font-size: 1.8rem;
 }
-.galada1 {
-  font-family: "Galada", cursive;
+
+.nav-header {
+  color: #d4895b ;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
-.btn-header1 {
-  background: linear-gradient(135deg, #e4af10, #ed7914);
-  border: none;
+
+.nav-header:hover{
+  color:rgb(254, 89, 0);
+}
+
+.nav-header.active__link {
+  color: #161513 !important;
+  text-decoration: none;
+}
+
+.menu {
+  flex-grow: 1;
+  justify-content: center !important;
+}
+
+
+.btn-header2 {
+  background-color: #f2fcfd;
+  color: white;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
   font-weight: 600;
-  padding: 10px 20px;
-  transition: 0.4s ease, transform 0.3s ease;
-  border-radius: 50px;
+  border:3px black solid;
+  transition: 0.3s ease-in-out;
 }
-.btn-header1:hover {
-  background: linear-gradient(135deg, #066e6c 0%, #9865f6 100%);
+
+.btn-header2:hover {
+  background-color: #e8c79ae5;
   transform: scale(1.05);
+}
+.btn-with-image {
+  position: relative;
+  overflow: visible;
+}
+
+.btn-with-image::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 80px;
+  height: 80px; 
+  background-image: var(--brush-image);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(10px) rotate(-15deg);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.btn-with-image:hover::after {
+  opacity: 1;
+  transform: translateY(0px) rotate(-15deg);
 }
