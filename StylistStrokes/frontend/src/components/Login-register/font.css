@@ -35,7 +35,7 @@ input:focus {
   border-color: #FF7043;
 }
 .btn-gg {
-  background: linear-gradient(135deg, #e11414 , orange 100%);
+  background: linear-gradient(135deg, #0d8f87 , rgb(94, 88, 174) 100%);
   border: none;
   font-weight: 600;
   padding: 10px 20px;
@@ -43,12 +43,12 @@ input:focus {
   border-radius: 50px;
 }
 .btn-gg:hover {
-  background: linear-gradient(135deg, #e61704 0%, #c00644 100%);
+  background: linear-gradient(135deg, #04e639 0%, #1f575a 100%);
   transform: scale(1.05);
 }
 input::placeholder{
   font-weight: bold;
 }
 .tos {
-  color:orange
+  color:rgb(0, 217, 255)
 }

@@ -1,17 +1,19 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Button } from "reactstrap";
 import { NavLink, Link, useLocation } from "react-router-dom";
+import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone } from "react-icons/fa6";
+import penBrush from "../../assets/images/caligraphy-img01.jpg";
 import logo from "../../assets/images/logoss.png";
 import "../Home/font.css";
 import "@fontsource/galada";
 import "./Header.css";
 
 const navLinks = [
-  { path: "/home", display: "🏠︎Home" },
-  { path: "/about", display: "🖳 About" },
-  { path: "/learn", display: "✐ Learn" },
-  { path: "/gallery", display: "🕮 Gallery" },
-  { path: "/contact", display: "☏ Contact" },
+  {path: "/home", display:<> <FaHouse /> HOME</>},
+  {path: "/about", display: <><FaCircleInfo />ABOUT US</> },
+  { path: "/learn", display: <><FaPencil></FaPencil>LEARN</> },
+  { path: "/gallery", display: <><FaBook></FaBook>GALLERY</> },
+  { path: "/contact", display: <><FaPhone></FaPhone>CONTACT</> },
 ];
 
 const Header = () => {
@@ -38,12 +40,12 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [location.pathname]); 
   return (
-    <header className="header grad-header" ref={headerRef}>
+    <header className="header grad-header shadow" ref={headerRef}>
       <Navbar expand="lg" className="container">
         {/* Logo */}
         <div className="d-flex align-items-center">
           <Link to="/" className="navbar-brand me-auto">
-            <img src={logo} alt="" style={{ filter: "invert(100%)" }} className="logo-img" />
+            <img src={logo} alt="" style={{ filter: "invert(00%)" }} className="logo-img" />
           </Link>
         </div>
 
@@ -58,7 +60,9 @@ const Header = () => {
                 <NavItem key={index}>
                   <NavLink
                     to={item.path}
-                    className={({ isActive }) => (isActive ? "nav-header active__link" : "nav-header")}
+                    className={({ isActive }) =>
+                      isActive ? "nav-header active__link tagesschrift-regular" : "nav-header tagesschrift-regular"
+                    }
                     onClick={() => setIsOpen(false)}
                   >
                     {item.display}
@@ -68,16 +72,26 @@ const Header = () => {
             </Nav>
 
             {/* Right-aligned Buttons */}
-            <div className="nav__btns d-flex flex-column flex-lg-row gap-5">
-              <Link to="/login">
-                <Button className="btn-header1 w-lg-auto">
-                  <label className="aclonica-regular">Login</label>
-                </Button>
+            <div className="nav__btns d-flex flex-column flex-lg-row gap-3 align-items-center">
+              <Link to="/login" className="w-100">
+                <div
+                  className="btn-header2 btn-with-image text-center w-100"
+                  style={{
+                    "--brush-image": `url(${penBrush})`,
+                  }}
+                >
+                  <label className="fw-semibold aclonica-regular text-black">Login</label>
+                </div>
               </Link>
-              <Link to="/register">
-                <Button className="btn-header galada-regular w-lg-auto">
-                  <label className="aclonica-regular">Register</label>
-                </Button>
+              <Link to="/register" className="w-100">
+                <div
+                  className="btn-header2 btn-with-image text-center w-100"
+                  style={{
+                    "--brush-image": `url(${penBrush})`,
+                  }}
+                >
+                  <label className="fw-semibold aclonica-regular text-black">Register</label>
+                </div>
               </Link>
             </div>
           </div>
