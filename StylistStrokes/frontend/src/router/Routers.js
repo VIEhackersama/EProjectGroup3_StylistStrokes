@@ -42,7 +42,7 @@ const Routers = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/learn" element={<LearnPage />} />
-        <Route path="/gallery/:id" element={<GalleryDetails />} />
+        <Route path="/gallery/:id" element={<GalleryDetails/>} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/videos" element={<Videolist />} />
         <Route path="/vietnam-calligraphy" element={<VietnamCalligraphy />} />

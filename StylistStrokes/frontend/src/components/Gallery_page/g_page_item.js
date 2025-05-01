@@ -30,13 +30,13 @@ const GalleryCom=({art})=>{
 
     return(
         
-        <div className="card border-0 shadow p-0 rounded-2" style={{ backgroundColor: "white"}}>
+        <div className="card border-0 shadow p-0 rounded-2 w-100" style={{ backgroundColor: "white"}}>
             <Link to={`/gallery/${art.id}`} onClick={() => window.scrollTo(0, 0)}>
             <img className='img-fluid card-img-top rounded-top-2 w-100 object-fit-cover' src={ImgSrc}
              style={{height:"300px"}} alt={art.name}></img>
             </Link>
-            <div className='card-body px-2'>
-                <h4 className={`fw-bold ${getFont(art.style)} card-title text-start`}>{art.name}</h4>
+            <div className='card-body px-2 text-start'>
+                <h4 className={`fw-bold tangerine-regular`}>{art.name}</h4>
                 <p className='fst-italic fw-medium'>by {art.author}</p>
                 <p className='fw-thin'>Origin: {art.style} {art.period}</p>
             </div>
