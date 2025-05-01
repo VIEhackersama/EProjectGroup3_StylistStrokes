@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Huy Le Nhat",
+        "role": "Calligraphy Artist",
+        "image": "/image/huyle.jpeg",
+        "description": "A dumb but enthusiast crew. Often comes up with witty but effective dicisions"
+    },
+    {
+        "name": "Alice Nguyen",
+        "role": "Calligraphy Artist",
+        "image": "/image/huyle.jpeg",
+        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+    },
+    {
+        "name": "Alice Nguyen",
+        "role": "Calligraphy Artist",
+        "image": "/image/huyle.jpeg",
+        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+    },
+    {
+        "name": "Alice Nguyen",
+        "role": "Calligraphy Artist",
+        "image": "/image/huyle.jpeg",
+        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+    },
+    {
+        "name": "Alice Nguyen",
+        "role": "Calligraphy Artist",
+        "image":"/image/huyle.jpeg",
+        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+    }
+]

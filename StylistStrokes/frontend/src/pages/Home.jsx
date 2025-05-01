@@ -7,20 +7,19 @@ import heroImg02 from "../assets/images/hero-img02.jpg"
 import heroVideo from "../assets/images/hero-video.mp4"
 import worldImg from "../assets/images/world.png"
 import experienceImg from '../assets/images/experience.png';
-
 import Subtitle from "./../shared/Subtitle";
-
 import SearchBar from "../shared/SeachBar";
 import ServiceList from "../services/ServiceList";
 import FeaturedCaligraphyList from "../components/Featured-caligraphy/FeaturedCaligraphyList";
 import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
+import Heroabout from "../components/About/abouthero";
 
 function Home () {
    return (
       <div style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
-      {/* ========hero section start========= */}
+      <Heroabout></Heroabout>
       <section>
          <Container>
             <Row>

@@ -32,6 +32,7 @@ function ArabicCalligraphy() {
           >
             Learn More
           </a>
+
           <Link to="/gallery" className="btn secondary">
             Back to Home
           </Link>

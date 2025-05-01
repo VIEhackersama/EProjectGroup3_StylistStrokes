@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import "../styles/Calligraphy.css"; 
+import "../styles/Calligraphy.css";
 
 function WesternCalligraphy() {
   return (
