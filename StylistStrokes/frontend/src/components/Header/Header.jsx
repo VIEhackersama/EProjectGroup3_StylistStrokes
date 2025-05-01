@@ -3,22 +3,22 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Button } from "reactstra
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone } from "react-icons/fa6";
 import penBrush from "../../assets/images/caligraphy-img01.jpg";
-import logo from "../../assets/images/logoss.png";
+import logo from "../../assets/images/logo1.png";
 import strokeUnderline from "../../assets/images/stroke.png";
-import "../Home/font.css";
+import "../About/font.css";
 import "@fontsource/galada";
 import "./Header.css";
 import axios from 'axios'
 const navLinks = [
-  {path: "/home", display:<> <FaHouse /> HOME</>},
-  {path: "/about", display: <><FaCircleInfo />ABOUT US</> },
+  { path: "/home", display: <> <FaHouse /> HOME</> },
+  { path: "/about", display: <><FaCircleInfo />ABOUT US</> },
   { path: "/learn", display: <><FaPencil></FaPencil>LEARN</> },
   { path: "/gallery", display: <><FaBook></FaBook>GALLERY</> },
   { path: "/contact", display: <><FaPhone></FaPhone>CONTACT</> },
 ];
 
 const Header = () => {
-  const [user, setUser] = useState(null); 
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     const token = localStorage.getItem("access_token");
@@ -32,7 +32,7 @@ const Header = () => {
       .then((res) => setUser(res.data))
       .catch((err) => {
         console.error("Auth error:", err);
-        setUser(null); 
+        setUser(null);
       });
   }, []);
   const headerRef = useRef(null);
@@ -56,7 +56,7 @@ const Header = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [location.pathname]); 
+  }, [location.pathname]);
   return (
     <header className="header grad-header shadow" ref={headerRef}>
       <Navbar expand="lg" className="container">
@@ -67,12 +67,9 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* Navbar Toggler */}
         <NavbarToggler style={{ filter: "invert(0%)" }} onClick={toggle} className="mobile__menu" />
-        {/* Collapsible Menu */}
         <Collapse isOpen={isOpen} navbar>
           <div className="d-flex w-100 justify-content-between align-items-center">
-            {/* Centered Menu Items */}
             <Nav className="menu d-flex justify-content-center align-items-center gap-4 mx-auto" navbar>
               {navLinks.map((item, index) => (
                 <NavItem key={index}>
@@ -91,8 +88,6 @@ const Header = () => {
                 </NavItem>
               ))}
             </Nav>
-
-            {/* Right-aligned Buttons */}
             <div className="nav__btns d-flex flex-column flex-lg-row gap-3 align-items-center">
               {user ? (
                 <>
@@ -104,7 +99,7 @@ const Header = () => {
                     onClick={() => {
                       localStorage.removeItem("access_token");
                       setUser(null);
-                      window.location.reload(); // reload để cập nhật giao diện
+                      window.location.reload();
                     }}
                   >
                     Logout
@@ -113,13 +108,14 @@ const Header = () => {
               ) : (
                 <>
                   <Link to="/login" className="w-100">
-                      <div style={{
-                        "--brush-image": `url(${penBrush})`,}}className="btn-header2 btn-with-image text-center w-100">
+                    <div style={{
+                      "--brush-image": `url(${penBrush})`,
+                    }} className="btn-header2 btn-with-image text-center w-100">
                       <label className="fw-semibold aclonica-regular text-black">Login</label>
                     </div>
                   </Link>
                   <Link to="/register" className="w-100">
-                      <div style={{"--brush-image": `url(${penBrush})`,}} className="btn-header2 btn-with-image text-center w-100">
+                    <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center w-100">
                       <label className="fw-semibold aclonica-regular text-black">Register</label>
                     </div>
                   </Link>
