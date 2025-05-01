@@ -32,7 +32,7 @@ function ChinaCalligraphy() {
           >
             Learn More
           </a>
-          <Link to="/about" className="btn secondary">
+          <Link to="/gallery" className="btn secondary">
             Back to Home
           </Link>
         </div>

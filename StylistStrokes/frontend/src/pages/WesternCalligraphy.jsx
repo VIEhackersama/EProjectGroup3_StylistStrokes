@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import "../styles/Calligraphy.css"; 
+import "../styles/Calligraphy.css";
 
 function WesternCalligraphy() {
   return (
@@ -32,7 +32,7 @@ function WesternCalligraphy() {
           >
             Learn More
           </a>
-          <Link to="/about" className="btn secondary">
+          <Link to="/gallery" className="btn secondary">
             Back to Home
           </Link>
         </div>
