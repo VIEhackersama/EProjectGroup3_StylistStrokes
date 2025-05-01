@@ -78,7 +78,6 @@ export default function LoginPage({
                                     <input
                                         className="form-check-input"
                                         type="checkbox"
-                                        required
                                     />
                                     <label className="text-black form-check-label" htmlFor="acceptTos">
                                         Remember password?
