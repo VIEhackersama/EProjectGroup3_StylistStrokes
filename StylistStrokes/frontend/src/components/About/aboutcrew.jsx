@@ -1,6 +1,8 @@
 import members from './crew.json'
 import './aboutcrew.css'
+import { SlSocialInstagram, SlSocialFacebook, SlSocialReddit } from "react-icons/sl";
 import { useState, useRef, useEffect } from 'react';
+import { FaFacebook } from 'react-icons/fa6';
 export default function Aboutcrew() {
     const [visible, setVisible] = useState(new Array(members.length).fill(false));
     const imageRefs = useRef([]);
@@ -44,9 +46,11 @@ export default function Aboutcrew() {
                         />
                     </div>
                     <div className="col-md-8">
-                        <h4>{member.name}</h4>
+                        <h2>{member.name}</h2>
                         <h6 className="text-muted">{member.role}</h6>
-                        <p>{member.description}</p>
+                        <p className='fw-semibold'>{member.description}</p>
+                        <p>Contact:</p>
+                        <a href="https://facebook.com" className="text-black me-3 social-icons" style={{textDecoration:"none"}}><FaFacebook size={40} /><> Huy-uii</></a>
                     </div>
                 </div>
             ))}

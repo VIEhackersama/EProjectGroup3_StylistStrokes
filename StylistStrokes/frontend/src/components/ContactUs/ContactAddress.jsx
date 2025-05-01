@@ -37,7 +37,7 @@ export default function ContactAddress() {
             <p><strong>Email</strong><br /><a href="mailto:partner@styliststrokes.com">partner@styliststrokes.com</a></p>
             {/* <p><strong>Support & Customer care</strong><br /><a href="mailto:support@styliststrokes.com">support@styliststrokes.com</a></p> */}
 
-            <MapEmbed />
+            <MapEmbed></MapEmbed>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import '../components/ContactUs/contact.css'
 import '../components/ContactUs/font.css'
 export default function ContactUs() {
     return (
+        <div style={{ backgroundImage: `url(https://img.freepik.com/free-photo/abstract-surface-wood-texture-background_74190-12071.jpg?semt=ais_hybrid&w=740)` }}>
         <motion.div className="container py-3 justify-content-center d-flex flex-column align-items-center"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -25,5 +26,6 @@ export default function ContactUs() {
                 </div>
             </div>
         </motion.div>
+        </div>
     )
 }

@@ -34,4 +34,19 @@
     -webkit-text-fill-color: transparent;
 }
 
+.social-icons1 a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; 
+    height: 100px;
+    background-color: rgb(199, 114, 114); 
+    border-radius: 100%; 
+    text-decoration: none; 
+    color: white;
+    transition: background-color 0.3s ease; 
+}
 
+.social-icons1 a:hover {
+    background-color: rgb(77, 14, 9); /* Màu nền khi hover */
+}
