@@ -4,10 +4,11 @@ import { NavLink, Link, useLocation } from "react-router-dom";
 import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone } from "react-icons/fa6";
 import penBrush from "../../assets/images/caligraphy-img01.jpg";
 import logo from "../../assets/images/logoss.png";
+import strokeUnderline from "../../assets/images/stroke.png";
 import "../Home/font.css";
 import "@fontsource/galada";
 import "./Header.css";
-
+import axios from 'axios'
 const navLinks = [
   {path: "/home", display:<> <FaHouse /> HOME</>},
   {path: "/about", display: <><FaCircleInfo />ABOUT US</> },
@@ -17,6 +18,23 @@ const navLinks = [
 ];
 
 const Header = () => {
+  const [user, setUser] = useState(null); 
+
+  useEffect(() => {
+    const token = localStorage.getItem("access_token");
+    if (!token) return;
+
+    axios.get("http://localhost:8000/api/user", {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
+      .then((res) => setUser(res.data))
+      .catch((err) => {
+        console.error("Auth error:", err);
+        setUser(null); 
+      });
+  }, []);
   const headerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -63,6 +81,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       isActive ? "nav-header active__link tagesschrift-regular" : "nav-header tagesschrift-regular"
                     }
+                    style={{
+                      "--strokeimg": `url(${strokeUnderline})`
+                    }}
                     onClick={() => setIsOpen(false)}
                   >
                     {item.display}
@@ -73,26 +94,36 @@ const Header = () => {
 
             {/* Right-aligned Buttons */}
             <div className="nav__btns d-flex flex-column flex-lg-row gap-3 align-items-center">
-              <Link to="/login" className="w-100">
-                <div
-                  className="btn-header2 btn-with-image text-center w-100"
-                  style={{
-                    "--brush-image": `url(${penBrush})`,
-                  }}
-                >
-                  <label className="fw-semibold aclonica-regular text-black">Login</label>
-                </div>
-              </Link>
-              <Link to="/register" className="w-100">
-                <div
-                  className="btn-header2 btn-with-image text-center w-100"
-                  style={{
-                    "--brush-image": `url(${penBrush})`,
-                  }}
-                >
-                  <label className="fw-semibold aclonica-regular text-black">Register</label>
-                </div>
-              </Link>
+              {user ? (
+                <>
+                  <div className="text-black fw-semibold aclonica-regular">
+                    👤 {user.name}
+                  </div>
+                  <Button
+                    className="btn-header2"
+                    onClick={() => {
+                      localStorage.removeItem("access_token");
+                      setUser(null);
+                      window.location.reload(); // reload để cập nhật giao diện
+                    }}
+                  >
+                    Logout
+                  </Button>
+                </>
+              ) : (
+                <>
+                  <Link to="/login" className="w-100">
+                      <div style={{"--brush-image": `url(${penBrush})`,}}className="btn-header2 btn-with-image text-center w-100">
+                      <label className="fw-semibold aclonica-regular text-black">Login</label>
+                    </div>
+                  </Link>
+                  <Link to="/register" className="w-100">
+                      <div style={{"--brush-image": `url(${penBrush})`,}} className="btn-header2 btn-with-image text-center w-100">
+                      <label className="fw-semibold aclonica-regular text-black">Register</label>
+                    </div>
+                  </Link>
+                </>
+              )}
             </div>
           </div>
         </Collapse>
