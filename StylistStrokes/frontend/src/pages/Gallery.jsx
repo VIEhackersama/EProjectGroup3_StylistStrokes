@@ -4,10 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import "../styles/gallery_page.css"
 import "../styles/font.css"
 import introArt from "../assets/images/gallery_header.jpg"
-
-
 import GalleryDisplay from "../components/Gallery_page/g_page_display";
 import HighlightDisplay from "../components/Gallery_page/highlight_display";
+import VideoPage from "./Videopage";
 
 const Gallery = () => {
   return <>
@@ -42,6 +41,7 @@ const Gallery = () => {
                     </Col>
                     
                 </Row>
+                <VideoPage/>
             </motion.div>
             
         </Container>
