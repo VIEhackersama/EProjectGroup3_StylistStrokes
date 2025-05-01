@@ -83,6 +83,7 @@ const Header = () => {
                     }
                     style={{
                       "--strokeimg": `url(${strokeUnderline})`
+                    }}
                     onClick={() => setIsOpen(false)}
                   >
                     {item.display}
@@ -112,7 +113,8 @@ const Header = () => {
               ) : (
                 <>
                   <Link to="/login" className="w-100">
-                      <div style={{"--brush-image": `url(${penBrush})`,}}className="btn-header2 btn-with-image text-center w-100">
+                      <div style={{
+                        "--brush-image": `url(${penBrush})`,}}className="btn-header2 btn-with-image text-center w-100">
                       <label className="fw-semibold aclonica-regular text-black">Login</label>
                     </div>
                   </Link>
