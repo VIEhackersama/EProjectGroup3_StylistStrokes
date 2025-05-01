@@ -83,7 +83,6 @@ const Header = () => {
                     }
                     style={{
                       "--strokeimg": `url(${strokeUnderline})`
-                    }}
                     onClick={() => setIsOpen(false)}
                   >
                     {item.display}
