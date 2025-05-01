@@ -19,7 +19,7 @@ export default function RegisterPage({
             className="d-flex justify-content-center align-items-center py-5"
             style={{
                 backgroundImage:
-                    "url(https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yoodle_calligraphy_homepage_promo.2e16d0ba.fill-1440x810.png)",
+                    `url(${require('../../assets/images/bg_register.png')})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
@@ -36,7 +36,7 @@ export default function RegisterPage({
                     <div
                         className="col-md-6 rounded-start"
                         style={{
-                            backgroundImage: "url('https://piecescalligraphy.com/wp-content/uploads/2016/01/img_20160117_190542.jpg')",
+                            backgroundImage: `url(${require('../../assets/images/register_card.jpg')})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             borderTopLeftRadius: "0.5rem", 

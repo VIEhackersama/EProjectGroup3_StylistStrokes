@@ -18,8 +18,8 @@ export default function LoginPage({
         <div
             className="d-flex justify-content-center align-items-center p-5 "
             style={{
-                backgroundImage:
-                    "url(https://www.lettering-daily.com/wp-content/uploads/2018/09/Modern-Calligraphy-Lettering-Daily-Cover-Photo.webp)",
+                backgroundImage: `url(${require('../../assets/images/login_bg.webp')})`,
+                // backgroundImage: "url(https://cdn.britannica.com/09/157609-050-54CC600B/Hand-with-pencil-writing-on-page.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
@@ -34,16 +34,16 @@ export default function LoginPage({
                     // backgroundImage: "url(https://i.ytimg.com/vi/9fmjCi6Cb_o/maxresdefault.jpg)",
                     //  backgroundPosition: "center", 
                     // backgroundSize: "",
-                    backgroundImage: "linear-gradient( #60B5FF,rgb(3, 28, 103) 100%)"
+                    backgroundImage: "linear-gradient(#ffe6c5,rgb(179, 104, 13) 100%)"
                 }
                 }
             >
                 <div
                     className="d-flex justify-content-center align-items-center mb-4"
                 >
-                    <img src={logo} alt="" style={{ filter: "invert(0%)", width: "300px" }} />
+                    <img src={logo} alt="" style={{ filter: "invert(00%)", width: "300px" }} />
                 </div>
-                <h3 style={{ color: "#FFA500" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Already have an account? Welcome back!</h3>
+                <h3 style={{ color: "#9c4414" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Already have an account? Welcome back!</h3>
                 <div className="d-flex justify-content-center">
                     {/* <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <img
@@ -54,7 +54,7 @@ export default function LoginPage({
                     <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100%" }}>
                         <form onSubmit={LoginAPI} style={{ maxWidth: "900px", width:"100%" }}>
                             <div className="mb-3">
-                                <label style={{ color: "#edc891" }} className="form-label h3 pattaya-regular">Email</label>
+                                <label style={{ color: "#9c4414" }} className="form-label h3 pattaya-regular">Email</label>
                                 <input
                                     type="text"
                                     className="form-control border border-info-subtle rounded-3"
@@ -65,14 +65,14 @@ export default function LoginPage({
                                 />
                             </div>
                             <div className="mb-3">
-                                <label style={{ color: "#edc891" }} className="form-label h3 pattaya-regular">Password</label>
+                                <label style={{ color: "#9c4414" }} className="form-label h3 pattaya-regular">Password</label>
                                 <input
                                     type={show ? "text" : "password"}
                                     className="form-control border border-info-subtle rounded-3"
                                     value={password}
                                     onChange={(e) => SetPassword(e.target.value)}
                                     required
-                                    placeholder="Input password here. We are not watching :>"
+                                    placeholder="Everyone has the right to freedom of thought"
                                 />
                                 <div className="form-check mb-3 py-2">
                                     <input
@@ -80,7 +80,7 @@ export default function LoginPage({
                                         type="checkbox"
                                         required
                                     />
-                                    <label className="text-white form-check-label" htmlFor="acceptTos">
+                                    <label className="text-black form-check-label" htmlFor="acceptTos">
                                         Remember password?
                                     </label>
                                 </div>
