@@ -1,7 +1,37 @@
 .img_border{
-    border-top: 1px solid goldenrod;
-    border-bottom: 1px solid goldenrod;
+
+    border-bottom: 1px solid rgb(216, 140, 83);
 }
 .info_border{
-    border-right: 1px solid goldenrod;
+    border-right: 1px solid rgb(216, 140, 83);
 }
+
+/* Keyframes để di chuyển gradient */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.back {
+    color: rgb(216, 140, 83);
+    display: inline-block;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.back:hover {
+    background: linear-gradient(45deg, rgb(216, 140, 83), red);
+    background-size: 300%;
+    animation: gradientMove 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

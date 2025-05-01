@@ -7,6 +7,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import "../../styles/font.css";
 import "../../styles/gallery_page.css"
+import { motion } from 'framer-motion';
 
 // Chạy những cái này để hiện icon
 // npm i --save @fortawesome/fontawesome-svg-core
@@ -62,32 +63,59 @@ const HighlightDisplay=()=>{
             prevIndex === styleKeys.length - 1 ? 0 : prevIndex + 1
         );
     };
+    function getFont(style){
+        switch (style){
+            case "China":
+                return "alegreya-regular";
+            case "Western":
+                return "mea-culpa-regular";
+            case "Arabic":
+                return "quintessential-regular";
+            case "Vietnam":
+                return "comforter-regular";
+            case "Korea":
+                return "arizonia-regular";
+            case "Japan":
+                return "updock-regular"
+            default:
+                return ''
+        }
+    }
     
 
     return<>
         <div className='row justify-content-center text-center '>
-            <h1 className='region'>{currentRegion}</h1>
+            <h1 className={`region ${getFont(currentRegion)}`}>{currentRegion}</h1>
 
             <div className="row justify-content-around ">
-                <div className='col-1 justify-content-center d-flex flex-column '>
+                <motion.div className='col-1 justify-content-center d-flex flex-column '
+                    whileTap={{scale:1.5}}
+                    whileHover={{scale:1.2}}
+                >
                     <FontAwesomeIcon className='arrow-icon' onClick={handlePrev} icon={faChevronLeft}/>
-                </div>
+                </motion.div>
                 <div className='col-9 row-cols-1 row-cols-md-3 g-2 justify-content-center d-flex flex-row'>
                     {currentArts.slice(0, 3).map((art) => (
-                        <div className="col-4" key={art.id}>
+                        <div className="col-2" key={art.id}>
                             <GalHighlights art={art}/>
                         </div>
                     ))}
                 </div>
                 
-                <div className='col-1 justify-content-center d-flex flex-column '>
+                <motion.div className='col-1 justify-content-center d-flex flex-column '
+                    whileTap={{scale:1.5}}
+                    whileHover={{scale:1.2}}
+                    
+                >
                     <FontAwesomeIcon className='arrow-icon' onClick={handleNext} icon={faChevronRight}/>
-                </div>
+                </motion.div>
             </div>
             {/* Indicators */}
             <div className="d-flex justify-content-center mt-3">
                 {styleKeys.map((_, index) => (
-                <button
+                <motion.button
+                    whileHover={{scale:1.2}}
+                    whileTap={{scale:1}}
                     key={index}
                     onClick={() => handleIndicatorClick(index)}
                     className={`mx-1 rounded-circle`}
@@ -95,7 +123,7 @@ const HighlightDisplay=()=>{
                     width: '12px',
                     height: '12px',
                     border: '0',
-                    backgroundColor: index === currentStyleIndex ? 'goldenrod' : 'gold',
+                    backgroundColor: index === currentStyleIndex ? 'gold' : 'rgb(234, 183, 101)',
                     opacity: 0.8,
                     }}
                 />
