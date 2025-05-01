@@ -10,7 +10,7 @@ export default function AboutTitle({title,desc}) {
             <div className="col col-lg-8 text-center">
                 <h1
                     className="mb-2 fw-medium playwrite-mx"
-                    style={{ color: "orange", fontStyle: "oblique" }}
+                    style={{ color: "red", fontStyle: "oblique" }}
                 >
                     {title}
                 </h1>
