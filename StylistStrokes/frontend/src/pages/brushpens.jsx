@@ -23,7 +23,7 @@ function BrushPen() {
         </p>
 
         <div className="mt-5 text-center">
-          <a href="#" className="btn btn-gradient-custom px-4 py-2">Start now</a>
+          <a href="/contact" className="btn btn-gradient-custom px-4 py-2">Enroll now !</a>
         </div>
       </div>
     </div>
