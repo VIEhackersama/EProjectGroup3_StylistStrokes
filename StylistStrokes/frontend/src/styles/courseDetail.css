@@ -1,0 +1,31 @@
+.course-detail {
+    max-width: 900px;
+  }
+  
+  .banner {
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner-overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .custom-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .custom-list li::before {
+    content: "✓";
+    color: #2193b0;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  

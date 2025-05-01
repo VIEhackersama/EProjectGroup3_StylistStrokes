@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
+
 import Home from './../pages/Home';
 import Caligraphy from './../pages/Caligraphy';
 import CaligraphyDeltails from './../pages/CaligraphyDetails';
@@ -19,11 +20,15 @@ import ArabicCalligraphy from "../pages/ArabicCalligraphy";
 import ChinaCalligraphy from "../pages/ChinaCalligraphy";
 import JapanCalligraphy from "../pages/JapanCalligraphy";
 import WesternCalligraphy from "../pages/WesternCalligraphy";
+import Beginner from "../pages/beginner";
+import BrushPen from "../pages/brushpens";
+import Advanced from "../pages/advanced";
 
 import { AnimatePresence } from "framer-motion";
+import Learnlist from "../components/learnlist";
 
 const Routers = () => {
-  const location = useLocation(); // <== thêm dòng này để lấy location
+  const location = useLocation(); 
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
@@ -40,14 +45,16 @@ const Routers = () => {
         <Route path="/gallery/:id" element={<GalleryDetails />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/videos" element={<Videolist />} />
-
-        {/* Các trang riêng cho từng loại calligraphy */}
         <Route path="/vietnam-calligraphy" element={<VietnamCalligraphy />} />
         <Route path="/korean-calligraphy" element={<KoreanCalligraphy />} />
         <Route path="/arabic-calligraphy" element={<ArabicCalligraphy />} />
         <Route path="/china-calligraphy" element={<ChinaCalligraphy />} />
         <Route path="/japan-calligraphy" element={<JapanCalligraphy />} />
         <Route path="/western-calligraphy" element={<WesternCalligraphy />} />
+        <Route path="/" element={<Learnlist/>}/>
+        <Route path="/beginner" element={<Beginner />} />
+        <Route path="/brushpen" element={<BrushPen />} />
+        <Route path="/advanced" element={<Advanced />} />
       </Routes>
     </AnimatePresence>
   );
