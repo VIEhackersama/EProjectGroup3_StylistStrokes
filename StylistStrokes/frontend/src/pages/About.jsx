@@ -24,7 +24,7 @@ export default function AboutPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
             >
-                <AboutTitle desc={'StylistStrokes: The Beauty of legacy and technology interwined'} title={'Our Mission'}></AboutTitle>
+            <AboutTitle desc={'StylistStrokes: The Beauty of legacy and technology interwined'} title={'Our Mission'}></AboutTitle>
                 <div className="row justify-content-center h1 mb-5"><FaPaperPlane></FaPaperPlane></div>
             </motion.div>
             <motion.div className="container py-5"
@@ -74,6 +74,5 @@ export default function AboutPage() {
             </div>
 
         </div>
-
     );
 }
