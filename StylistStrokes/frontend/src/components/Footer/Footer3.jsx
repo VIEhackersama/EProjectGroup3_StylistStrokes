@@ -4,7 +4,7 @@ import './footer.css'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
 
 import { Link, link } from 'react-router-dom'
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logoss.png"
 
 const quick__links=[
   {
@@ -52,7 +52,7 @@ const quick__links2=[
   }
 ]
 
-const Footer = () => {
+export default function Footer_3 ()  {
   
   const year = new Date().getFullYear()
    
@@ -152,5 +152,3 @@ const Footer = () => {
     </Container>
   </footer>
 };
-
-export default Footer;
