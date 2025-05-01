@@ -31,6 +31,7 @@ function Learnlist() {
                 image={learn.image}
                 name={learn.name}
                 des={learn.des}
+                price={learn.price}
               />
             </Link>
           </div>

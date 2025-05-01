@@ -16,9 +16,12 @@ export default function AboutMiddle() {
                 </div>
                 <div className='row mt-3 gy-2'>
                     <div className='col-12'>
-                        <div className='btn border-success playwrite-cu p-3 px-5 fw-semibold'>
-                            <h5>Learn more!</h5>
-                        </div>
+                    <a href="/learn" className="text-decoration-none">
+                        <div className="btn border-success playwrite-cu p-3 px-5 fw-semibold">
+                            <h5 className="mb-0">Learn more!</h5>
+                         </div>
+                    </a>
+
                     </div>
                 </div>
             </div>
