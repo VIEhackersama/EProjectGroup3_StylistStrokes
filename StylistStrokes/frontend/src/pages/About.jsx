@@ -17,8 +17,14 @@ export default function AboutPage() {
             backgroundSize: "cover",       
             backgroundPosition: "center ",
          }}
+        // style={{ backgroundColor: "#e8d4ca
         // style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}
         >
+            <img
+                src="https://greatpeopleinside.com/wp-content/uploads/2019/11/team-building-1030x579.jpg"
+                className="img-fluid pt-3 justify-content-center d-block shadow mx-auto"
+                style={{ width: "100%", height: "400px", borderRadius: "10px", objectFit: "cover" }}
+            ></img> 
             <motion.div className="container pt-5"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
