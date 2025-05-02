@@ -1,10 +1,9 @@
 import axios from "axios";
 import { useState } from "react";
-import "./font.css"
-import "./contact.css"
+import "./font.css";
+import "./contact.css";
 
-export default function ContactForm()
-{   
+export default function ContactForm() {
     const [formData, setFormData] = useState({
         full_name: "",
         company_email: "",
@@ -21,18 +20,15 @@ export default function ContactForm()
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("/form", formData, {
+            await axios.post("http://127.0.0.1:8000/api/form", formData, {
                 headers: {
                     "Content-Type": "application/json",
-                    // Nếu cần CSRF:
-                    // "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').content,
-                }
+                },
             });
             alert("Form submitted successfully!");
             setFormData({
                 full_name: "",
                 company_email: "",
-                job_title: "",
                 country: "",
                 business_type: "",
                 comments: "",
@@ -42,53 +38,59 @@ export default function ContactForm()
             alert("Failed to submit the form.");
         }
     };
+
     return (
         <div className="container p-4">
             <form onSubmit={handleSubmit} className="form-container">
-                <p className="mb-3 fw-bold text-danger">
-                    <div>* Each submission may take days for approval. Kindly be patient and thank you!</div>
+                <p className="mb-3 h4 fw-bolder text-danger">
+                    * Each submission may take days for approval. Kindly be patient and thank you for understanding 💖
                 </p>
-                {[
-                    { label: "Full Name", name: "full_name" },
-                    { label: "Email", name: "company_email", type: "email" },
-                ].map(({ label, name, type = "text" }) => (
-                    <div className="mb-3" key={name}>
-                        <label className="fw-semibold">{label}</label>
-                        <input
-                            type={type}
-                            className="form-control"
-                            name={name}
-                            value={formData[name]}
-                            onChange={handleChange}
-                            required
-                            placeholder="This field must not be left empty"
-                        />
-                    </div>
-                ))}
+
+                {[{ label: "Full Name", name: "full_name" },
+                { label: "Email", name: "company_email", type: "email" }]
+                    .map(({ label, name, type = "text" }) => (
+                        <div className="mb-3" key={name}>
+                            <label className="fw-semibold">{label}</label>
+                            <input
+                                type={type}
+                                className="form-control"
+                                name={name}
+                                value={formData[name]}
+                                onChange={handleChange}
+                                required
+                                placeholder="This field must not be left empty"
+                            />
+                        </div>
+                    ))}
 
                 <div className="mb-3">
-                    <label className="fw-semibold">Country</label>
+                    <label className="fw-semibold">Country (Region)</label>
                     <select className="form-control" name="country" value={formData.country} onChange={handleChange} required>
-                        <option value="">United State</option>
-                        <option>United States</option>
-                        <option>Vietnam</option>
-                        <option>Other</option>
+                        <option>United States, Canada - North America</option>
+                        <option>Vietnam, Thailand, Indonesia, Philippines, Malaysia - South East Asia</option>
+                        <option>Japan, South Korea, Hong Kong - East Asia</option>
+                        <option>India, Bangladesh, Sri Lanka - South Asia</option>
+                        <option>United Kingdom, France, Germany, Spain, Turkiye - Europe</option>
+                        <option>Brazil - South America</option>
+                        <option>None of above countries or regions (please specify in below)</option>
                     </select>
                 </div>
 
                 <div className="mb-3">
-                    <label className="fw-semibold">Business Type</label>
+                    <label className="fw-semibold">What's your job or business type?</label>
                     <select className="form-control" name="business_type" value={formData.business_type} onChange={handleChange} required>
-                        <option value="">Agency</option>
                         <option>Agency</option>
                         <option>Advertiser</option>
                         <option>Affiliate</option>
-                        <option>None/Other</option>
+                        <option>Teacher</option>
+                        <option>Student</option>
+                        <option>I want to join the StylistStrokes team!</option>
+                        <option>Other (please specify in below)</option>
                     </select>
                 </div>
 
                 <div className="mb-3">
-                    <label className="fw-semibold">How can we help?</label>
+                    <label className="fw-semibold">How can we help? (Please provide enough and detailed information)</label>
                     <textarea
                         className="form-control"
                         rows="4"
@@ -125,9 +127,8 @@ export default function ContactForm()
                         I want to receive updates and promotions via email (Optional)
                     </label>
                 </div>
-
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
         </div>
-    )
+    );
 }

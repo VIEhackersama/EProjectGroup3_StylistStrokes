@@ -19,9 +19,9 @@ const navLinks = [
 
 const Header = () => {
   const [user, setUser] = useState(null);
-
+  const location = useLocation();
   useEffect(() => {
-    const token = localStorage.getItem("access_token");
+    const token = localStorage.getItem("access_token"); 
     if (!token) return;
 
     axios.get("http://localhost:8000/api/user", {
@@ -34,10 +34,9 @@ const Header = () => {
         console.error("Auth error:", err);
         setUser(null);
       });
-  }, []);
+  }, [location.pathname]);
   const headerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
   const toggle = () => setIsOpen(!isOpen);
   useEffect(() => {
     const handleScroll = () => {
@@ -60,7 +59,6 @@ const Header = () => {
   return (
     <header className="header grad-header shadow" ref={headerRef}>
       <Navbar expand="lg" className="container">
-        {/* Logo */}
         <div className="d-flex align-items-center">
           <Link to="/" className="navbar-brand me-auto">
             <img src={logo} alt="" style={{ filter: "invert(00%)" }} className="logo-img" />
@@ -88,22 +86,17 @@ const Header = () => {
                 </NavItem>
               ))}
             </Nav>
-            <div className="nav__btns d-flex flex-column flex-lg-row gap-3 align-items-center">
+            <div className="nav__btns d-flex flex-column flex-lg-row gap-5 align-items-center">
               {user ? (
                 <>
-                  <div className="text-black fw-semibold aclonica-regular">
-                    👤 {user.name}
+                  <div className="text-center text-black fw-semibold aclonica-regular">
+                    Hello, {user.name}
                   </div>
-                  <Button
-                    className="btn-header2"
-                    onClick={() => {
-                      localStorage.removeItem("access_token");
-                      setUser(null);
-                      window.location.reload();
-                    }}
-                  >
-                    Logout
-                  </Button>
+                  <Link to="/login" className="">
+                    <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center">
+                      <label className="fw-semibold aclonica-regular text-black">Log out</label>
+                    </div>
+                  </Link>
                 </>
               ) : (
                 <>
