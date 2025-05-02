@@ -94,9 +94,9 @@ const HighlightDisplay=()=>{
                 >
                     <FontAwesomeIcon className='arrow-icon' onClick={handlePrev} icon={faChevronLeft}/>
                 </motion.div>
-                <div className='col-9 row-cols-1 row-cols-md-3 g-2 justify-content-center d-flex flex-row'>
+                <div className='col-9 g-4 m-2 justify-content-center d-flex flex-wrap'>
                     {currentArts.slice(0, 3).map((art) => (
-                        <div className="col-2" key={art.id}>
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-4 mb-4 mx-2" key={art.id}>
                             <GalHighlights art={art}/>
                         </div>
                     ))}
