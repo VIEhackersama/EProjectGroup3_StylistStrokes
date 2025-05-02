@@ -55,7 +55,7 @@ const GalleryDetails = () => {
                         <h2 className={`fw-bold ${getFont(art.style)} card-title text-start mt-2`}>{art.name}</h2><br/>
                         <h4 className="fw-semibold">A masterpiece of {art.style}</h4>
                         <h4 className="lead fst-italic">by {art.author} in {art.period}</h4>
-                        <p className="fs-6">{art.s_des}</p>
+                        <p className="fs-6">{art.l_des}</p>
                     </div>
                 </div>
                 <div className="row text-start mt-2 mb-4">

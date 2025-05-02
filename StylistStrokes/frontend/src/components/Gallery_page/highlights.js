@@ -30,7 +30,7 @@ const GalHighlights = ({art}) => {
             
                 <div className="card border-0 shadow-none p-0 art-card" 
                 style={{
-                    height:"300px",
+                    height:"300px"
                 }}
                 >
                     <img className='img-fluid card-img-top w-100 h-100 object-fit-cover rounded-0' src={require(`../../assets/images/Gallery/${art.image}`)} alt={art.name}
