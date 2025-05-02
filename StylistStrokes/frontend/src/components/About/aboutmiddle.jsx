@@ -4,7 +4,7 @@ export default function AboutMiddle() {
     return (
         <div className='d-flex row'>
             <div className="col-md-6 order-md-1">
-                <h3 className="fs-2 mb-4 fw-semibold">
+                <h3 className="fs-2 mb-1 fw-semibold">
                     MEET OUR INCREDIBLE TEAM
                 </h3>
                 <p className="mb-4">
@@ -14,15 +14,21 @@ export default function AboutMiddle() {
                     <AboutNumber n='2 Months' text='The beginning of the journey'></AboutNumber>
                     <AboutNumber n='2000+' text='Active crews around the world'></AboutNumber>
                 </div>
+                <div className="row mt-3 gy-3">
+                    <AboutNumber n='Over 999' text='Crews around the world'></AboutNumber>
+                    <AboutNumber n='1.000.000' text='Our goal of number members'></AboutNumber>
+                </div>
                 <div className='row mt-3 gy-2'>
                     <div className='col-12'>
 
-                    <a href="/learn" className="text-decoration-none">
+                   
+
+                    </div>
+                     <a href="/learn" className=" text-decoration-none">
                         <div className="btn border-success playwrite-cu p-3 px-5 fw-semibold">
                             <h5 className="mb-0">Learn more!</h5>
                          </div>
                     </a>
-                    </div>
                 </div>
             </div>
             <div className='col-md-6 order-md-2'>

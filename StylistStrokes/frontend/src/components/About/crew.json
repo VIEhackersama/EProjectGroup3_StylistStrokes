@@ -3,30 +3,45 @@
         "name": "Huy Le Nhat",
         "role": "Calligraphy Artist",
         "image": "/image/huyle.jpeg",
-        "description": "A dumb but enthusiast crew. Often comes up with witty but effective dicisions"
+        "description": "A dumb but enthusiast crew. Often comes up with witty but effective dicisions",
+        "fbdesc":"huy-uii",
+        "instadesc":"huy.le.nhat.98",
+        "redditdesc":"ngu le"
     },
     {
-        "name": "Alice Nguyen",
-        "role": "Calligraphy Artist",
-        "image": "/image/huyle.jpeg",
-        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+      "name": "Alice Nguyen",
+      "role": "Calligraphy Artist",
+      "image": "/image/huyle.jpeg",
+      "fbdesc": "huy-uii",
+      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
+      "instadesc": "huy.le.nhat.98",
+      "redditdesc": "ngu le"
     },
     {
-        "name": "Alice Nguyen",
-        "role": "Calligraphy Artist",
-        "image": "/image/huyle.jpeg",
-        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+      "name": "Alice Nguyen",
+      "role": "Calligraphy Artist",
+      "image": "/image/huyle.jpeg",
+      "fbdesc": "huy-uii",
+      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
+      "instadesc": "huy.le.nhat.98",
+      "redditdesc": "ngu le"
     },
     {
-        "name": "Alice Nguyen",
-        "role": "Calligraphy Artist",
-        "image": "/image/huyle.jpeg",
-        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+      "name": "Alice Nguyen",
+      "role": "Calligraphy Artist",
+      "image": "/image/huyle.jpeg",
+      "fbdesc": "huy-uii",
+      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
+      "instadesc": "huy.le.nhat.98",
+      "redditdesc": "ngu le"
     },
     {
-        "name": "Alice Nguyen",
-        "role": "Calligraphy Artist",
-        "image":"/image/huyle.jpeg",
-        "description": "Alice is a passionate calligrapher who brings elegance to every stroke."
+      "name": "Alice Nguyen",
+      "role": "Calligraphy Artist",
+      "image": "/image/huyle.jpeg",
+      "fbdesc": "huy-uii",
+      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
+      "instadesc": "huy.le.nhat.98",
+      "redditdesc": "ngu le"
     }
 ]
