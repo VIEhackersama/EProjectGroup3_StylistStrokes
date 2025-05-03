@@ -1,4 +1,4 @@
-export default function Heroabout()
+export default function Abouthero()
 {
     return(
         <div>
