@@ -3,7 +3,7 @@
   }
   
   .banner {
-    height: 280px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -28,4 +28,62 @@
     font-weight: bold;
     margin-right: 10px;
   }
+  .btn-gradient-custom.enroll-btn {
+    background: linear-gradient(135deg, #ff6b6b, #f8c291);
+    color: white;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-gradient-custom.enroll-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+  }
+  
+  .custom-list li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+  }
+  .custom-image {
+    height: 450px; /* tăng chiều cao tại đây */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* thêm hiệu ứng đổ bóng */
+  }
+  /* Video Container */
+.video-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1); /* Tạo nền nhạt cho video */
+  border-radius: 15px; /* Bo góc cho video */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Thêm bóng mờ nhẹ */
+  transition: all 0.3s ease; /* Hiệu ứng mượt mà */
+}
+
+.video-container iframe {
+  border-radius: 10px; /* Bo góc video */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bóng mờ cho video */
+}
+
+.video-container:hover iframe {
+  transform: scale(1.05); /* Khi di chuột vào video, video sẽ phóng to một chút */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Tăng độ đậm của bóng mờ */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 300px; /* Điều chỉnh chiều cao video trên màn hình nhỏ */
+  }
+}
+
+  
   
