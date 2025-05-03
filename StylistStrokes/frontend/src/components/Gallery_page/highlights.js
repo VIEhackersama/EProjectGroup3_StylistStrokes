@@ -37,7 +37,7 @@ const GalHighlights = ({art}) => {
                     ></img>
                     <div className="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                     <div className="card-img-overlay align-self-end text-start" style={{zIndex:'2'}}>
-                        <h4 className={`fw-bold text-white ${getFont(art.style)} art-name`}>{art.name}</h4>
+                        <h4 className={`fw-bold text-white ${getFont(art.style)} art-name fs-4`}>{art.name}</h4>
                         <p className="text-white art-description m-0 fs-6">{art.s_des}</p>
                     </div>
                 </div>

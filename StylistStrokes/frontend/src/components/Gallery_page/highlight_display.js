@@ -87,16 +87,16 @@ const HighlightDisplay=()=>{
         <div className='row justify-content-center text-center '>
             <h1 className={`region ${getFont(currentRegion)}`}>{currentRegion}</h1>
 
-            <div className="row justify-content-around ">
+            <div className="row justify-content-center ">
                 <motion.div className='col-1 justify-content-center d-flex flex-column '
                     whileTap={{scale:1.5}}
                     whileHover={{scale:1.2}}
                 >
                     <FontAwesomeIcon className='arrow-icon' onClick={handlePrev} icon={faChevronLeft}/>
                 </motion.div>
-                <div className='col-9 g-4 m-2 justify-content-center d-flex flex-wrap'>
+                <div className='col-9 m-2 justify-content-center d-flex flex-wrap'>
                     {currentArts.slice(0, 3).map((art) => (
-                        <div className="col-12 col-sm-6 col-md-4 col-lg-4 mb-4 mx-2" key={art.id}>
+                        <div className="col-md-12 col-lg-3 mb-4 mx-3" key={art.id}>
                             <GalHighlights art={art}/>
                         </div>
                     ))}

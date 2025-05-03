@@ -38,7 +38,13 @@ const GalleryDetails = () => {
     
     
     return <>
-        <section>
+        <section 
+             style={{ backgroundImage: `url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2JhY2tncm91bmRqb2IxNzE5LWJhY2tncm91bmQtMDIuanBn.jpg)`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",       
+                backgroundPosition: "top ",
+             }}
+        >
             <div  className="container">
                 <div className="row img_border">
                     <Link to='/gallery' className='text-decoration-none'>
@@ -73,12 +79,7 @@ const GalleryDetails = () => {
                 
             </div>
         </section>
-        <section>
-            <div className=" container">
-                
-            </div>
-            
-        </section>
+        
     </>
 };
 
