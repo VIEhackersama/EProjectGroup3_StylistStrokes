@@ -24,8 +24,6 @@ export default function Abouthero()
                         <label style={{color:"brown"}}>Learn more!</label>
                     </a>
                 </div>
-
-                
             </div>
         </div>
     );
