@@ -1,36 +1,36 @@
 [
     {
         "id":1,
-        "name":"Mid-Autumn Letter",
+        "name":"Cold Food Observance",
         "image":"huangzhou_han_shi.jpg",
         "style":"China",
-        "l_des":"This piece of Chinese calligraphy by Zhao Mengfu features bold, flowing cursive script (xingshu) written in black ink on aged paper. The text is an excerpt from a Tang dynasty poem, elegantly expressing the natural beauty and emotions associated with late spring or early autumn. Zhao’s brushwork balances power and grace, reflecting his classical training and innovation as a leading calligrapher of the Yuan dynasty. The red seals add a touch of official authority and artistic signature, while the vertical layout emphasizes traditional Chinese aesthetics.",
-        "author":"Zhao Mengfu",
+        "l_des":"Cold Food Observance is a powerful calligraphic work by Su Shi, a legendary poet, statesman, and calligrapher of the Northern Song dynasty. Composed during his time in exile, the writing captures his emotional depth through expressive brushstrokes and poignant verse. The poem reflects on the Cold Food Festival, traditionally a time of remembrance, and becomes a medium for the artist’s introspection. This work is revered not only for its literary beauty but also for the fluid, confident, and dynamic calligraphy that reveals the inner world of the writer.",
+        "author":"Su Dongpo",
         "popularity":100,
-        "period":"1300",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"circa 1082",
+        "s_des":"This piece is one of the most renowned examples of Chinese calligraphy from the Song dynasty. Written in running script (xíngshū), it is a personal reflection by the scholar Su Shi during a period of political exile. The writing expresses sorrow, nostalgia, and resilience in the face of hardship."
     },
     {
         "id":2,
         "name":"Zhong Qiu Tie",
         "image":"zhong_qiu_tie.jpg",
         "style":"China",
-        "l_des":"This calligraphy piece by Wang Xianzhi, son of the legendary Wang Xizhi, is a masterpiece of semi-cursive script (xingshu). The work is a short letter expressing longing and seasonal sentiment, traditionally believed to have been written during the Mid-Autumn Festival. The brushwork is fluid, elegant, and profoundly expressive. The piece is also famous for being surrounded by numerous imperial seals and collector stamps, reflecting its revered status across Chinese history.",
+        "l_des":"Zhong Qiu Tie is one of the most famous surviving works attributed to Wang Xianzhi, a revered calligrapher of the Eastern Jin dynasty. Composed as a personal letter, the work is valued for both its literary sentiment and calligraphic excellence. The elegant strokes, natural rhythm, and spontaneity reflect the artistic evolution from his father Wang Xizhi's style. The piece captures a moment of human connection, written with warmth and fluidity, and has been admired and preserved through centuries by emperors and collectors alike.",
         "author":"Wang Xianzhi",
         "popularity":100,
         "period":"4th century CE",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This celebrated calligraphy piece by Wang Xianzhi, son of the great Wang Xizhi, is a brief letter written during the Mid-Autumn Festival. The flowing, expressive brushwork demonstrates his mastery of semi-cursive script and emotional depth."
     },
     {
         "id":3,
-        "name":"Islamic Calligraphy",
+        "name":"Hu Calligraphy Circle",
         "image":"turkish.jpg",
         "style":"Arabic",
         "l_des":"This beautiful circular calligraphy composition, likely by modern Turkish master Mehmet Özçay, showcases a geometric arrangement of Arabic or Ottoman script forming a floral or mandala-like structure. The central motif resembles a Celtic knot or interwoven loop, while the surrounding text radiates outward in a harmonious circular form. The script style is possibly Thuluth, known for its elegance and ornamental flow, often used in architectural decoration and religious manuscripts. The work blends traditional techniques with modern aesthetics.",
         "author":"Mehmet Özçay",
         "popularity":100,
         "period":"circa 2000s–2010s",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This circular artwork centers around the Arabic word 'Hu' (هو), meaning 'He' — a reference to God in Islamic mysticism. The script spirals in a symmetrical design, blending spiritual symbolism with geometric elegance."
 
     },
     {
@@ -42,7 +42,7 @@
         "author":"Reza Abedini",
         "popularity":100,
         "period":"2004",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This typographic poster by Iranian designer Reza Abedini blends Persian calligraphy with contemporary design. It advertises his exhibition 'Siah Mashq', meaning 'black practice', referencing a traditional Persian calligraphy exercise."
         
     },
     {
@@ -241,6 +241,53 @@
         "name":"Woman surrounded by calligraphy",
         "image":"fancy_arb.jpg",
         "style":"Arabic",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+    },
+    {
+        "id":22,
+        "name":"Woman surrounded by calligraphy",
+        "image":"i_love_vn.jpg",
+        "style":"Vietnam",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":23,
+        "name":"Woman surrounded by calligraphy",
+        "image":"peace_vn.jpg",
+        "style":"Vietnam",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":24,
+        "name":"Woman surrounded by calligraphy",
+        "image":"tiger_kr.jpg",
+        "style":"Korea",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":25,
+        "name":"Woman surrounded by calligraphy",
+        "image":"squiggly_kr.jpg",
+        "style":"Korea",
         "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
         "author":"blah blah",
         "popularity":100,
