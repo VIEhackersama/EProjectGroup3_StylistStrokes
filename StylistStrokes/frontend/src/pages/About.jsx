@@ -1,87 +1,100 @@
-import React from "react";
-import "../styles/courseDetail.css";
-
-function Advanced() {
+import AboutMiddle from "../components/About/aboutmiddle";
+import AboutTitle from "../components/About/abouttitle";
+import Aboutcrew from "../components/About/aboutcrew";
+import { motion } from "framer-motion";
+import { BsPeopleFill } from "react-icons/bs";
+import { FaHandshakeSimple } from "react-icons/fa6";
+import { FaPaperPlane, FaHeart } from "react-icons/fa";
+import MasonryImagesGallery from "../components/About/MasonryImagesGallery";
+import { Col, Container, Row } from "reactstrap";
+import YoutubeEmbed from "../components/youtube";
+import { FaXTwitter } from "react-icons/fa6";
+import { SlSocialInstagram, SlSocialFacebook, SlSocialReddit } from "react-icons/sl";
+export default function AboutPage() {
   return (
-    <div className="course-detail container py-5">
-      {/* Banner */}
-      <div
-        className="banner rounded-4 mb-4"
-        style={{ backgroundImage: "url('/image/advanced.jpg')" }}
+    <div style={{
+      backgroundImage: `url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2JhY2tncm91bmRqb2IxNzE5LWJhY2tncm91bmQtMDIuanBn.jpg)`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "center ",
+    }}
+    // style={{ backgroundColor: "#e8d4ca
+    // style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}        // src="https://greatpeopleinside.com/wp-content/uploads/2019/11/team-building-1030x579.jpg"
+
+    >
+      <div className="position-relative w-100 d-flex flex-column justify-content-center align-items-center">
+        <div
+          className="position-absolute top-0 start-0 w-100 h-100"
+          style={{
+            backgroundImage: `url(https://greatpeopleinside.com/wp-content/uploads/2019/11/team-building-1030x579.jpg)`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            filter: "brightness(50%)",
+            zIndex: 1,
+          }}
+        ></div>
+        <div className="position-relative text-center" style={{ zIndex: 2 }}>
+          <p className="container text-white">
+            <br></br><div className="h1">MEET OUR TEAM</div><br></br>
+          </p>
+        </div>
+      </div>
+      <motion.div className="container pt-5"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
       >
-        <div className="banner-overlay d-flex align-items-center justify-content-center">
-          <h1 className="text-white fw-bold display-5">Advanced Calligraphy</h1>
+        <AboutTitle desc={'StylistStrokes: The Beauty of legacy and technology interwined'} title={'Our Mission'}></AboutTitle>
+        <div className="row justify-content-center m-4 py-1 h5 text-center">We're a sincere team with straightforward vision and goal. With this in mind, we began to gather people together in April 2025. From there, the crew quickly expanded to 4 members, and we decide upon the name "StylistStrokes"<FaPaperPlane className="m-3" size={80}></FaPaperPlane></div>
+      </motion.div>
+      <motion.div className="container py-5"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}>
+        <AboutMiddle></AboutMiddle>
+      </motion.div>
+      <div className="container pt-5">
+        <AboutTitle desc={"We aren't just somebody who merely have interest in calligraphy. We also are the desire of people"} title={'Our team'}></AboutTitle>
+        <div className="row justify-content-center m-4 py-1 h5 text-center">We're a sincere team with straightforward vision and goal. With this in mind, we began to gather people together in April 2025. From there, the crew quickly expanded to 4 members, and we decide upon the name "StylistStrokes"<BsPeopleFill className="m-3" size={80}></BsPeopleFill></div>
+        <Aboutcrew></Aboutcrew>
+      </div>
+      <div className="container pt-5">
+        <AboutTitle desc={"We see. We do. We connect. We maintain tradition. And we leave nobody behind!"} title={'Our legacy'}></AboutTitle>
+        <div className="row justify-content-center m-4 py-1 h5 text-center">We're a sincere team with straightforward vision and goal. With this in mind, we began to gather people together in April 2025. From there, the crew quickly expanded to 4 members, and we decide upon the name "StylistStrokes"<FaHandshakeSimple className="m-3" size={80}></FaHandshakeSimple></div>
+        <section>
+          <Container>
+            <Row>
+              <Col lg='12' >
+              </Col>
+              <MasonryImagesGallery />
+            </Row>
+          </Container>
+        </section>
+      </div>
+      <div className="container pt-5">
+        <AboutTitle desc={"Never gonna give you up. Never gonna let you down. Never gonna go around and dessert you"} title={'Join Us Now'}></AboutTitle>
+        <div className="row justify-content-center m-4 py-1 h5 text-center">
+          We're a sincere team with straightforward vision and goal. With this in mind, we began to gather people together in April 2025. From there, the crew quickly expanded to 4 members, and we decide upon the name "StylistStrokes"
+          <FaHeart className="m-3" size={80}></FaHeart>
+          <div className="btn btn-info my-4 px-5">
+            <YoutubeEmbed url="https://www.youtube.com/embed/07ePW--MQY4"></YoutubeEmbed>
+          </div>
+          
+        </div>
+      </div>
+      <div className="container pt-5" style={{ backgroundColor: "" }}>
+        <AboutTitle desc={""} title={'Connect to our social media'}></AboutTitle>
+        <div className="row justify-content-center align-items-center py-4 m-5">
+          <div className="d-flex gap-3 justify-content-center social-icons1">
+            <a href="https://facebook.com" className="text-white me-3"><FaXTwitter size={60} /></a>
+            <a href="https://youtube.com" className="text-white me-3"><SlSocialInstagram size={60} /></a>
+            <a href="https://instagram.com" className="text-white me-3"><SlSocialFacebook size={60} /></a>
+            <a href="https://instagram.com" className="text-white me-3"><SlSocialReddit size={60} /></a>
+          </div>
         </div>
       </div>
 
-      {/* Nội dung khóa học */}
-      <div className="content text-muted">
-        <h3 className="fw-semibold text-dark">What You'll Master</h3>
-        <ul className="custom-list mt-3">
-          <li>Flourishing and embellishment techniques</li>
-          <li>Creating custom calligraphy compositions</li>
-          <li>Working with challenging letterforms and spacing</li>
-          <li>Portfolio building and artistic identity</li>
-        </ul>
-
-        <p className="mt-4">
-          This advanced course pushes your skills further by introducing
-          artistic challenges and refinement techniques. Explore decorative
-          flourishes, advanced layout strategies, and how to prepare your work
-          for clients, exhibitions, or print. Ideal for those who want to
-          pursue calligraphy professionally or at a high creative level.
-        </p>
-
-        {/* Course Benefits */}
-        <div className="course-benefits mt-5">
-          <h4 className="fw-semibold text-dark">Why Choose This Course?</h4>
-          <ul className="custom-list mt-3">
-            <li>✓ Learn advanced techniques to make your work stand out.</li>
-            <li>✓ Gain confidence in creating custom calligraphy compositions.</li>
-            <li>✓ Perfect for building a professional portfolio.</li>
-            <li>✓ Learn from an industry expert with over 10 years of experience.</li>
-          </ul>
-        </div>
-
-        {/* Student Testimonials */}
-        <div className="student-testimonials mt-5">
-          <h4 className="fw-semibold text-dark">What Our Students Say</h4>
-          <div className="testimonial mt-4">
-            <p className="italic">"This course took my calligraphy skills to the next level! The lessons on flourishing and composition were invaluable. Highly recommend it!"</p>
-            <p className="fw-bold">- Emma L., Graphic Designer</p>
-          </div>
-          <div className="testimonial mt-4">
-            <p className="italic">"As a professional calligrapher, I needed something to enhance my portfolio. This course helped me refine my style and technique. Thank you!"</p>
-            <p className="fw-bold">- David M., Calligraphy Artist</p>
-          </div>
-        </div>
-
-        {/* FAQ */}
-        <div className="faq mt-5">
-          <h4 className="fw-semibold text-dark">Frequently Asked Questions</h4>
-          <div className="faq-item mt-3">
-            <h5 className="fw-bold">Do I need prior experience in calligraphy?</h5>
-            <p className="text-muted">While some experience in calligraphy is helpful, this course is designed for intermediate learners. You should have completed a beginner-level course before joining.</p>
-          </div>
-          <div className="faq-item mt-3">
-            <h5 className="fw-bold">What materials do I need for this course?</h5>
-            <p className="text-muted">You will need a good-quality brush pen, practice sheets, and some basic calligraphy paper. A detailed list of materials will be provided at the start of the course.</p>
-          </div>
-          <div className="faq-item mt-3">
-            <h5 className="fw-bold">Is there any certificate upon completion?</h5>
-            <p className="text-muted">Yes, you will receive a certificate of completion once you finish the course and submit your final project.</p>
-          </div>
-        </div>
-
-        {/* CTA Button */}
-        <div className="mt-5 text-center">
-          <a href="/contact" className="btn btn-gradient-custom px-4 py-2">
-            Enroll now !
-          </a>
-        </div>
-      </div>
     </div>
   );
 }
-
-export default Advanced;

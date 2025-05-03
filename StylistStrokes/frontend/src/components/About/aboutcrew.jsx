@@ -1,6 +1,6 @@
 import members from './crew.json'
 import './aboutcrew.css'
-import { SlSocialInstagram, SlSocialFacebook, SlSocialReddit } from "react-icons/sl";
+import { SlSocialInstagram, SlSocialTwitter, SlSocialReddit } from "react-icons/sl";
 import { useState, useRef, useEffect } from 'react';
 import { FaFacebook } from 'react-icons/fa6';
 export default function Aboutcrew() {
@@ -14,7 +14,7 @@ export default function Aboutcrew() {
                 entries.forEach(entry => {
                     const index = imageRefs.current.indexOf(entry.target);
                     if (entry.isIntersecting && !visible[index]) {
-                        updatedVisible[index] = true; 
+                        updatedVisible[index] = true;
                     }
                 });
                 setVisible(updatedVisible);
@@ -35,9 +35,9 @@ export default function Aboutcrew() {
     }, [visible]);
     return (
         <div className="container my-5 align-items-cente border"
-        style={{borderColor:"brown"}}>
+            style={{ borderColor: "brown" }}>
             {members.map((member, index) => (
-                <div style={{ backgroundColor:"#e8d4ca"}} className="border p-3 row align-items-center mb-5" key={index}>
+                <div style={{ backgroundColor: "#e8d4ca" }} className="wood-frame p-3 row align-items-center mb-5" key={index}>
                     <div className={`col-md-4 ${index % 2 === 0 ? '' : 'order-md-2'}`}>
                         <img
                             ref={el => (imageRefs.current[index] = el)}
@@ -49,11 +49,19 @@ export default function Aboutcrew() {
                     <div className="col-md-8">
                         <h2 className='playwrite-cu p-2'>{member.name}</h2>
                         <h6 className="text-muted">{member.role}</h6>
-                        <p className='fw-semibold'>{member.description}</p>
+                        <p className='h4 fw-semibold'>{member.description}</p>
                         <p>Contact:</p>
-                        <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{textDecoration:"none"}}><FaFacebook size={50} /><>{member.fbdesc}</></a>
-                        <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}><SlSocialInstagram size={50} /><>{member.instadesc}</></a>
-                        <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}><SlSocialReddit size={50} /><>{member.redditdesc}</></a>
+                        <div className='d-flex'>
+                            <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}>
+                                <div className='mx-1'><FaFacebook size={50} /><> {member.fbdesc}</></div>
+                            </a>
+                            <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}>
+                                <div className='mx-1'><SlSocialInstagram size={50} /><> {member.instadesc}</></div>
+                            </a>
+                            <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}>
+                                <div className='mx-2'><SlSocialTwitter size={50} /><> {member.redditdesc}</></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             ))}
