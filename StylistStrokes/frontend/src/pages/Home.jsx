@@ -16,10 +16,11 @@ import FeaturedCaligraphyList from "../components/Featured-caligraphy/FeaturedCa
 import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
-
+import Abouthero from "../components/About/abouthero";
 const Home = () =>  {
   return <>
-   
+     <div style={{ backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)" }}>
+      <Abouthero></Abouthero>
    {/* ========hero section start========= */}
    <section>
      <Container>
@@ -163,7 +164,7 @@ const Home = () =>  {
       </Container>
    </section>
    {/* ========= testimonial section start ========= */}
-   <Newsletter/>
+   <Newsletter/></div>
   </>
 };
 
