@@ -6,7 +6,7 @@ StylistStrokes is a modern web application dedicated to the beauty and art of ca
 FEATURES
 --------
 
-- Create and preview calligraphy styles in real-time
+- Buy and share tools for career
 - Learn techniques and explore stroke variations
 - Admin panel for content and user management
 
