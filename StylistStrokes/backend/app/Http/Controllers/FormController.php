@@ -28,7 +28,16 @@ class FormController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'full_name' => 'required|string|max:255',
+            'company_email' => 'required|email|max:255',
+            'country' => 'required|string|max:255',
+            'business_type' => 'required|string|max:255',
+            'comments' => 'required|string'
+        ]);
+
+        Form::create($validated);
+        return response()->json(['message' => 'Form submitted successfully'], 201);
     }
 
     /**

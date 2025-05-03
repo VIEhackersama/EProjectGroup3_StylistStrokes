@@ -31,11 +31,12 @@ export default function Login() {
         setError("");
         setMessage("Successfull! Enjoy your lessons!");
         SetEmail("");
+        localStorage.setItem("access_token", res.data.token);
         SetPassword("");
         setTimeout(() => {
           setMessage("");
           redirection("/home");
-        }, 3500);
+        }, 1500);
       }
     } catch (error) {
       if (error.response && error.response.status === 401) {
