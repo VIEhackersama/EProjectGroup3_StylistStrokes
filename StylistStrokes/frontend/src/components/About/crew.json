@@ -1,47 +1,38 @@
 [
-    {
-        "name": "Huy Le Nhat",
-        "role": "Calligraphy Artist",
-        "image": "/image/huyle.jpeg",
-        "description": "A dumb but enthusiast crew. Often comes up with witty but effective dicisions",
-        "fbdesc":"huy-uii",
-        "instadesc":"huy.le.nhat.98",
-        "redditdesc":"ngu le"
-    },
-    {
-      "name": "Alice Nguyen",
-      "role": "Calligraphy Artist",
-      "image": "/image/huyle.jpeg",
-      "fbdesc": "huy-uii",
-      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
-      "instadesc": "huy.le.nhat.98",
-      "redditdesc": "ngu le"
-    },
-    {
-      "name": "Alice Nguyen",
-      "role": "Calligraphy Artist",
-      "image": "/image/huyle.jpeg",
-      "fbdesc": "huy-uii",
-      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
-      "instadesc": "huy.le.nhat.98",
-      "redditdesc": "ngu le"
-    },
-    {
-      "name": "Alice Nguyen",
-      "role": "Calligraphy Artist",
-      "image": "/image/huyle.jpeg",
-      "fbdesc": "huy-uii",
-      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
-      "instadesc": "huy.le.nhat.98",
-      "redditdesc": "ngu le"
-    },
-    {
-      "name": "Alice Nguyen",
-      "role": "Calligraphy Artist",
-      "image": "/image/huyle.jpeg",
-      "fbdesc": "huy-uii",
-      "description": "Alice is a passionate calligrapher who brings elegance to every stroke.",
-      "instadesc": "huy.le.nhat.98",
-      "redditdesc": "ngu le"
-    }
+  {
+    "name": "Huy Le Nhat",
+    "role": "Calligraphy Expert",
+    "image": "/image/huyle.jpeg",
+    "description": "An enthusiast crew. Often comes up with witty but effective dicisions",
+    "fbdesc": "huy-uii",
+    "instadesc": "huy.le.nhat.98",
+    "redditdesc": "Huy_muvodich"
+  },
+  {
+    "name": "Cong Duong Phung",
+    "role": "Style Artist",
+    "image": "/image/huyle.jpeg",
+    "fbdesc": "huy-uii",
+    "description": "Duong is a passionate calligrapher who brings elegance to every stroke.",
+    "instadesc": "huy.le.nhat.98",
+    "redditdesc": "ngu le"
+  },
+  {
+    "name": "Duy An Do",
+    "role": "Gallery Manager",
+    "image": "/image/huyle.jpeg",
+    "fbdesc": "huy-uii",
+    "description": "An blends tradition and innovation, crafting calligraphy that tells a story.",
+    "instadesc": "huy.le.nhat.98",
+    "redditdesc": "ngu le"
+  },
+  {
+    "name": "Dong Hai Pham",
+    "role": "Team Leader",
+    "image": "/image/dongpham.png",
+    "fbdesc": "viehackersama",
+    "description": "The mastermind behind the crew, ensuring every project is a masterpiece.",
+    "instadesc": "hackersama",
+    "redditdesc": "dong.pham"
+  }
 ]

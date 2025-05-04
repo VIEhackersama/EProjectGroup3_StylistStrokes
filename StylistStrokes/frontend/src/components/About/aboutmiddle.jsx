@@ -11,12 +11,12 @@ export default function AboutMiddle() {
                     We're not just a team; we're a league of extraordinary scribblers, battling the mundane with every flourish. Forget boring fonts; we wield calligraphy like a ninja sword, slicing through the ordinary!
                 </p>
                 <div className="row mt-3 gy-3">
-                    <AboutNumber n='2 Months' text='The beginning of the journey'></AboutNumber>
-                    <AboutNumber n='2000+' text='Active crews around the world'></AboutNumber>
+                    <AboutNumber n='24 days' text='The beginning of the journey'></AboutNumber>
+                    <AboutNumber n='60+' text='Active crews around the world'></AboutNumber>
                 </div>
                 <div className="row mt-3 gy-3">
-                    <AboutNumber n='Over 999' text='Crews around the world'></AboutNumber>
-                    <AboutNumber n='1.000.000' text='Our goal of number members'></AboutNumber>
+                    <AboutNumber n='Over 900' text='Lessons for those who love'></AboutNumber>
+                    <AboutNumber n='$200' text='Money raised by enthusiast'></AboutNumber>
                 </div>
                 <div className='row mt-3 gy-2'>
                     <div className='col-12'>
