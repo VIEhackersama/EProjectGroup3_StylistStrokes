@@ -1,33 +1,36 @@
 [
     {
         "id":1,
-        "name":"Huangzhou Han Shi",
+        "name":"Cold Food Observance",
         "image":"huangzhou_han_shi.jpg",
         "style":"China",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Cold Food Observance is a powerful calligraphic work by Su Shi, a legendary poet, statesman, and calligrapher of the Northern Song dynasty. Composed during his time in exile, the writing captures his emotional depth through expressive brushstrokes and poignant verse. The poem reflects on the Cold Food Festival, traditionally a time of remembrance, and becomes a medium for the artist’s introspection. This work is revered not only for its literary beauty but also for the fluid, confident, and dynamic calligraphy that reveals the inner world of the writer.",
+        "author":"Su Dongpo",
         "popularity":100,
-        "period":2004
+        "period":"circa 1082",
+        "s_des":"This piece is one of the most renowned examples of Chinese calligraphy from the Song dynasty. Written in running script (xíngshū), it is a personal reflection by the scholar Su Shi during a period of political exile. The writing expresses sorrow, nostalgia, and resilience in the face of hardship."
     },
     {
         "id":2,
         "name":"Zhong Qiu Tie",
         "image":"zhong_qiu_tie.jpg",
         "style":"China",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Zhong Qiu Tie is one of the most famous surviving works attributed to Wang Xianzhi, a revered calligrapher of the Eastern Jin dynasty. Composed as a personal letter, the work is valued for both its literary sentiment and calligraphic excellence. The elegant strokes, natural rhythm, and spontaneity reflect the artistic evolution from his father Wang Xizhi's style. The piece captures a moment of human connection, written with warmth and fluidity, and has been admired and preserved through centuries by emperors and collectors alike.",
+        "author":"Wang Xianzhi",
         "popularity":100,
-        "period":2004
+        "period":"4th century CE",
+        "s_des":"This celebrated calligraphy piece by Wang Xianzhi, son of the great Wang Xizhi, is a brief letter written during the Mid-Autumn Festival. The flowing, expressive brushwork demonstrates his mastery of semi-cursive script and emotional depth."
     },
     {
         "id":3,
-        "name":"Turkish Calligraphy",
+        "name":"Hu Calligraphy Circle",
         "image":"turkish.jpg",
         "style":"Arabic",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This beautiful circular calligraphy composition, likely by modern Turkish master Mehmet Özçay, showcases a geometric arrangement of Arabic or Ottoman script forming a floral or mandala-like structure. The central motif resembles a Celtic knot or interwoven loop, while the surrounding text radiates outward in a harmonious circular form. The script style is possibly Thuluth, known for its elegance and ornamental flow, often used in architectural decoration and religious manuscripts. The work blends traditional techniques with modern aesthetics.",
+        "author":"Mehmet Özçay",
         "popularity":100,
-        "period":2004
+        "period":"circa 2000s–2010s",
+        "s_des":"This circular artwork centers around the Arabic word 'Hu' (هو), meaning 'He' — a reference to God in Islamic mysticism. The script spirals in a symmetrical design, blending spiritual symbolism with geometric elegance."
 
     },
     {
@@ -35,53 +38,261 @@
         "name":"Siah Mashq",
         "image":"siah_masho.jpg",
         "style":"Arabic",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "l_des":"This poster by Reza Abedini features a striking silhouette of a human figure formed entirely from Persian calligraphy. The text both decorates and informs, merging traditional script with modern design. The artwork was created to promote an exhibition of Abedini’s posters in Qom, Iran, held from August 26 to September 10, 2004.",
         "author":"Reza Abedini",
         "popularity":100,
-        "period":2004
+        "period":"2004",
+        "s_des":"This typographic poster by Iranian designer Reza Abedini blends Persian calligraphy with contemporary design. It advertises his exhibition 'Siah Mashq', meaning 'black practice', referencing a traditional Persian calligraphy exercise."
         
     },
     {
         "id":5,
-        "name":"Van de Velde",
+        "name":"Monsieur Jacques Le Fevre",
         "image":"van_de_velde.jpg",
         "style":"Western",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This elaborate calligraphic artwork by Dutch master Jan van de Velde showcases a masterful use of flourishing pen strokes, with elegant loops and curves forming a border, text block, and even a majestic bird at the bottom left. The composition demonstrates the peak of calligraphic skill from the early 17th century, blending script with ornamentation. It was likely created as a demonstration of writing prowess or as a dedication to a patron, here addressed to Monsieur Jacques Le Fevre. The overall layout reflects the Baroque taste for complexity, symmetry, and visual sophistication.",
+        "author":"Jan van de Velde",
         "popularity":100,
-        "period":2004
+        "period":"circa 1605–1610",
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
     },
     {
         "id":6,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Shinpan Urami no Sōshi",
         "image":"woman_sur.jpg",
         "style":"Japan",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This ukiyo-e woodblock print by Utagawa Kuniyoshi shows a graceful woman in a richly patterned kimono. Surrounding her are dramatic calligraphic scripts that add intensity and movement. Created in the mid-19th century Edo period, this work belongs to a series exploring themes of loyalty, drama, and traditional Japanese storytelling.",
+        "author":"Utagawa Kuniyoshi",
         "popularity":100,
-        "period":2004
+        "period":"1840-1850",
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
 
     },
     {
         "id":7,
-        "name":"Woman surrounded by calligraphy",
-        "image":"woman_sur.jpg",
-        "style":"Japan",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "name":"Alphabet Composition",
+        "image":"abc_eur_resized_sharpened.jpg",
+        "style":"Western",
+        "l_des":"This piece blends traditional Gothic script (notably the lowercase alphabet on the right) with expressive, freeform flourishes and experimental overlays. The large intertwined letters and sweeping strokes in blue, red, and black give the work a dynamic, almost abstract quality. The layered writing in lighter ink adds depth and spontaneity, characteristic of modern calligraphy that merges art and letterform.",
+        "author":"Klaus-Peter Schäffel",
         "popularity":100,
-        "period":2004
+        "period":"2010",
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
 
     },
     {
         "id":8,
+        "name":"Cheng Xin Tang Zhi Tie",
+        "image":"ancient_cn.jpg",
+        "style":"China",
+        "l_des":"This is a calligraphic work by Zhao Ji (Emperor Huizong of Song), showcasing his famous Slender Gold Script (瘦金体). The piece serves as a demonstration of high-quality paper from the Chengxin Hall and reflects the refined aesthetic of the Northern Song dynasty court, blending imperial elegance with artistic precision.",
+        "author":"Zhao Ji",
+        "popularity":100,
+        "period":"Early 12th century",
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":9,
+        "name":"Illuminated Manuscript Page",
+        "image":"ancient_eur.jpg",
+        "style":"Western",
+        "l_des":"This illuminated manuscript page is from a Book of Hours, a devotional book widely used in the Middle Ages by Christian laypeople for private prayer. The elaborate decoration includes gold leaf, ornate initials, and vibrant floral borders, typical of Gothic illumination. The large “D” initial suggests the beginning of a liturgical section, possibly a psalm or prayer. These manuscripts were both religious tools and works of art, often customized for wealthy patrons.",
+        "author":"Unknown",
+        "popularity":100,
+        "period":"1400s",
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":10,
         "name":"Woman surrounded by calligraphy",
-        "image":"woman_sur.jpg",
-        "style":"Japan",
-        "s_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "image":"ancient_kr.jpg",
+        "style":"Korea",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
         "author":"blah blah",
         "popularity":100,
-        "period":2004
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":11,
+        "name":"Woman surrounded by calligraphy",
+        "image":"bamboo_kr.jpg",
+        "style":"Korea",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":12,
+        "name":"Woman surrounded by calligraphy",
+        "image":"fish_jp.jpg",
+        "style":"Japan",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":101,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":13,
+        "name":"Woman surrounded by calligraphy",
+        "image":"bit_arb.jpg",
+        "style":"Arabic",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":14,
+        "name":"Woman surrounded by calligraphy",
+        "image":"bs_vn.jpg",
+        "style":"Vietnam",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":15,
+        "name":"Woman surrounded by calligraphy",
+        "image":"calli_jp.png",
+        "style":"Japan",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":16,
+        "name":"Woman surrounded by calligraphy",
+        "image":"castle_jp.jpg",
+        "style":"Japan",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":17,
+        "name":"Woman surrounded by calligraphy",
+        "image":"fish2_jp.jpg",
+        "style":"Japan",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":101,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":18,
+        "name":"Woman surrounded by calligraphy",
+        "image":"flower_arb.jpg",
+        "style":"Arabic",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":19,
+        "name":"Woman surrounded by calligraphy",
+        "image":"crane.jpg",
+        "style":"Western",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":20,
+        "name":"Woman surrounded by calligraphy",
+        "image":"dragon_vn.png",
+        "style":"Vietnam",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":21,
+        "name":"Woman surrounded by calligraphy",
+        "image":"fancy_arb.jpg",
+        "style":"Arabic",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+    },
+    {
+        "id":22,
+        "name":"Woman surrounded by calligraphy",
+        "image":"i_love_vn.jpg",
+        "style":"Vietnam",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":23,
+        "name":"Woman surrounded by calligraphy",
+        "image":"peace_vn.jpg",
+        "style":"Vietnam",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":24,
+        "name":"Woman surrounded by calligraphy",
+        "image":"tiger_kr.jpg",
+        "style":"Korea",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+
+    },
+    {
+        "id":25,
+        "name":"Woman surrounded by calligraphy",
+        "image":"squiggly_kr.jpg",
+        "style":"Korea",
+        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
+        "author":"blah blah",
+        "popularity":100,
+        "period":2004,
+        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
 
     }
 ]

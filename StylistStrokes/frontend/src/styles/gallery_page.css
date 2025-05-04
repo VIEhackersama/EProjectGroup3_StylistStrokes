@@ -9,7 +9,52 @@
     margin-bottom: 2rem;
 }
 .intro-img{
-    max-height: 350px;
+    max-height: 400px;
     width: 100%;
     object-fit: contain;
+}
+.container-fluid {
+    width: 100% !important;
+    overflow: hidden;
+}
+.art-card .overlay {
+    background: linear-gradient(to bottom, rgba(127, 127, 127, 0), rgba(0, 0, 0, 0.82));
+    transition: background 0.3s ease;
+    z-index: 1;
+}
+
+.art-card .content-container {
+    position: relative;
+    z-index: 2;
+}
+
+.art-card .art-name {
+    transition: opacity 0.3s ease ;
+}
+
+.art-card .art-description {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: none;
+}
+
+/* Hover effect */
+.art-card:hover .overlay {
+    background: rgba(128, 128, 128, 0.6); /* xám mờ */
+}
+
+.art-card:hover .art-name {
+    opacity: 0;
+}
+
+.art-card:hover .art-description {
+    opacity: 1;
+    display: block;
+}
+.arrow-icon{
+    height: 3.6rem;
+    color: rgb(234, 183, 101)
+}
+.arrow-icon:hover{
+    color: rgb(243, 91, 4);
 }

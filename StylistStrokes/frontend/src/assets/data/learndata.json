@@ -3,20 +3,23 @@
         "id":1,
         "name":"beginner's caligraphy",
         "des":"Learn basic strokes, tools, and modern calligraphy styles.",
-        "image":"image/beginner.jpg"
+        "image":"image/beginner.jpg",
+        "price": "$14.99"
     
     },
     {
         "id":2,
         "name":"Brush Pen Techniques",
         "des":"Explore expressive brush pen writing and letterforms.",
-        "image":"image/brushpen.jpg"
+        "image":"image/brushpen.jpg",
+        "price": "$19.99"
     },
     {
         "id":3,
         "name":"Advanced Flourishing",
         "des":"Create elegant scripts with advanced composition and flourish styles.",
-        "image":"image/advanced.jpg"
+        "image":"image/advanced.jpg",
+        "price": "$24.99"
     }
 
 ]

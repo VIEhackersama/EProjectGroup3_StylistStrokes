@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Pacifico&family=Pattaya&family=Playwrite+CU:wght@100..400&family=Playwrite+MX+Guides&display=swap');
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input{
+    color: red;
+}
+.pattaya-regular {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.grad {
+  background-image: linear-gradient(#ffe6c5, #debb90);
+}
+.btn-inf {
+  background: linear-gradient(135deg, #249775 , #1e4f86 100%);
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition:  0.4s ease, transform 0.3s ease;
+  border-radius: 50px;
+}
+.btn-inf:hover {
+  background: linear-gradient(135deg, #066e6c 0%, #9865f6 100%);
+  transform: scale(1.05);
+}
+input {
+  background-color: #FFFFFF;
+  border: 2px solid #FFB74D;
+}
+input:focus {
+  border-color: #FF7043;
+}
+.btn-gg {
+  background: linear-gradient(135deg, #0d8f87 , rgb(94, 88, 174) 100%);
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition:  0.4s ease, transform 0.3s ease;
+  border-radius: 50px;
+}
+.btn-gg:hover {
+  background: linear-gradient(135deg, #04e639 0%, #1f575a 100%);
+  transform: scale(1.05);
+}
+input::placeholder{
+  font-weight: bold;
+}
+.tos {
+  color:rgb(0, 217, 255)
+}

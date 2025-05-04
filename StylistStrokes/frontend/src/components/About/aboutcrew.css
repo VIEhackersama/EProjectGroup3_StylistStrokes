@@ -1,0 +1,21 @@
+.image-animate {
+  opacity: 0;
+  transform: translateY(40px); /* bắt đầu trượt từ dưới lên */
+  transition: opacity 0.8s ease-out, transform 0.1s ease-out;
+  will-change: opacity, transform;
+}
+
+.image-animate.visible {
+  opacity: 1;
+  transform: translateY(0); /* về vị trí ban đầu */
+}
+
+.image-animate:hover {
+  transform: scale(1.03); /* phóng nhẹ khi hover */
+  transition: transform 0.3s ease;
+}
+.wood-frame {
+    border: 20px solid transparent;
+    border-image: url('https://media.istockphoto.com/id/1365125616/photo/wood-texture-with-natural-pattern-dark-wooden-background-brown-board.jpg?s=612x612&w=0&k=20&c=r4EnZEVOD7A6NXwtihnt-ym5dNwq6l50q7V2MGheJJo=') 30 round;
+    border-radius: 10px;
+}

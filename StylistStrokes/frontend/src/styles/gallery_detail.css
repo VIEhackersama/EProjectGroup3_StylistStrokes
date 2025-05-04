@@ -1,0 +1,52 @@
+.img_border{
+
+    border-bottom: 1px solid rgb(216, 140, 83);
+}
+.info_border{
+    border-right: 1px solid rgb(216, 140, 83);
+}
+
+/* Keyframes để di chuyển gradient */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.back {
+    color: rgb(216, 140, 83);
+    display: inline-block;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.back:hover {
+    background: linear-gradient(45deg, rgb(216, 140, 83), red);
+    background-size: 300%;
+    animation: gradientMove 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons1 a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; 
+    height: 100px;
+    background-color: rgb(199, 114, 114); 
+    border-radius: 100%; 
+    text-decoration: none; 
+    color: white;
+    transition: background-color 0.3s ease; 
+}
+
+.social-icons1 a:hover {
+    background-color: rgb(77, 14, 9); /* Màu nền khi hover */
+}

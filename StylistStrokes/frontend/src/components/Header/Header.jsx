@@ -1,101 +1,123 @@
-import React, { useState } from "react";
-import { Container, Row, Button, Collapse } from "reactstrap";
-import { NavLink, Link } from "react-router-dom";
-
-import logo from "../../assets/images/logo.png";
+import React, { useState, useRef, useEffect } from "react";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Button } from "reactstrap";
+import { NavLink, Link, useLocation } from "react-router-dom";
+import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone } from "react-icons/fa6";
+import penBrush from "../../assets/images/caligraphy-img01.jpg";
+import logo from "../../assets/images/logo1.png";
+import strokeUnderline from "../../assets/images/stroke.png";
+import "../About/font.css";
+import "@fontsource/galada";
 import "./Header.css";
-
-const nav__links = [
-  { path: "/home", display: "Home" },
-  { path: "/about", display: "About" },
-  { path: "/learn", display: "Learn" },
-  { path: "/gallery", display: "Gallery" },
-  { path: "/contact", display: "Contact" },
+import axios from 'axios'
+const navLinks = [
+  { path: "/home", display: <> <FaHouse /> HOME</> },
+  { path: "/about", display: <><FaCircleInfo />ABOUT US</> },
+  { path: "/learn", display: <><FaPencil></FaPencil>LEARN</> },
+  { path: "/gallery", display: <><FaBook></FaBook>GALLERY</> },
+  { path: "/contact", display: <><FaPhone></FaPhone>CONTACT</> },
 ];
 
 const Header = () => {
+  const [user, setUser] = useState(null);
+  const location = useLocation();
+  useEffect(() => {
+    const token = localStorage.getItem("access_token"); 
+    if (!token) return;
+
+    axios.get("http://localhost:8000/api/user", {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
+      .then((res) => setUser(res.data))
+      .catch((err) => {
+        console.error("Auth error:", err);
+        setUser(null);
+      });
+  }, [location.pathname]);
+  const headerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!headerRef.current) return;
+      if (location.pathname === "/login" || location.pathname === "/register") {
+        headerRef.current.classList.remove("sticky__header");
+        return;
+      }
 
-  const toggleMenu = () => setIsOpen(!isOpen);
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        headerRef.current.classList.add("sticky__header");
+      } else {
+        headerRef.current.classList.remove("sticky__header");
+      }
+    };
 
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [location.pathname]);
   return (
-    <header className="header border">
-      <Container>
-        <Row>
-          <div className="nav__weapper d-flex align-items-center justify-content-between">
-            {/*========= logo ========= */}
-            <div className="logo">
-              <img src={logo} alt="" />
-            </div>
-            {/*========= logo end ========= */}
+    <header className="header grad-header shadow" ref={headerRef}>
+      <Navbar expand="lg" className="container">
+        <div className="d-flex align-items-center">
+          <Link to="/" className="navbar-brand me-auto">
+            <img src={logo} alt="" style={{ filter: "invert(00%)" }} className="logo-img" />
+          </Link>
+        </div>
 
-            {/*========= menu start ========= */}
-            <div className="navigation d-none d-lg-block">
-              <ul className="menu d-flex align-items-center gap-5">
-                {nav__links.map((item, index) => (
-                  <li className="nav__item" key={index}>
-                    <NavLink
-                      to={item.path}
-                      className={(navClass) =>
-                        navClass.isActive ? "active__link" : ""
-                      }
-                    >
-                      {item.display}
-                    </NavLink>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            {/*========= menu end ========= */}
-
-            <div className="nav-right d-flex align-items-center gap-4">
-              <div className="nav__btns d-none d-lg-flex align-items-center gap-4">
-                <Button className="btn secondary__btn">
-                  <Link to="/login">Login</Link>
-                </Button>
-                <Button className="btn primary__btn">
-                  <Link to="/register">Register</Link>
-                </Button>
-              </div>
-
-              <span
-                className="mobile__menu d-lg-none"
-                onClick={toggleMenu}
-                style={{ cursor: "pointer" }}
-              >
-                <i className="ri-menu-line"></i>
-              </span>
-            </div>
-          </div>
-
-          {/* Mobile menu */}
-          <Collapse isOpen={isOpen} navbar className="mobile__nav d-lg-none mt-3">
-            <ul className="menu d-flex flex-column align-items-start gap-3">
-              {nav__links.map((item, index) => (
-                <li className="nav__item" key={index}>
+        <NavbarToggler style={{ filter: "invert(0%)" }} onClick={toggle} className="mobile__menu" />
+        <Collapse isOpen={isOpen} navbar>
+          <div className="d-flex w-100 justify-content-between align-items-center">
+            <Nav className="menu d-flex justify-content-center align-items-center gap-4 mx-auto" navbar>
+              {navLinks.map((item, index) => (
+                <NavItem key={index}>
                   <NavLink
                     to={item.path}
-                    className={(navClass) =>
-                      navClass.isActive ? "active__link" : ""
+                    className={({ isActive }) =>
+                      isActive ? "nav-header active__link tagesschrift-regular" : "nav-header tagesschrift-regular"
                     }
-                    onClick={() => setIsOpen(false)} 
+                    style={{
+                      "--strokeimg": `url(${strokeUnderline})`
+                    }}
+                    onClick={() => setIsOpen(false)}
                   >
                     {item.display}
                   </NavLink>
-                </li>
+                </NavItem>
               ))}
-              <div className="nav__btns d-flex flex-column align-items-start gap-3 mt-3">
-                <Button className="btn secondary__btn w-100">
-                  <Link to="/login">Login</Link>
-                </Button>
-                <Button className="btn primary__btn w-100">
-                  <Link to="/register">Register</Link>
-                </Button>
-              </div>
-            </ul>
-          </Collapse>
-        </Row>
-      </Container>
+            </Nav>
+            <div className="nav__btns d-flex flex-column flex-lg-row gap-5 align-items-center">
+              {user ? (
+                <>
+                  <div className="text-center text-black fw-semibold aclonica-regular">
+                    Hello, {user.name}
+                  </div>
+                  <Link to="/login" className="">
+                    <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center">
+                      <label className="fw-semibold aclonica-regular text-black">Log out</label>
+                    </div>
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <Link to="/login" className="">
+                    <div style={{
+                      "--brush-image": `url(${penBrush})`,
+                    }} className="btn-header2 btn-with-image text-center w-100">
+                      <label className="fw-semibold aclonica-regular text-black">Login</label>
+                    </div>
+                  </Link>
+                  <Link to="/register" className="">
+                    <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center w-100">
+                      <label className="fw-semibold aclonica-regular text-black">Register</label>
+                    </div>
+                  </Link>
+                </>
+              )}
+            </div>
+          </div>
+        </Collapse>
+      </Navbar>
     </header>
   );
 };

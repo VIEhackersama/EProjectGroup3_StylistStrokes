@@ -40,13 +40,13 @@ function GalleryDisplay(){
             <button
               key={0}
               onClick={() => gotoPage(0)}
-              className={`btn mx-1 ${currentPage === 0 ? 'btn-primary' : 'btn-outline-light'}`}
+              className={`btn mx-1 ${currentPage === 0 ? 'btn-primary' : 'btn-outline-light'} pag_btn`}
             >
               1
             </button>
         );
         if (currentPage > 3) {
-            pageButtons.push(<span key="start-ellipsis" className="text-white">...</span>);
+            pageButtons.push(<span key="start-ellipsis" className="text-white pag_btn">...</span>);
         }
       
         // Các trang gần currentPage
@@ -56,7 +56,7 @@ function GalleryDisplay(){
                     <button
                     key={i}
                     onClick={() => gotoPage(i)}
-                    className={`btn mx-1 ${currentPage === i ? 'btn-primary' : 'btn-outline-light'}`}
+                    className={`btn mx-1 ${currentPage === i ? 'btn-primary' : 'btn-outline-light'} pag_btn`}
                     >
                     {i + 1}
                     </button>
@@ -64,7 +64,7 @@ function GalleryDisplay(){
             }
         }
         if (currentPage < totalPages - 4) {
-            pageButtons.push(<span key="end-ellipsis" className="text-white">...</span>);
+            pageButtons.push(<span key="end-ellipsis" className="text-white pag_btn">...</span>);
         }
       
           // Luôn hiện trang cuối
@@ -73,7 +73,7 @@ function GalleryDisplay(){
                 <button
                     key={end}
                     onClick={() => gotoPage(end)}
-                    className={`btn mx-1 ${currentPage === end ? 'btn-primary' : 'btn-outline-light'}`}
+                    className={`btn mx-1 ${currentPage === end ? 'btn-primary' : 'btn-outline-light'} pag_btn`}
                 >
                     {end + 1}
                 </button>
@@ -99,10 +99,10 @@ function GalleryDisplay(){
     }
     
     return(
-        <div ref={topRef} >
-            <div className='row row-cols-1 row-cols-md-4 g-4'>
+        <div>
+            <div className='row g-4 m-2'>
                 {pages[currentPage].map((art) => (
-                    <div className='col-3' key={art.id}>
+                    <div className='col-lg-3 col-md-6 col-sm-12' key={art.id}>
                         <GalleryCom art={art} />
                     </div>            
                 ))}
