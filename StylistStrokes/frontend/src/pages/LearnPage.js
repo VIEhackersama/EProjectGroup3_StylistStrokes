@@ -1,10 +1,14 @@
 import React from "react";
 import Learnlist from "../components/learnlist";
-import "../styles/card.css";  
+import "../styles/card.css";
+import { motion } from "framer-motion";
+
 
 function LearnPage() {
+
+  
   return (
-    <div className="py-3 container-fluid" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
+    <div className="py-3" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
       <section
         className="text-white text-center py-5"
         style={{
@@ -26,7 +30,11 @@ function LearnPage() {
         </div>
       </section>
 
-      <div className="text-center py-5">
+      <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={ { opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="text-center py-5">
         <p>Hello everyone!</p>
 
         <p>
@@ -36,7 +44,7 @@ function LearnPage() {
         </p>
 
         <p>
-          Join our <span className="highlight text-warning">Art of Calligraphy Course</span>,
+          Join our <span className="highlight text-danger">Art of Calligraphy Course</span>,
           where you will:
         </p>
         <ul className="list-unstyled">
@@ -59,7 +67,7 @@ function LearnPage() {
           express yourself through every stroke.
         </p>
 
-        <p className="highlight text-warning">
+        <p className="highlight text-danger">
           The Calligraphy Course – where your journey into the beauty of letters
           begins.
         </p>
@@ -77,12 +85,15 @@ function LearnPage() {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <section id="courses" className="container py-5">
         <h3 className="text-center fw-bold mb-5 display-6">Our Courses</h3>
+        
         <Learnlist />
+       
       </section>
+        <h3 className="text-center">And many more to discover! Stay tuned!</h3>
     </div>
   );
 }

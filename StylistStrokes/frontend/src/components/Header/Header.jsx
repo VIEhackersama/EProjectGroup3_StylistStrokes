@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Button } from "reactstrap";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone } from "react-icons/fa6";
+import { RiTeamFill } from "react-icons/ri";
 import penBrush from "../../assets/images/caligraphy-img01.jpg";
 import logo from "../../assets/images/logo1.png";
 import strokeUnderline from "../../assets/images/stroke.png";
@@ -10,11 +11,12 @@ import "@fontsource/galada";
 import "./Header.css";
 import axios from 'axios'
 const navLinks = [
-  { path: "/home", display: <> <FaHouse /> HOME</> },
-  { path: "/about", display: <><FaCircleInfo />ABOUT US</> },
-  { path: "/learn", display: <><FaPencil></FaPencil>LEARN</> },
   { path: "/gallery", display: <><FaBook></FaBook>GALLERY</> },
-  { path: "/contact", display: <><FaPhone></FaPhone>CONTACT</> },
+    { path: "/learn", display: <><FaPencil></FaPencil>LEARN</> },
+  { path: "/showcase", display: <><RiTeamFill />SHOWCASE</> },
+  { path: "/about", display: <><FaCircleInfo></FaCircleInfo>ABOUT US</> },
+  { path: "/contact", display: <> <FaPhone />CONTACT</> },
+
 ];
 
 const Header = () => {
