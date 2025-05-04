@@ -4,10 +4,14 @@ import { motion } from "framer-motion";
 
 function BrushPen() {
   return (
-    <div style={{ backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)" }}>
     <div
       className="py-4 container"
+      style={{
+        backgroundImage:
+          "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
+      }}
     >
+      {/* Banner với animation */}
       <motion.div
         className="banner rounded-4 mb-4"
         style={{ backgroundImage: "url('/image/brushpen.jpg')" }}
@@ -32,7 +36,6 @@ function BrushPen() {
           <li>✓ Creating basic letterforms with brush pen</li>
           <li>✓ Learning pressure control and fluid motions</li>
         </ul>
-
         <motion.div
           className="video-container my-4"
           initial={{ opacity: 0 }}

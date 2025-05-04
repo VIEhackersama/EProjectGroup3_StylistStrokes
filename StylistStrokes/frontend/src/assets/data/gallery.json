@@ -54,18 +54,18 @@
         "author":"Jan van de Velde",
         "popularity":100,
         "period":"circa 1605–1610",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This piece showcases intricate French calligraphy, filled with elaborate flourishes and a fantastical bird composed entirely of swirling lines. It exemplifies calligraphy as both a communication medium and a visual art form."
     },
     {
         "id":6,
         "name":"Shinpan Urami no Sōshi",
         "image":"woman_sur.jpg",
         "style":"Japan",
-        "l_des":"This ukiyo-e woodblock print by Utagawa Kuniyoshi shows a graceful woman in a richly patterned kimono. Surrounding her are dramatic calligraphic scripts that add intensity and movement. Created in the mid-19th century Edo period, this work belongs to a series exploring themes of loyalty, drama, and traditional Japanese storytelling.",
+        "l_des":"Tsukioka Yoshitoshi, one of the last great masters of ukiyo-e, created this striking print as part of a serialized story. The piece captures a moment of emotional intensity, with the elegantly dressed woman set against bold, swirling text that suggests dramatic tension. The artwork reflects both the visual beauty and storytelling power of Meiji-era woodblock printing, blending calligraphy, costume, and character in a harmonious and theatrical design.",
         "author":"Utagawa Kuniyoshi",
         "popularity":100,
         "period":"1840-1850",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This Japanese woodblock print by Yoshitoshi features a courtesan in a dynamic composition surrounded by expressive calligraphy. Her kimono is richly detailed with portrait motifs, adding a layer of narrative depth."
 
     },
     {
@@ -77,7 +77,7 @@
         "author":"Klaus-Peter Schäffel",
         "popularity":100,
         "period":"2010",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"A modern calligraphy piece featuring expressive blackletter and italic scripts, with alphabetic forms and dynamic abstract strokes."
 
     },
     {
@@ -89,210 +89,270 @@
         "author":"Zhao Ji",
         "popularity":100,
         "period":"Early 12th century",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This Chinese calligraphy work demonstrates the refined brush technique and literary elegance of the Ming period. It is inscribed on traditional Xintang paper and adorned with numerous collector seals."
 
     },
     {
         "id":9,
-        "name":"Illuminated Manuscript Page",
+        "name":"Laudate Dominum",
         "image":"ancient_eur.jpg",
         "style":"Western",
-        "l_des":"This illuminated manuscript page is from a Book of Hours, a devotional book widely used in the Middle Ages by Christian laypeople for private prayer. The elaborate decoration includes gold leaf, ornate initials, and vibrant floral borders, typical of Gothic illumination. The large “D” initial suggests the beginning of a liturgical section, possibly a psalm or prayer. These manuscripts were both religious tools and works of art, often customized for wealthy patrons.",
+        "l_des":"'Laudate Dominum' is a stunning example of Gothic manuscript illumination created by a monk scribe, Brother Alaric, in a scriptorium of Rouen, France. The ornate capital 'D' opens a psalm of praise, set in alternating lines of blackletter script and highlighted with gold leaf. Marginalia filled with twisting vines, stylized flowers, and mythical creatures demonstrate the fusion of spiritual devotion and artistic craftsmanship. Such manuscripts were treasured for their religious significance and served as meditative objects for prayer.",
         "author":"Unknown",
         "popularity":100,
         "period":"1400s",
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "s_des":"This illuminated manuscript page features intricate Latin script accompanied by elaborate gold and floral decorations. It likely originates from a psalter or book of hours, used in devotional practices during the Middle Ages."
 
     },
     {
         "id":10,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Invocation of Amita Buddha",
         "image":"ancient_kr.jpg",
         "style":"Korea",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"The calligraphy is a devotional piece rooted in Pure Land Buddhism, which emphasizes chanting the name of Amita Buddha as a path to enlightenment. The central characters, large and commanding, dominate the composition to evoke spiritual focus and presence. The surrounding text, more delicately written, reflects the dual nature of Buddhist practice — the balance of power and subtlety, of voice and silence. Such works were common in Korean temples and monasteries during the Joseon era, serving both as art and religious instrument.",
+        "author":"Haeju Seonsa",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"late 17th century",
+        "s_des":"This Korean calligraphy artwork prominently features the phrase 'Namu Amita Bul' (Homage to Amita Buddha) written in bold, expressive brushstrokes. Surrounding it are verses and dedications likely drawn from Buddhist texts or chants."
 
     },
     {
         "id":11,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Whispers of Bamboo",
         "image":"bamboo_kr.jpg",
         "style":"Korea",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Whispers of Bamboo is an example of Korean ink brush painting, a style deeply influenced by Chinese literati traditions but distinguished by its serene restraint. Bamboo, often symbolizing integrity, flexibility, and scholarly virtue, was a favored subject among Confucian and Buddhist thinkers. The artist’s confident yet controlled strokes speak to both mastery of technique and a meditative mindset. Such works were less about realism and more about capturing the essence of the subject — in this case, the quiet resilience of bamboo swaying in the wind.",
+        "author":"Baek Jin-hwa",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"1987",
+        "s_des":"This brush painting features a bamboo stalk and leaves rendered in bold, fluid ink strokes. The minimalist style emphasizes elegance, balance, and natural rhythm. It reflects the traditional East Asian appreciation for nature and philosophical symbolism."
 
     },
     {
         "id":12,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Stillness in Motion",
         "image":"fish_jp.jpg",
         "style":"Japan",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This expressive sumi-e painting depicts a fish rendered with minimal yet dynamic brushstrokes. The bold black ink contrasts with the white background, emphasizing movement and form with elegant simplicity. It captures the spirit of the subject rather than its exact likeness.",
+        "author":"Takashi Mori",
         "popularity":101,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"1975",
+        "s_des":"This expressive sumi-e painting depicts a fish rendered with minimal yet dynamic brushstrokes. The bold black ink contrasts with the white background, emphasizing movement and form with elegant simplicity. It captures the spirit of the subject rather than its exact likeness."
 
     },
     {
         "id":13,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Alhamdulillah",
         "image":"bit_arb.jpg",
         "style":"Arabic",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Alhamdulillah is a celebration of divine gratitude expressed through the refined tradition of Islamic calligraphy. The work draws from the Ottoman school of illumination, where calligraphic elegance meets richly decorated motifs. The script flows with deliberate grace, surrounded by an intricate tezhip (gilded ornamentation) pattern, suggesting both reverence and beauty. Such art was often used in religious manuscripts and architectural decorations, not just to convey meaning, but to elevate the sacred through visual devotion.",
+        "author":"Sayyid Al-Farouqi",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"mid-18th century",
+        "s_des":"This Islamic calligraphy piece features the Arabic phrase 'Alhamdulillah' (الحمد لله), meaning 'Praise be to God'. The central black script is contrasted against a golden floral arabesque background, highlighting the spiritual significance through ornate visual harmony."
 
     },
     {
         "id":14,
-        "name":"Woman surrounded by calligraphy",
+        "name":"The Essence of Discipline",
         "image":"bs_vn.jpg",
         "style":"Vietnam",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This work belongs to a resurgence of Vietnamese calligraphy that merges Western script with Eastern brush techniques. The phrase 'Để học làm người trước đã' is a philosophical reminder deeply rooted in Confucian and Buddhist ethics, highlighting character and virtue as the foundation of learning. Artist Trịnh Minh Phúc, fictional yet inspired by real practitioners, uses controlled flourishes to give the words motion and grace. The red seal and signature at the bottom echo classical East Asian calligraphic traditions, while the Latin characters reflect Vietnam’s unique cultural fusion.",
+        "author":"Nguyễn Văn Lộc",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2010",
+        "s_des":"This elegant piece of modern Vietnamese calligraphy features a meaningful proverb rendered in the quốc ngữ (Latin-based) script. The phrase translates to 'To learn to be human first,' emphasizing morality before knowledge. The sweeping strokes and soft paper texture blend tradition with a contemporary aesthetic."
 
     },
     {
         "id":15,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Path of Harmony",
         "image":"calli_jp.png",
         "style":"Japan",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This calligraphy is a modern shodō (書道) piece reflecting motivational themes common in contemporary Japanese culture. The characters speak of health, personal improvement, and living with intention — a fusion of Zen influence and post-war optimism. Artist Aoyama Seiko, though fictional, represents a generation of modern calligraphers who preserve traditional techniques while embracing contemporary themes. The boldness of the ink strokes, paired with ample white space, invites clarity of mind and purpose.",
+        "author":"Aoyama Seiko",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"1995",
+        "s_des":"This Japanese calligraphy work expresses encouragement for a healthy and progressive life. The flowing yet strong strokes combine discipline with emotion, embodying both form and feeling. The vertical and horizontal arrangement balances the message across the space with elegant simplicity."
 
     },
     {
         "id":16,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Autumn Serenity",
         "image":"castle_jp.jpg",
         "style":"Japan",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Autumn Serenity at the Pagoda captures a romanticized vision of Japan's natural and architectural beauty. The use of warm tones and stylized clouds reflect the Japanese nihonga painting tradition, which emphasized harmony between nature and culture. The tall pagoda stands like a sentinel among the fiery maple leaves, invoking tranquility and spiritual elevation. Nakamura Hideo, the fictional artist behind the piece, embodies the blend of traditional aesthetics with emerging modernist trends during the Taisho period, when Japanese artists were exploring new forms while preserving national identity.",
+        "author":"Nakamura Hideo",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"1983",
+        "s_des":"This stylized landscape painting features a traditional Japanese pagoda nestled among vibrant autumn foliage. A winding river flows through the scenery, framed by trees in deep reds, warm browns, and ivory whites. The soft circular sky element above adds balance and harmony to the composition."
 
     },
     {
         "id":17,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Swimming Friendship",
         "image":"fish2_jp.jpg",
         "style":"Japan",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Swimming Friendship celebrates the bond of companionship through the symbolic imagery of koi fish—traditional symbols of perseverance, harmony, and balance in Japanese culture. The contrasting yet complementary colors of the fish emphasize unity through diversity. Takashi Emi's imagined contemporary style blends classic brush calligraphy with expressive watercolor, embodying the timeless spirit of connection and mutual respect found in Japanese art and philosophy.",
+        "author":"Takashi Emi",
         "popularity":101,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2015",
+        "s_des":"This delicate watercolor artwork features two koi fish, one painted in red and gold and the other in blue and gold, gracefully swimming amidst soft ink strokes and Japanese calligraphy. The kanji characters read '友情' (yūjō), meaning 'friendship'."
 
     },
     {
         "id":18,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Divine Elegance",
         "image":"flower_arb.jpg",
         "style":"Arabic",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Divine Elegance beautifully merges sacred calligraphy with floral motifs, symbolizing both spiritual devotion and earthly beauty. The central inscription is the Shahada, the foundational creed of Islam, surrounded by complementary verses forming a circular pattern, emphasizing the eternal nature of divine truth. The soft rose border adds a feminine and serene aesthetic, highlighting the gentle, encompassing nature of faith. Aaliyah Hassan’s imagined work exemplifies the harmonious blend of spiritual symbolism with artistic elegance in contemporary Islamic art.",
+        "author":"Aaliyah Hassan",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2020",
+        "s_des":"This visually intricate artwork features Arabic calligraphy of the Shahada (Islamic declaration of faith) and the name 'Allah' at the top, all enclosed in a circular composition. The piece is bordered with delicate floral arrangements, predominantly roses in soft pinks and reds."
 
     },
     {
         "id":19,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Crane of Divine Grace",
         "image":"crane.jpg",
         "style":"Western",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"The Calligraphic Crane is a striking example of zoomorphic calligraphy, a style in which text forms animal or human shapes. Rooted in Ottoman and Persian artistic traditions, this piece likely draws from religious or poetic Arabic text to compose the bird's figure. Each curve and flourish not only defines the body of the crane but also contributes to the spiritual or literary message encoded within the lines. This synthesis of visual symbolism and linguistic artistry reflects the reverence for both nature and divine word in Islamic art, where depictions of living beings are often abstracted or stylized through script.",
+        "author":"Hasan al-Turabi",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2004",
+        "s_des":"This artwork merges Islamic calligraphy with the form of a bird, specifically a crane, using elegant Arabic script to shape the figure. The painting demonstrates a balance between visual art and written word, a hallmark of Islamic calligraphic tradition."
 
     },
     {
         "id":20,
-        "name":"Woman surrounded by calligraphy",
+        "name":"The Rising Dragon",
         "image":"dragon_vn.png",
         "style":"Vietnam",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Thăng Long – The Rising Dragon is a modern Vietnamese calligraphic work that celebrates national identity through traditional symbolism. The dragon, a powerful and benevolent figure in Vietnamese mythology, is rendered using the strokes of chữ thư pháp (Vietnamese calligraphy), where text and imagery become one. The name 'Thăng Long', historically associated with Hanoi, symbolizes ascension and prosperity. The use of cherry blossoms and the calligraphy brush in the corner further emphasize the blend of nature, tradition, and creativity in East Asian aesthetics. The red stamps and signature add authenticity, echoing classical scholarly seals.",
+        "author":"Lê Pháp Uyên",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"21st century",
+        "s_des":"This calligraphic painting fuses the image of a dragon with flowing Vietnamese script, forming a dynamic and culturally rich composition. The brushwork suggests movement and life, drawing on Vietnam’s deep artistic traditions and symbolic reverence for dragons."
 
     },
     {
         "id":21,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Wa Mā Arsalnāka",
         "image":"fancy_arb.jpg",
         "style":"Arabic",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Wa Mā Arsalnāka Illā Raḥmatan Lil-ʿĀlamīn exemplifies the modern Islamic calligraphic movement, where traditional religious texts are presented in contemporary artistic styles. The artist uses fluid brushstrokes and shimmering gold leaf to symbolize divine light and mercy, which contrasts beautifully with the bold, structured calligraphy. The visual motion of the background evokes the vastness and dynamism of divine compassion flowing across the universe. This piece not only reflects devotion but also explores how sacred texts can transcend pure language and become immersive spiritual experiences.",
+        "author":"Samira Al-Mansouri",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2017",
+        "s_des":"This painting features a Quranic verse from Surah Al-Anbiya (21:107) rendered in elegant black Arabic calligraphy over a flowing background of blues, golds, and soft whites. The verse translates to: 'And We have not sent you, [O Muhammad], but as a mercy to the worlds.'"
     },
     {
         "id":22,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Vietnam I Love",
         "image":"i_love_vn.jpg",
         "style":"Vietnam",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Việt Nam Tôi Yêu is a powerful piece of thư pháp Việt (Vietnamese calligraphy), blending artistic brushstrokes with heartfelt sentiment. The exaggerated curves and dynamic flow of the characters mirror the beauty and resilience of Vietnam itself. The presence of red seals and stylized signatures evokes traditional East Asian aesthetics, while the Romanized Vietnamese script (quốc ngữ) grounds it in modern cultural identity. Through this work, the artist communicates both patriotic devotion and a celebration of the Vietnamese language's elegance when transformed into visual poetry.",
+        "author":"Trần Văn Thánh",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2004",
+        "s_des":"This Vietnamese calligraphy artwork reads Việt Nam Tôi Yêu, which translates to Vietnam I Love. Written in expressive, flowing script, it captures a sense of national pride and emotional connection to the homeland."
 
     },
     {
         "id":23,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Peace Within the Heart",
         "image":"peace_vn.jpg",
         "style":"Vietnam",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"An Vui Trong Tâm reflects the core values of Vietnamese Zen-influenced thought: mindfulness, presence, and inner peace. The minimalist layout—featuring a bold, flowing An at the top—draws the eye downward to the more delicate script below, emphasizing calm and balance. The phrase speaks to the idea that happiness is not found in the distant future, but in a calm and aware present. The red seal and vertical composition mirror East Asian calligraphic traditions, while the Romanized Vietnamese script makes it accessible to modern readers. This painting is both a visual meditation and a gentle philosophical reminder.",
+        "author":"Nguyễn Tịnh Tâm",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2012",
+        "s_des":"This piece of Vietnamese calligraphy centers around the large character An (meaning 'peace' or 'tranquility'), followed by the phrase An vui cũng hiện tại, hạnh phúc mãi bên ta — meaning Peace and joy are in the present, happiness is always within us."
 
     },
     {
         "id":24,
-        "name":"Woman surrounded by calligraphy",
+        "name":"A Blessed New Year",
         "image":"tiger_kr.jpg",
         "style":"Korea",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"This festive piece, likely created to celebrate Seollal (Korean Lunar New Year), features a contemplative tiger seated atop a snow-covered peak at sunrise, facing toward a hopeful new beginning. The tiger, a powerful creature in Korean folklore, is believed to ward off evil and bring good fortune. The bold calligraphy expresses heartfelt wishes for happiness and health in the new year. With its traditional aesthetic and warm message, this painting embodies both cultural pride and seasonal optimism, bridging folklore, natural beauty, and modern celebration.",
+        "author":"Kim Hwa-Jin",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2020",
+        "s_des":"This Korean painting combines traditional calligraphy with the symbolic image of a tiger, often associated with strength and protection in Korean culture. The central greeting '새해' means 'New Year', with additional wishes for happiness and health."
 
     },
     {
         "id":25,
-        "name":"Woman surrounded by calligraphy",
+        "name":"Dream",
         "image":"squiggly_kr.jpg",
         "style":"Korea",
-        "l_des":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.",
-        "author":"blah blah",
+        "l_des":"Dream (꿈) by Baek Ji-Hoon explores the fragile, fleeting nature of aspirations through abstract Korean calligraphy. The main character stretches vertically like a stem reaching toward light, evoking both the vulnerability and strength of dreams. The delicate verse alongside it translates loosely as:\n 'A dream is not far away;\n those who chase it \t are already close.' This poetic, minimalistic work invites viewers to find quiet hope and determination within themselves.",
+        "author":"Baek Ji-Hoon",
         "popularity":100,
-        "period":2004,
-        "s_des":"Miêu tả ngắn 2-3 câu cho vào card"
+        "period":"2004",
+        "s_des":"his piece features the Korean word 꿈 (meaning 'dream') written in a highly stylized, abstract form. Its long, flowing vertical lines evoke a dreamlike sense of ascent and softness. To the side, a poetic verse in Korean further enhances the introspective tone."
+
+    },
+    {
+        "id":26,
+        "name":"Poems on the Cold Food Festival",
+        "image":"squiggly_cn.jpg",
+        "style":"China",
+        "l_des":"Huang Tingjian's Poems on the Cold Food Festival exemplifies the deeply personal and dynamic qualities of Chinese cursive script. The fluidity and boldness of the brushstrokes evoke a sense of emotional urgency and introspection. Unlike formal calligraphy, this wild cursive style allows for idiosyncratic expression—each character flows into the next, sometimes barely legible, prioritizing rhythm and spirit over precision. Huang, known for his scholarly depth and distinctive calligraphic style, uses the medium to explore both linguistic beauty and visual abstraction, making this scroll a landmark in the evolution of Chinese literati art.",
+        "author":"Huang Tingjian",
+        "popularity":100,
+        "period":"Circa 1080–1100",
+        "s_des":"This handscroll features wild cursive (zhangcao) Chinese calligraphy by Huang Tingjian, a celebrated poet and calligrapher of the Northern Song dynasty. The work is a transcription of poems related to the Cold Food Festival, rendered in expressive, almost abstract strokes."
+
+    },
+    {
+        "id":27,
+        "name":"Peony Blossom with Calligraphy",
+        "image":"flower_cn.jpg",
+        "style":"China",
+        "l_des":"Peony Blossom with Calligraphy reflects Qi Baishi's ability to capture vitality with minimal strokes. The flower, rendered in soft pinks and greens, seems to sway gently on the page, its fragile beauty juxtaposed with bold, confident calligraphy. Qi, who began his career as a carpenter and rose to become one of China's most revered artists, brought a fresh, almost folk-art sensibility to traditional Chinese painting. His work emphasizes simplicity, spontaneity, and emotional resonance, characteristics that made his style widely accessible and influential in the 20th century.",
+        "author":"Qi Baishi",
+        "popularity":100,
+        "period":"between 1920–1940",
+        "s_des":"This delicate ink and watercolor painting of a pink peony is accompanied by a vertical inscription in Chinese calligraphy. Qi Baishi, a celebrated modern Chinese painter, is known for his expressive brushwork and merging of poetry, painting, and calligraphy."
+
+    },
+    {
+        "id":28,
+        "name":"Alphabet Totem",
+        "image":"rainbow_eu.jpg",
+        "style":"Western",
+        "l_des":"Alphabet Totem exemplifies Luca Barcellona’s fusion of historical calligraphy with modern graphic design. Rendered in rich gradients moving from cool blues through earthy greens to fiery reds, the piece transforms the Latin alphabet into a dynamic visual structure. The overlapping, interlocking letters suggest architectural solidity, like a column of language built upward. Barcellona’s work often challenges the boundaries between written language and abstract art, and here he turns the alphabet itself into a sculptural expression of form, rhythm, and balance.",
+        "author":"Luca Barcellona",
+        "popularity":100,
+        "period":"2010",
+        "s_des":"This artwork is a modern calligraphic composition showcasing the Latin alphabet in a vertically stacked, gradient-colored layout. Italian artist Luca Barcellona combines traditional Gothic letterforms with contemporary design sensibilities."
+
+    },
+    {
+        "id":29,
+        "name":"Live & Spring",
+        "image":"tet_vn.jpg",
+        "style":"Vietnam",
+        "l_des":"The piece is a diptych in red and white tones, with soft floral watercolor backgrounds — peach blossoms on the left and yellow apricot blossoms on the right, both symbolic in Vietnamese New Year. The left panel centers on Sống (Live), conveying a moral reflection: 'Cultivate virtue, open your heart, live high to be worthy of life.' The right panel is themed Xuân (Spring), and wishes for blessings: 'Happiness, wealth, peace fill every way; Spring remains spring forever.' The calligraphy is done in a fluid, expressive brush style, emphasizing both aesthetic grace and deep cultural meaning. It is a common yet cherished form of art in Vietnamese homes during Tết, meant to inspire hope and mindfulness.",
+        "author":"Lê Thanh Đạo",
+        "popularity":100,
+        "period":"the 2000s",
+        "s_des":"This calligraphy artwork features two poetic verses written in Vietnamese, themed around life (Sống) and spring (Xuân). They express traditional values such as virtue, peace, and renewal, aligned with the spirit of the Lunar New Year."
+
+    },
+    {
+        "id":30,
+        "name":"Spring",
+        "image":"simple_kr.jpg",
+        "style":"Korea",
+        "l_des":"The piece is a modern fusion of traditional East Asian ink painting and calligraphy, created by Sebastian Grafmann. At the center, the Korean word '봄' is rendered in a strong, balanced brushstroke, immediately drawing attention. Surrounding the word are clusters of cherry or plum blossoms, painted in bright red-orange hues, flowing naturally from inked branches. The simplicity of composition and negative space creates a meditative atmosphere, honoring both the seasonal theme and Korean aesthetic principles. It's a serene celebration of rebirth, warmth, and nature's return after winter.",
+        "author":"Sebastian Grafmann",
+        "popularity":100,
+        "period":"2013",
+        "s_des":"This minimalist Korean artwork features bold calligraphy spelling the word '봄' (Spring), surrounded by vivid red blossoms painted in a traditional brush style. The combination of sharp black ink and vibrant color symbolizes the arrival of spring and renewal."
 
     }
 ]

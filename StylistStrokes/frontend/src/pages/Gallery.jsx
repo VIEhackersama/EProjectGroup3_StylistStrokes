@@ -34,7 +34,7 @@ const Gallery = () => {
 
                                     <div>
                                         <p>Our little, humble collection from around the world</p>
-                                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore libero illum odit, amet incidunt quae deleniti explicabo obcaecati impedit saepe earum veritatis officia minus dignissimos nemo soluta cum nesciunt.</p>
+                                        <p className="lead">Welcome to a curated collection of artistic excellence. These works have been gathered from diverse corners of the world, each bearing the imprint of culture, emotion, and history. We invite you to experience the quiet grandeur of art that transcends time.</p>
                                     </div>
 
                                 </div>
@@ -62,7 +62,7 @@ const Gallery = () => {
                             <h1 className="mea-culpa-regular">Highlights</h1>
                         </Row>
                         <Row className="justify-content-center text-center pb-4">
-                            <p>These are some of the best artworks from our collection</p>
+                            <p>A selection of distinguished works that represent the finest pieces in our collection.</p>
                         </Row>
                         <HighlightDisplay></HighlightDisplay>
                     </div>

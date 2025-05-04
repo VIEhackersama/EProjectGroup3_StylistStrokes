@@ -1,3 +1,5 @@
+import {motion} from 'framer-motion'
+
 export default function Abouthero()
 {
     return(
@@ -14,7 +16,11 @@ export default function Abouthero()
                         zIndex: 1,
                     }}
                 ></div>
-                <div className="position-relative text-center" style={{ zIndex: 2 }}>
+                <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={ { opacity: 1, y: 0 } }
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className="position-relative text-center" style={{ zIndex: 2 }}>
                     <img style={{ filter: "invert(100%)" }} className="p-3 img-fluid" src='/image/logo1.png'></img>
                     <p className="container text-white">
                         <div className="h3">LEARN CALLIGRAPHY WITHIN YOUR OWN SCREEN</div><br></br>
@@ -23,7 +29,7 @@ export default function Abouthero()
                     <a href='' className="btn btn-info my-4 px-5 btn-lg" style={{ borderRadius: '30px' }}>
                         <label style={{color:"brown"}}>Learn more!</label>
                     </a>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
