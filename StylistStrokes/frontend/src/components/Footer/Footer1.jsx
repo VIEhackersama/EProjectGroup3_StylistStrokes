@@ -73,16 +73,16 @@ export default function Footer_1() {
                     <h5 className="h2 fw-bolder mb-4 tagesschrift-regular">Customer Care</h5>
                     <ul className="list-unstyled">
                         <li className="d-flex justify-content-between mb-2">
-                            <span className="text-light opacity-75">Monday - Friday:</span>
+                            <span className="text-light opacity-75">Monday - Saturday:</span>
                             <span className="text-white">9:00 AM - 6:00 PM</span>
                         </li>
                         <li className="d-flex justify-content-between mb-2">
-                            <span className="text-light opacity-75">Saturday:</span>
-                            <span className="text-white">10:00 AM - 4:00 PM</span>
+                            <span className="text-light opacity-75">Email:</span>
+                            <a className="text-white">styliststrokes@customercare.com</a>
                         </li>
                         <li className="d-flex justify-content-between mb-2">
-                            <span className="text-light opacity-75">Sunday:</span>
-                            <span className="text-white">Closed</span>
+                            <span className="text-light opacity-75">Phone:</span>
+                            <span className="text-white">(+84) 234 567 890</span>
                         </li>
                     </ul>
                     <div className="scroll-ticker mt-4">

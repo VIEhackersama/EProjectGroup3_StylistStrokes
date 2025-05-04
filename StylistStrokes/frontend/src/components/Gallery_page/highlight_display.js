@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import arts from "../../assets/data/gallery.json";
 import GalHighlights from './highlights';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,30 +38,39 @@ const HighlightDisplay=()=>{
     const groupedArts = GroupbyStyle(arts);
     const styleKeys = Object.keys(groupedArts);
     const [currentStyleIndex, setCurrentStyleIndex] = useState(0);
+    const intervalRef = useRef(null);
+    const resetInterval=()=>{
+        if(intervalRef.current) clearInterval(intervalRef.current);
+        intervalRef.current=setInterval(()=>{
+            setCurrentStyleIndex(prevIndex=>(prevIndex+1)%styleKeys.length);
+        },5000)
+
+    }
 
     useEffect(() => {
-        const interval = setInterval(() => {
-          setCurrentStyleIndex((prevIndex) => (prevIndex + 1) % styleKeys.length);
-        }, 5000); // đổi sau 5 giây
+        resetInterval();
     
-        return () => clearInterval(interval);
+        return () => clearInterval(intervalRef.current);
     }, [styleKeys.length]);
     const currentRegion = styleKeys[currentStyleIndex];
     const currentArts = groupedArts[currentRegion];
     
     const handleIndicatorClick = (index) => {
         setCurrentStyleIndex(index);
+        resetInterval()
     };
     const handlePrev = () => {
         setCurrentStyleIndex((prevIndex) => 
             prevIndex === 0 ? styleKeys.length - 1 : prevIndex - 1
         );
+        resetInterval()
     };
     
     const handleNext = () => {
         setCurrentStyleIndex((prevIndex) => 
             prevIndex === styleKeys.length - 1 ? 0 : prevIndex + 1
         );
+        resetInterval()
     };
     function getFont(style){
         switch (style){

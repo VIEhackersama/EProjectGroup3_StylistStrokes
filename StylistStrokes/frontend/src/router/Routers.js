@@ -23,6 +23,8 @@ import WesternCalligraphy from "../pages/WesternCalligraphy";
 import Beginner from "../pages/beginner";
 import BrushPen from "../pages/brushpens";
 import Advanced from "../pages/advanced";
+import ThankYou from "../pages/ThankYou";
+
 
 import { AnimatePresence } from "framer-motion";
 import Learnlist from "../components/learnlist";
@@ -55,6 +57,7 @@ const Routers = () => {
         <Route path="/beginner" element={<Beginner />} />
         <Route path="/brushpen" element={<BrushPen />} />
         <Route path="/advanced" element={<Advanced />} />
+        <Route path='/thank-you' element={<ThankYou/>}/>
       </Routes>
     </AnimatePresence>
   );

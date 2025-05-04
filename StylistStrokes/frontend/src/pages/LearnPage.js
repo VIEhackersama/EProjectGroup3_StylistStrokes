@@ -1,8 +1,12 @@
 import React from "react";
 import Learnlist from "../components/learnlist";
-import "../styles/card.css";  
+import "../styles/card.css";
+import { motion } from "framer-motion";
+
 
 function LearnPage() {
+
+  
   return (
     <div className="py-3 container-fluid" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
       <section
@@ -26,7 +30,11 @@ function LearnPage() {
         </div>
       </section>
 
-      <div className="text-center py-5">
+      <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={ { opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="text-center py-5">
         <p>Hello everyone!</p>
 
         <p>
@@ -77,11 +85,13 @@ function LearnPage() {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <section id="courses" className="container py-5">
         <h3 className="text-center fw-bold mb-5 display-6">Our Courses</h3>
+        
         <Learnlist />
+       
       </section>
     </div>
   );

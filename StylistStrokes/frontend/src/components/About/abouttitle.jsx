@@ -2,7 +2,7 @@ import './font.css'
 export default function AboutTitle({title,desc}) {
     return (
         <div
-            className="row justify-content-center mb-5"
+            className="row justify-content-center mb-2"
             // initial={{ opacity: 0, scale: 0.8 }}
             // animate={{ opacity: 1, scale: 1 }}
             // transition={{ duration: 1.2, ease: 'easeOut' }}

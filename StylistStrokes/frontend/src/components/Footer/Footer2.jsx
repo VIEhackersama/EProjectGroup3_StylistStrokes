@@ -6,8 +6,7 @@ export default function Footer_2() {
             <div className="row">
                 <Col md={6} className='text-center text-md-start mb-3 mb-md-0'>
                     <p className="text-light opacity-75 small mb-0">
-                        &copy; {new Date().getFullYear()} StylistStrokes. All rights reserved.
-                        Calligraphy Art & Supplies.
+                        &copy; 2025 StylistStrokes. All rights reserved.
                     </p>
                 </Col>
                 <Col md={6} className="text-center text-md-end">

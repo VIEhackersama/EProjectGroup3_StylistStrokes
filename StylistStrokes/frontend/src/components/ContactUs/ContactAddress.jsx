@@ -31,8 +31,8 @@ export default function ContactAddress() {
                 <img src="https://jakhurikar.com/Birthday-Background/Brush-Stroke/abstract-brush.png" alt="Decoration" className="section-deco" />
             </h2>
 
-            <p><strong>V.N. | StylistStrokes Inc.</strong><br />18 Trieu Khuc, Van Quan, Ha Dong, Ha Noi, Vietnam</p>
-            <p><strong>Global | StylistStrokes US and GLB</strong><br />6855 Hector Ford, East Marcoland, Rhode Island - 89768, CA, USA</p>
+            <p><strong>V.N. | StylistStrokes Inc.</strong><br />8A Tôn Thất Thuyết, Mỹ Đình, Nam Từ Liêm, Hà Nội</p>
+            <p><strong>U.S. | StylistStrokes US</strong><br />6855 Hector Ford, East Marcoland, Rhode Island - 89768, CA, USA</p>
             <p><strong>Phone</strong><br />(+84) 231887885</p>
             <p><strong>Email</strong><br /><a href="mailto:partner@styliststrokes.com">partner@styliststrokes.com</a></p>
             {/* <p><strong>Support & Customer care</strong><br /><a href="mailto:support@styliststrokes.com">support@styliststrokes.com</a></p> */}
