@@ -3,7 +3,8 @@ import "../styles/courseDetail.css";
 
 function Advanced() {
   return (
-    <div className="course-detail container py-5">
+    <div style={{ backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)" }}>
+    <div className="course-detail container container-fluid  py-5">
       {/* Banner */}
       <div
         className="banner rounded-4 mb-4"
@@ -93,6 +94,7 @@ function Advanced() {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
