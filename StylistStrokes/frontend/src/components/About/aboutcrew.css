@@ -1,17 +1,21 @@
 .image-animate {
   opacity: 0;
-  transform: translateY(40px); /* bắt đầu trượt từ dưới lên */
+   width: 100%; 
+  max-width: 400px;
+  height: 400px; 
+  object-fit: cover; 
+  transform: translateY(40px);
   transition: opacity 0.8s ease-out, transform 0.1s ease-out;
   will-change: opacity, transform;
 }
 
 .image-animate.visible {
   opacity: 1;
-  transform: translateY(0); /* về vị trí ban đầu */
+  transform: translateY(0); 
 }
 
 .image-animate:hover {
-  transform: scale(1.03); /* phóng nhẹ khi hover */
+  transform: scale(1.03); 
   transition: transform 0.3s ease;
 }
 .wood-frame {
