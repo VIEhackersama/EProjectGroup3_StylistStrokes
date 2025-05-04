@@ -1,5 +1,5 @@
 import React,{useRef, useState} from "react";
-import '../styles/caligraph-details.css'
+import '../styles/caligraphy-details.css'
 import { Container, Row,Col, Form, ListGroup } from 'reactstrap'
 import { useParams } from 'react-router-dom'
 import caligraphyData from '../assets/data/caligraphy'
