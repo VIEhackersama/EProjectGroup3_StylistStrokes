@@ -7,7 +7,8 @@ import heroImg02 from "../assets/images/hero-img02.jpg"
 import heroVideo from "../assets/images/hero-video.mp4"
 import worldImg from "../assets/images/world.png"
 import experienceImg from '../assets/images/experience.png';
-
+import { motion, useInView } from 'framer-motion';
+import {useRef} from 'react';
 import Subtitle from "./../shared/Subtitle";
 
 import SearchBar from "../shared/SeachBar";
@@ -18,6 +19,9 @@ import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
 import Abouthero from "../components/About/abouthero";
 const Home = () =>  {
+   const ref = useRef(null);
+   const isInView = useInView(ref, {once:true});
+
   return <>
      <div style={{ backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
       
@@ -28,7 +32,12 @@ const Home = () =>  {
      <Container>
         <Row>
           <Col lg='6' >
-             <div className="hero__content">
+             <motion.div
+             ref={ref}
+             initial={{ opacity: 0, x: -80 }}
+             animate={isInView ? { opacity: 1, x: 0 } : {}}
+             transition={{ duration: 1.2, ease: "easeOut" }}
+             className="hero__content">
                   <div className="hero__subtitle d-flex align-items-center">
                      <Subtitle subtitle={"Calligraphy is the art of the soul in ink"} />
                      <img src={worldImg} alt=""/>
@@ -40,23 +49,38 @@ const Home = () =>  {
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus culpa cumque laudantium voluptatum vitae. Laborum sint doloribus ex repellendus odit quidem perferendis amet perspiciatis cumque magnam, numquam maxime dolore. Facilis!
                   </p>
-             </div>
+             </motion.div>
           </Col>
  
          <Col lg='2'>
-            <div className="hero__img-box">
+            <motion.div
+            ref={ref}
+            initial={{ opacity: 0, y: -50 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+             className="hero__img-box">
                <img src={heroImg} alt=""/>
-            </div>
+            </motion.div>
          </Col>
          <Col lg='2'>
-            <div className="hero__img-box mt-4">
+            <motion.div 
+            ref={ref}
+            initial={{ opacity: 0, y: -50 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+            className="hero__img-box mt-4">
                <video src={heroVideo} alt="" controls/>
-            </div>
+            </motion.div>
          </Col>
          <Col lg='2'>
-            <div className="hero__img-box mt-5">
+            <motion.div
+            ref={ref}
+            initial={{ opacity: 0, y: -50 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+            className="hero__img-box mt-5">
                <img src={heroImg02} alt=""/>
-            </div>
+            </motion.div>
          </Col>
          
          <SearchBar/>
