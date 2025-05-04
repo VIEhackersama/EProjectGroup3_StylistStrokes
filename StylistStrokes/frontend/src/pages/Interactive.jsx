@@ -29,10 +29,10 @@ const InteractivePage = () => {
                     />
                     <a
                         href=""
-                        className="btn btn-info my-4 px-5 btn-lg"
+                        className="btn btn-inf my-4 px-5 btn-lg"
                         style={{ borderRadius: "30px" }}
                     >
-                        <label style={{ color: "brown" }}>HALL OF FAME!</label>
+                        <label style={{ color: "wheat" }}>THE TRUE GALLERY</label>
                     </a>
                 </div>
             </div>
