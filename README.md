@@ -58,7 +58,7 @@ Installation:
 
 4. Set up environment variables:
    - Create .env files in both frontend and backend folders
-   - Set database credentials and API endpoints
+   - Set database to mysql
 
 5. Run the project:
    - Start Laravel server:
