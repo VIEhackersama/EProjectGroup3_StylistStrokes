@@ -28,9 +28,10 @@ TEAM
 
 StylistStrokes is proudly crafted by a passionate team of 4 developers:
 
-- Frontend & UI/UX Designers
-- Backend Engineers
-- Full-stack Integrators
+- Huy Le
+- Duong Phung
+- An Do
+- Dong Pham
 
 We worked collaboratively to bridge the gap between artistic design and technical implementation.
 
@@ -70,19 +71,10 @@ CONTRIBUTING
 
 We welcome contributions! If you're passionate about calligraphy or web development, feel free to fork the repo and submit a pull request.
 
-LICENSE
--------
-
-This project is licensed under the MIT License.
-
-SCREENSHOTS
------------
-
-Coming soon!
-
 LINKS
 -----
 
 - Issues: https://github.com/your-username/StylistStrokes/issues
+- Discord: https://discord.gg/8J2TBuydTM
 
 StylistStrokes – Learn calligraphy within your own screen.
