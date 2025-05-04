@@ -26,6 +26,7 @@ import Advanced from "../pages/advanced";
 
 import { AnimatePresence } from "framer-motion";
 import Learnlist from "../components/learnlist";
+import InteractivePage from "../pages/Interactive";
 
 const Routers = () => {
   const location = useLocation(); 
@@ -54,6 +55,7 @@ const Routers = () => {
         <Route path="/" element={<Learnlist/>}/>
         <Route path="/beginner" element={<Beginner />} />
         <Route path="/brushpen" element={<BrushPen />} />
+        <Route path='/showcase' element={<InteractivePage></InteractivePage>}></Route>
         <Route path="/advanced" element={<Advanced />} />
       </Routes>
     </AnimatePresence>

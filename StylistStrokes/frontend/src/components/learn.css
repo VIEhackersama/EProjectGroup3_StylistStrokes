@@ -1,15 +1,15 @@
 
 .card-custom {
-  width: 18rem; /* Cố định chiều rộng */
-  height: auto; /* Cố định chiều cao */
+  width: 18rem; 
+  height: auto; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 15px;
-  margin: auto; /* Căn giữa card trong container */
+  margin: auto; 
 }
 
 .card-custom img {
   height: 220px; /* Cố định chiều cao ảnh */
-  object-fit: cover; /* Đảm bảo ảnh không bị biến dạng */
+  object-fit: cover; 
 }
 
 .card-custom:hover {
@@ -17,12 +17,10 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-/* Hiệu ứng hover khi hover ảnh */
 .card-custom:hover img {
   transform: scale(1.05);
 }
 
-/* Các hiệu ứng cho nút Learn More */
 .btn-info {
   background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
   border: none;

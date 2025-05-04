@@ -4,14 +4,10 @@ import { motion } from "framer-motion";
 
 function BrushPen() {
   return (
+    <div style={{ backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)" }}>
     <div
       className="py-4 container"
-      style={{
-        backgroundImage:
-          "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
-      }}
     >
-      {/* Banner với animation */}
       <motion.div
         className="banner rounded-4 mb-4"
         style={{ backgroundImage: "url('/image/brushpen.jpg')" }}
@@ -23,8 +19,6 @@ function BrushPen() {
           <h1 className="text-white fw-bold display-5">Brush Pen Techniques</h1>
         </div>
       </motion.div>
-
-      {/* Nội dung */}
       <motion.div
         className="content text-muted"
         initial={{ opacity: 0, y: 20 }}
@@ -39,7 +33,6 @@ function BrushPen() {
           <li>✓ Learning pressure control and fluid motions</li>
         </ul>
 
-        {/* Video YouTube */}
         <motion.div
           className="video-container my-4"
           initial={{ opacity: 0 }}
@@ -134,6 +127,7 @@ function BrushPen() {
           </a>
         </div>
       </motion.div>
+    </div>
     </div>
   );
 }

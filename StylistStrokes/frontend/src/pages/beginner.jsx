@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 function Beginner() {
   return (
+    <div style={{ backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)" }}>
     <div
-      className="py-4 container "
-      style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}
+      className="py-4 container container-fluid "
     >
       <motion.div
         className="banner rounded-4 mb-4 shadow-lg custom-image"
@@ -72,6 +72,7 @@ function Beginner() {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
