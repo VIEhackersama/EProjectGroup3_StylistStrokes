@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Form, FormGroup, Label, Input, Button, Alert } from "reactstrap";
+import { Form, FormGroup, Input, Button, Alert } from "reactstrap";
+import axios from "axios";
 
 const FeedbackForm = () => {
     const [formData, setFormData] = useState({
@@ -7,72 +8,73 @@ const FeedbackForm = () => {
         author: "",
         style: "",
         description: "",
-        image: null,
+        image: "", // chỉ là URL string
     });
 
-    const [imagePreview, setImagePreview] = useState(null);
     const [submitted, setSubmitted] = useState(false);
+    const [error, setError] = useState("");
 
     const handleChange = (e) => {
-        const { name, value, files } = e.target;
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
 
-        if (name === "image") {
-            const file = files[0];
-            setFormData({ ...formData, image: file });
-            setImagePreview(URL.createObjectURL(file));
-        } else {
-            setFormData({ ...formData, [name]: value });
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            await axios.post("http://localhost:8000/api/showcase", formData);
+            setSubmitted(true);
+            setFormData({
+                title: "",
+                author: "",
+                style: "",
+                description: "",
+                image: "",
+            });
+            setError("");
+        } catch (err) {
+            console.error("Error sending content", err);
+            setError("Error occured. Try again later");
         }
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Submitted Data:", formData);
-        setSubmitted(true);
-        setFormData({
-            title: "",
-            author: "",
-            style: "",
-            description: "",
-            image: null,
-        });
-        setImagePreview(null);
-    };
-
     return (
-        
-        <section style={{ backgroundColor:"#C9D6FF"}} className="p-4 shadow-sm rounded ">
-            {submitted && <Alert color="success">Your calligraphy has been submitted!</Alert>}
+        <section style={{ backgroundColor: "#9eb6f7" }} className="p-4 shadow-sm rounded">
+            {submitted && <Alert color="success">Your post has been made successfully!</Alert>}
+            {error && <Alert color="danger">{error}</Alert>}
+
             <Form onSubmit={handleSubmit}>
                 <FormGroup>
-                    <div className="form-label h3 pattaya-regular" for="title">Title</div>
-                    <Input type="text" name="title" id="title" required value={formData.title} onChange={handleChange} />
+                    <div className="form-label h3 pattaya-regular">Title</div>
+                    <Input type="text" name="title" required value={formData.title} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
-                    <div className="form-label h3 pattaya-regular" for="author">Author</div>
-                    <Input type="text" name="author" id="author" required value={formData.author} onChange={handleChange} />
+                    <div className="form-label h3 pattaya-regular">Author</div>
+                    <Input type="text" name="author" required value={formData.author} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
-                    <div className="form-label h3 pattaya-regular" for="style">Style</div>
-                    <Input type="text" name="style" id="style" required value={formData.style} onChange={handleChange} />
+                    <div className="form-label h3 pattaya-regular">Style</div>
+                    <Input type="text" name="style" required value={formData.style} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
-                    <div className="form-label h3 pattaya-regular" for="description">Description</div>
-                    <Input type="textarea" name="description" id="description" required value={formData.description} onChange={handleChange} />
+                    <div className="form-label h3 pattaya-regular">Description</div>
+                    <Input type="textarea" name="description" required value={formData.description} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
-                    <div for="image" className="form-label h3 pattaya-regular">Upload Image</div>
-                    <Input type="file" name="image" id="image" accept="image/*" onChange={handleChange} />
-                    {imagePreview && (
+                    <div className="form-label h3 pattaya-regular">Image URL</div>
+                    <Input type="url" name="image" placeholder="https://example.com/image.jpg" value={formData.image} onChange={handleChange} />
+                    {formData.image && (
                         <div className="mt-3">
-                            <img src={imagePreview} alt="Preview" className="img-fluid rounded shadow-sm" style={{ maxHeight: "300px" }} />
+                            <img src={formData.image} alt="Preview" className="img-fluid rounded shadow-sm" style={{ maxHeight: "300px" }} />
                         </div>
                     )}
-                    <label className="p-2 form-check-label" htmlFor="acceptTos">
-                        By submitting this form, you are confirming that we, as an orangization, have full authority in using and manage your provided media. Please refrain from sharing personal information. Learn more at <a className="fw-semibold" href="#">Terms and conditions</a>
+                </FormGroup>
+                <FormGroup>
+                    <label className="p-2 form-check-label">
+                        By submitting this form, you agree we may use your media. Learn more at <a href="#">Terms and Conditions</a>.
                     </label>
                 </FormGroup>
-                <Button color="primary" type="submit">Submit</Button>
+                <Button className="btn-inf" type="submit">Submit</Button>
             </Form>
         </section>
     );

@@ -13,3 +13,4 @@ Route::post('/login',[AuthController::class, 'login']);
 
 Route::middleware('auth:sanctum')->get('/user', [AuthController::class, 'me']);
 Route::post('/form', [FormController::class, 'store']);
+Route::apiResource('/showcase', 'App\Http\Controllers\ShowcaseController');
