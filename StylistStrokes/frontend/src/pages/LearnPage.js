@@ -8,7 +8,7 @@ function LearnPage() {
 
   
   return (
-    <div className="py-3 container-fluid" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
+    <div className="py-3" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
       <section
         className="text-white text-center py-5"
         style={{
@@ -44,7 +44,7 @@ function LearnPage() {
         </p>
 
         <p>
-          Join our <span className="highlight text-warning">Art of Calligraphy Course</span>,
+          Join our <span className="highlight text-danger">Art of Calligraphy Course</span>,
           where you will:
         </p>
         <ul className="list-unstyled">
@@ -67,7 +67,7 @@ function LearnPage() {
           express yourself through every stroke.
         </p>
 
-        <p className="highlight text-warning">
+        <p className="highlight text-danger">
           The Calligraphy Course – where your journey into the beauty of letters
           begins.
         </p>
@@ -93,6 +93,7 @@ function LearnPage() {
         <Learnlist />
        
       </section>
+        <h3 className="text-center">And many more to discover! Stay tuned!</h3>
     </div>
   );
 }

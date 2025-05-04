@@ -36,7 +36,8 @@ export default function AboutMiddle() {
                 className='round rounded-2 shadow img-fluid'
                  src="https://r.mobirisesite.com/1452337/assets/images/photo-1628962691167-27b7db9997e0.jpeg"
                  alt="" 
-                style={{border:"20px solid transparent",
+                style={{
+                    transform:"rotate(2deg)",border:"20px solid transparent",
                 borderRadius:"10px", 
                     borderImage:`url(https://www.roncofurniture.net/cdn/shop/products/Western_Collection_Decorative_Nail_Heads_EW117C_722x700.jpg?v=1561573612)`}}/>
             </div>

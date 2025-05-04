@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Elegant Brush Script",
+        "author": "Anna",
+        "style":"Brush Script",
+        "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+        "description":"This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 2,
+      "title": "Classic Gothic Style",
+      "author": "John",
+      "style": "Gothic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 3,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 4,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 5,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 5,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 5,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 5,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    },
+    {
+      "id": 5,
+      "title": "Arabic Calligraphy",
+      "author": "Fatima",
+      "style": "Arabic",
+      "image": "https://blog.artsper.com/wp-content/uploads/2025/04/Calligraphy-Image-via-kenadesigncom.jpg",
+      "description": "This is a beautiful brush script calligraphy piece that showcases the elegance of the brush strokes used."
+    }
+]
