@@ -1,38 +1,38 @@
 [
   {
-    "name": "Huy Le Nhat",
-    "role": "Calligraphy Expert",
-    "image": "/image/huyle.jpeg",
-    "description": "An enthusiast crew. Often comes up with witty but effective dicisions",
-    "fbdesc": "huy-uii",
-    "instadesc": "huy.le.nhat.98",
-    "redditdesc": "Huy_muvodich"
-  },
-  {
-    "name": "Cong Duong Phung",
-    "role": "Style Artist",
-    "image": "/image/huyle.jpeg",
-    "fbdesc": "huy-uii",
-    "description": "Duong is a passionate calligrapher who brings elegance to every stroke.",
-    "instadesc": "huy.le.nhat.98",
-    "redditdesc": "duongfung"
-  },
-  {
-    "name": "Duy An Do",
-    "role": "Gallery Manager",
-    "image": "/image/huyle.jpeg",
-    "fbdesc": "huy-uii",
-    "description": "An blends tradition and innovation, crafting calligraphy that tells a story.",
-    "instadesc": "huy.le.nhat.98",
-    "redditdesc": " huule"
-  },
-  {
-    "name": "Dong Hai Pham",
+    "name": "Pham Hai DONG",
     "role": "Team Leader",
     "image": "/image/dongpham.png",
     "fbdesc": "viehackersama",
     "description": "The mastermind behind the crew, ensuring every project is a masterpiece.",
     "instadesc": "hackersama",
     "redditdesc": "dong.pham"
+  },
+  {
+    "name": "Le Nhat HUY",
+    "role": "Calligraphy Expert",
+    "image": "/image/huyle.jpeg",
+    "description": "An enthusiast crew. Often comes up with witty but effective dicisions",
+    "fbdesc": "huy-uii",
+    "instadesc": "huy.le.nhat.98",
+    "redditdesc": "Huy_manunitedvodich"
+  },
+  {
+    "name": "Phung Cong DUONG",
+    "role": "Style Artist",
+    "image": "https://d2zp5xs5cp8zlg.cloudfront.net/image-79322-800.jpg",
+    "fbdesc": "duong2k3",
+    "description": "Duong is a passionate calligrapher who brings elegance to every stroke.",
+    "instadesc": "duongphung23k",
+    "redditdesc": "duongfung"
+  },
+  {
+    "name": "Do Duy AN",
+    "role": "Gallery Manager",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRym5HW6aLPVPQ9CLFg5lOE_6j4RPb80qdIqw&s",
+    "fbdesc": "anduydo",
+    "description": "An blends tradition and innovation, crafting calligraphy that tells a story.",
+    "instadesc": "talkingbrush",
+    "redditdesc": "anduy"
   }
 ]
