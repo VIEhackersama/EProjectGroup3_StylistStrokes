@@ -68,11 +68,17 @@ export default function Footer_1() {
                     <h5 className="h2 fw-bolder mb-4 tagesschrift-regular">Resource</h5>
                     <FooterList
                         a1="Guides"
+                        b1='/contact'
                         a2="Calligraphy information"
+                        b2='/gallery'
                         a3="Post your work"
+                        b3='/showcase'
                         a4="How to join our team?"
+                        b4='/about'
                         a5="Forms"
+                        b5='/contact'
                         a6="Shop"
+                        b6='/home'
                     ></FooterList>
                 </Col>
                 <Col lg={3} md={6}>

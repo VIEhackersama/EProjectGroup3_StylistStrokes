@@ -3,6 +3,7 @@ import './aboutcrew.css'
 import { SlSocialInstagram, SlSocialTwitter, SlSocialReddit } from "react-icons/sl";
 import { useState, useRef, useEffect } from 'react';
 import { FaFacebook } from 'react-icons/fa6';
+import { FaXTwitter } from 'react-icons/fa6';
 export default function Aboutcrew() {
     const [visible, setVisible] = useState(new Array(members.length).fill(false));
     const imageRefs = useRef([]);
@@ -59,7 +60,7 @@ export default function Aboutcrew() {
                                 <div className='mx-1'><SlSocialInstagram size={50} /><> {member.instadesc}</></div>
                             </a>
                             <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}>
-                                <div className='mx-2'><SlSocialTwitter size={50} /><> {member.redditdesc}</></div>
+                                <div className='mx-2'><FaXTwitter size={50} /><> {member.redditdesc}</></div>
                             </a>
                         </div>
                     </div>
