@@ -9,7 +9,7 @@ const GallerySection = () => {
     useEffect(() => {
         axios.get("http://localhost:8000/api/showcase")
             .then((response) => {
-                setGalleryData(prevData => [...prevData, ...response.data]); 
+                setGalleryData(response.data);
             })
             .catch((error) => {
                 console.error("Không thể lấy dữ liệu từ API:", error);
@@ -36,8 +36,25 @@ const GallerySection = () => {
                         </div>
                     </Col>
                 ))}
+                {mockGallery.map((item, index) => (
+                    <Col sm="12" md="6" lg="4" key={item.id || `placeholder-${index}`} className="mb-4">
+                        <div style={{ backgroundColor: "wheat" }} className="wood-frame">
+                            <div className="card">
+                                <CardImg top width="100%" src={item.image} alt={item.title} />
+                                <div className="card-body">
+                                    <CardTitle tag="h5">{item.title}</CardTitle>
+                                    <div className="card-text">
+                                        <small>Style: {item.style}</small><br />
+                                        <small>By: {item.author}</small><br />
+                                        <small>{item.description}</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                ))}
             </Row>
-            <h3 className="text-center text-white">And many more... </h3>
+            <h3 className="text-center text-white">This seems like you have reached the end. Refresh to see more content </h3>
         </section>
     )
 };
