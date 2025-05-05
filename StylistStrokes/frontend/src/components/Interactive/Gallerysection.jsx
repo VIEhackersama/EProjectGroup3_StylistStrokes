@@ -12,7 +12,7 @@ const GallerySection = () => {
                 setGalleryData(response.data);
             })
             .catch((error) => {
-                console.error("Không thể lấy dữ liệu từ API:", error);
+                console.error("Couldn't fetch data from Laravel", error);
             });
     }, []);
 
