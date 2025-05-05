@@ -9,17 +9,17 @@ const servicesData = [
     {
         imgUrl: weatherImg,
         title: "Weather shifts, ink remains.",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        desc: "hough seasons change, ink endures.",
     },
     {
         imgUrl: guideImg,
         title: "The best guide writes with silence.",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        desc: "A true master writes in silence.",
     },
     {
         imgUrl: customizationImg,
         title: "customization",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        desc: "Tailored strokes to reflect your soul.",
     },
 ]
 
