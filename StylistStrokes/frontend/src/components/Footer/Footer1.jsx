@@ -48,25 +48,37 @@ export default function Footer_1() {
                     <Icon></Icon>
                 </Col>
                 <Col lg={3} md={6}>
-                    <h5 className="h2 fw-bolder mb-4 tagesschrift-regular">Links</h5>
+                    <h5 className="h2 fw-bolder mb-4 tagesschrift-regular">Navigation</h5>
                     <FooterList
                         a1="Home"
-                        b1='https://google.com'
-                        a2="About Us"
-                        a3="Contact Us"
-                        a4="Gallery"
-                        a5="Learn"
+                        b1='/home'
+                        a2="Gallery"
+                        b2='/gallery'
+                        a4="Showcase"
+                        b4='/showcase'
+                        a5="About Us"
+                        b5='/about'
+                        a6="Contact"
+                        b6='/contact'
+                        a3="Learn"
+                        b3="learn"
                     ></FooterList>
                 </Col>
                 <Col lg={3} md={6}>
                     <h5 className="h2 fw-bolder mb-4 tagesschrift-regular">Resource</h5>
                     <FooterList
                         a1="Guides"
-                        a2="Articles"
-                        a3="Contact Us"
-                        a4="Gallery"
-                        a5="Blog"
+                        b1='/contact'
+                        a2="Calligraphy information"
+                        b2='/gallery'
+                        a3="Post your work"
+                        b3='/showcase'
+                        a4="How to join our team?"
+                        b4='/about'
+                        a5="Forms"
+                        b5='/contact'
                         a6="Shop"
+                        b6='/home'
                     ></FooterList>
                 </Col>
                 <Col lg={3} md={6}>
