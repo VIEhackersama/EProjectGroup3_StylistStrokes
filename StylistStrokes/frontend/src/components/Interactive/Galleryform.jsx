@@ -70,8 +70,8 @@ const FeedbackForm = () => {
                     )}
                 </FormGroup>
                 <FormGroup>
-                    <label className="p-2 form-check-label">
-                        By submitting this form, you agree we may use your media. Learn more at <a href="#">Terms and Conditions</a>.
+                    <label className="p-2 fw-semibold form-check-label">
+                        By submitting this form, you agree that you shall not share unauthorized copyrighted media and we might take legal action if anyone violate our Code of conduct. Learn more at <a className="text-danger" href="#">Terms of services</a>.
                     </label>
                 </FormGroup>
                 <Button className="btn-inf" type="submit">Submit</Button>
