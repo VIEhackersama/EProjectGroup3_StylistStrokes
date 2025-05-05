@@ -3,7 +3,7 @@ import { Card, CardImg, CardBody, CardTitle, CardText, Row, Col } from "reactstr
 import mockGallery from './Galleryuser.json';
 import './Interactive.css';
 import axios from "axios";
-
+import { motion } from "framer-motion";
 const GallerySection = () => {
     const [galleryData, setGalleryData] = useState(mockGallery);
     useEffect(() => {
@@ -17,7 +17,10 @@ const GallerySection = () => {
     }, []);
 
     return (
-        <section>
+        <motion.section
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}>
             <Row>
                 {galleryData.map((item, index) => (
                     <Col sm="12" md="6" lg="4" key={item.id || `placeholder-${index}`} className="mb-4">
@@ -55,7 +58,7 @@ const GallerySection = () => {
                 ))}
             </Row>
             <h3 className="text-center text-white">This seems like you have reached the end. Refresh to see more content </h3>
-        </section>
+        </motion.section>
     )
 };
 

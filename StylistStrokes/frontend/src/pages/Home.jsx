@@ -47,7 +47,7 @@ const Home = () =>  {
                     <span className="highlight">memories</span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus culpa cumque laudantium voluptatum vitae. Laborum sint doloribus ex repellendus odit quidem perferendis amet perspiciatis cumque magnam, numquam maxime dolore. Facilis!
+                  Calligraphy is a respected art form in many countries. China, Japan, and Korea are known for traditional brush calligraphy. In the West, Latin calligraphy has developed with elegance and precision, often used in invitations, artistic documents, and decoration.
                   </p>
              </motion.div>
           </Col>
@@ -126,7 +126,7 @@ const Home = () =>  {
                      with our all expreience <br/> we will serve you
                   </h2>
                   <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Over the past 15 years, we’ve dedicated ourselves to preserving the timeless art of traditional calligraphy. Our passion is reflected in every stroke, and our commitment is recognized by thousands of admirers. Whether you're seeking elegance, meaning, or cultural depth, our work speaks for itself.
                   <br />
                   Quas aliquam, hic tempore inventore suscipit unde.
                   </p>
