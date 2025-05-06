@@ -7,7 +7,7 @@ function Learn(props) {
     <div className="col-md-4 mb-4">
       <div
         className="card shadow-sm rounded-lg card-custom"
-        style={{ width: "18rem", height: "auto" }}
+        style={{ width: "25rem", height: "auto" }}
       >
         <img
           src={props.image}

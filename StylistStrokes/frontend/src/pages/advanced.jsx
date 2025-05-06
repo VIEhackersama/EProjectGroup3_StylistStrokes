@@ -70,24 +70,6 @@ function Advanced() {
           </div>
         </div>
 
-        {/* FAQ */}
-        <div className="faq mt-5">
-          <h4 className="fw-semibold text-dark">Frequently Asked Questions</h4>
-          <div className="faq-item mt-3">
-            <h5 className="fw-bold">Do I need prior experience in calligraphy?</h5>
-            <p className="text-muted">While some experience in calligraphy is helpful, this course is designed for intermediate learners. You should have completed a beginner-level course before joining.</p>
-          </div>
-          <div className="faq-item mt-3">
-            <h5 className="fw-bold">What materials do I need for this course?</h5>
-            <p className="text-muted">You will need a good-quality brush pen, practice sheets, and some basic calligraphy paper. A detailed list of materials will be provided at the start of the course.</p>
-          </div>
-          <div className="faq-item mt-3">
-            <h5 className="fw-bold">Is there any certificate upon completion?</h5>
-            <p className="text-muted">Yes, you will receive a certificate of completion once you finish the course and submit your final project.</p>
-          </div>
-        </div>
-
-        {/* CTA Button */}
         <div className="mt-5 text-center">
           <a href="/contact" className="btn btn-gradient-custom px-4 py-2">
             Enroll now !
