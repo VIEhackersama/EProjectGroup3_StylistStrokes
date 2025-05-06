@@ -1,11 +1,13 @@
 
 .card-custom {
-  width: 18rem; 
-  height: auto; 
+  width: 100%; 
+  max-width: 380px;
+  height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 15px;
-  margin: auto; 
+  margin: auto;
 }
+
 
 .card-custom img {
   height: 220px; /* Cố định chiều cao ảnh */
