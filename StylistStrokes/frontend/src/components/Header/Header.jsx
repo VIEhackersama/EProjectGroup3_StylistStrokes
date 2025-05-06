@@ -120,7 +120,7 @@ const Header = () => {
                     </Link>
                   </>
                 ) : (
-                  <>
+                  <div className="d-flex gap-2">
                     <Link to="/login" className="">
                       <div style={{
                         "--brush-image": `url(${penBrush})`,
@@ -133,7 +133,7 @@ const Header = () => {
                         <label className="fw-semibold aclonica-regular text-black">Register</label>
                       </div>
                     </Link>
-                  </>
+                  </div>
                 )}
               </div>
             </div>
