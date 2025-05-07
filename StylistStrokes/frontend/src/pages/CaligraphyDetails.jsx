@@ -11,13 +11,19 @@ const CaligraphyDetails = () => {
   const { id } = useParams();
   const reviewMsRef = useRef('')
   const [caligraphyRating, setCaligraphyRating] = useState(null)
+
+  // this is an static data later we will call our API and load our data from database
   const caligraphy = caligraphyData.find(caligraphy => caligraphy.id === id);
 
+  //destructure properties from caligraphy object
   const { photo, title, desc, price, address, reviews, city, distance, maxGroupSize } = caligraphy;
 
   const { totalRating, avgRating } = calculateAvgRating(reviews);
+
+  // format date
   const options = { day: "numeric", month: "long", year: "numeric" };
 
+  //submid
   const submitHandler = e => {
     e.preventDefault()
     const reviewText = reviewMsRef.current.value;
