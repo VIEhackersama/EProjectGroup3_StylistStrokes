@@ -1,52 +1,61 @@
-.search__bar {
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
-    width: max-content;
-    margin-top: 50px;
-  }
-  
-  .form__group span {
-    font-size: 1.8rem;
-    color: #ee6e6e;
-  }
-  
-  .form__group input {
-    border: none;
-    font-size: 0.9rem;
-    color: var(--heading-color);
-    font-weight: 500;
-  }
-  
-  .form__group input:focus {
-    outline: none;
-  }
-  
-  .form__group h6 {
-    margin-bottom: 0;
-  }
-  
-  .form__group--fast {
-    border-right: 2px solid #ddd;
-  }
-  
-  .search__icon i {
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    background: linear-gradient(135deg, var(--secondary-color), #ff9a9e);
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
-  }
-  
-  .search__icon i:hover {
-    transform: scale(1.15) rotate(5deg);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-    filter: brightness(1.1);
-  }
-  
+/* Vùng chứa chính */
+.search-bar-container {
+  padding: 2rem 1rem;
+}
+
+/* Tiêu đề chính với phông chữ thư pháp */
+.calligraphy-info h2 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: normal;
+  font-size: 3rem;
+  color: #2c2c2c;
+  margin-bottom: 0.5rem;
+}
+
+/* Đoạn mô tả dưới tiêu đề */
+.calligraphy-info p {
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Đoạn mô tả cuối (trích dẫn thư pháp) */
+.calligraphy-info .text-muted {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+/* Bộ sưu tập hình ảnh */
+.image-gallery {
+  margin-top: 2rem;
+}
+
+/* Căn lề để hình ảnh sát nhau hơn */
+.image-gallery .row {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.image-gallery .col-6,
+.image-gallery .col-md-3 {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* Kiểu hiển thị ảnh */
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hiệu ứng hover ảnh */
+.image-gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
