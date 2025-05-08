@@ -57,8 +57,8 @@ Installation:
    composer install
 
 4. Set up environment variables:
-   - Create .env files in both frontend and backend folders
-   - Set database to mysql
+   - Create .env files in both backend folders by copypasting from .env.example file (no further edit needed)
+   - Install React libraries if required
 
 5. Run the project:
    - Start Laravel server:
