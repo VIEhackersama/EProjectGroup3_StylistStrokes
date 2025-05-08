@@ -64,7 +64,7 @@ const SearchBar = () => {
   return (
     <div className="search-bar-container py-5">
       <div className="text-center mb-4">
-        <h2 className="fw-bold">Top Calligraphy Artists</h2>
+        <h2 className="fw-bold">Ancient artists that have inspiried us!</h2>
         <p>Discover legendary calligraphers who shaped the beauty of script.</p>
       </div>
       <div className="container">

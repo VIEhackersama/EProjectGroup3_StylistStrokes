@@ -74,7 +74,6 @@ const Gallery = () => {
                         
                     </motion.div>
 
-                    </motion.div>
                 </Container>
             </section>
             {/* Highlights */}
