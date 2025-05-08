@@ -133,12 +133,12 @@ const Header = () => {
                       <div style={{
                         "--brush-image": `url(${penBrush})`,
                       }} className="btn-header2 btn-with-image text-center w-100">
-                        <label className="fw-semibold aclonica-regular text-black">Login</label>
+                        <span className="fw-semibold aclonica-regular text-black">Login</span>
                       </div>
                     </Link>
                     <Link to="/register" className="">
                       <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center w-100">
-                        <label className="fw-semibold aclonica-regular text-black">Register</label>
+                        <span className="fw-semibold aclonica-regular text-black">Register</span>
                       </div>
                     </Link>
                   </div>

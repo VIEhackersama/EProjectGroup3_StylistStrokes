@@ -106,7 +106,7 @@ export default function RegisterPage({
                                 type="submit"
                                 className="btn w-100 text-white py-2 my-3 btn-inf"
                             >
-                                <label className="special-gothic">Create an account</label>
+                                <span className="special-gothic">Create an account</span>
                             </button>
 
                             <div className="d-flex align-items-center my-1">
