@@ -39,7 +39,7 @@ body {
   color: var(--heading-color);
   line-height: 1.2;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-  font-family: 'UVN Bay Bong', cursive; /* Dùng chữ thư pháp cho tiêu đề chính */
+  font-family: 'UVN Bay Bong', cursive; 
 }
 
 .hero__content h1 .highlight {

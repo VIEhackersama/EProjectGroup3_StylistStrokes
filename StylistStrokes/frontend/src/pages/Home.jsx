@@ -43,8 +43,8 @@ const Home = () =>  {
                      <img src={worldImg} alt=""/>
                   </div>
                   <h1>
-                  Calligraphy connects hearts beyond borders – where ink speaks a universal language.{" "}
-                    <span className="highlight">memories</span>
+                  StylistStrokes: Calligraphy connects hearts beyond borders – where ink speaks a universal language.{" "}
+                     {/* <span className="highlight">memories</span> */}
                   </h1>
                   <p>
                   Calligraphy is a respected art form in many countries. China, Japan, and Korea are known for traditional brush calligraphy. In the West, Latin calligraphy has developed with elegance and precision, often used in invitations, artistic documents, and decoration.
@@ -54,7 +54,7 @@ const Home = () =>  {
  
          <Col lg='2'>
             <motion.div
-            ref={ref}
+            ref={ref}   
             initial={{ opacity: 0, y: -50 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1.2, ease: "easeOut" }}
