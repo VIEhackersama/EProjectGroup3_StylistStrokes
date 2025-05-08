@@ -22,22 +22,20 @@ export default function AboutPage() {
     // style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}        // src="https://greatpeopleinside.com/wp-content/uploads/2019/11/team-building-1030x579.jpg"
 
     >
-      <div className="position-relative w-100 d-flex flex-column justify-content-center align-items-center">
-        <div
-          className="position-absolute top-0 start-0 w-100 h-100"
+      <div className="position-relative container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div className="position-absolute top-0 start-0 w-100 h-100"
           style={{
             backgroundImage: `url(https://greatpeopleinside.com/wp-content/uploads/2019/11/team-building-1030x579.jpg)`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            filter: "brightness(50%)",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
             zIndex: 1,
+            filter: "brightness(65%)",
           }}
-        ></div>
-        <div className="position-relative text-center" style={{ zIndex: 2 }}>
-          <p className="container text-white">
-            <br></br><div className="h1">MEET OUR TEAM</div><br></br>
-          </p>
+        >
+        </div>
+        <div className="position-relative text-center my-3" style={{ zIndex: 2 }}>
+          <h1 className="intro1 mea-culpa-regular fw-medium text-white my-4">About the team</h1>
         </div>
       </div>
       <motion.div className="container pt-5"
@@ -63,7 +61,7 @@ export default function AboutPage() {
         <AboutTitle desc={"We see. We do. We connect. We maintain tradition. And we leave nobody behind!"} title={'Our legacy'}></AboutTitle>
         <div className="row justify-content-center m-4 py-1 h5 text-center">Rooted in heritage, our work pays tribute to centuries of calligraphic art. Every line we draw echoes the hands of masters before us, leaving our own mark on the evolving story of the written word.
 
-<FaHandshakeSimple className="m-3" size={80}></FaHandshakeSimple></div>
+          <FaHandshakeSimple className="m-3" size={80}></FaHandshakeSimple></div>
         <section>
           <Container>
             <Row>
@@ -82,7 +80,7 @@ export default function AboutPage() {
           <div className="btn btn-info my-4 px-5">
             <YoutubeEmbed url="https://www.youtube.com/embed/t42_31OeUzA"></YoutubeEmbed>
           </div>
-          
+
         </div>
       </div>
       <div className="container pt-5" style={{ backgroundColor: "" }}>

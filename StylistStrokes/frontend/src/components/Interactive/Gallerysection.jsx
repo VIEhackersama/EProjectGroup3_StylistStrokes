@@ -30,8 +30,8 @@ const GallerySection = () => {
                                 <div className="card-body">
                                     <CardTitle tag="h5">{item.title}</CardTitle>
                                     <div className="card-text">
+                                        <div className="fw-semibold">Author: {item.author}</div>
                                         <small>Style: {item.style}</small><br />
-                                        <small>By: {item.author}</small><br />
                                         <small>{item.description}</small>
                                     </div>
                                 </div>
@@ -47,8 +47,8 @@ const GallerySection = () => {
                                 <div className="card-body">
                                     <CardTitle tag="h5">{item.title}</CardTitle>
                                     <div className="card-text">
-                                        <small>Style: {item.style}</small><br />
-                                        <small>By: {item.author}</small><br />
+                                        <div className="fw-semibold">Author: {item.author}</div>
+                                         <small>Style: {item.style}</small><br />
                                         <small>{item.description}</small>
                                     </div>
                                 </div>

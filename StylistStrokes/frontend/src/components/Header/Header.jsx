@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Button, Label } from "reactstrap";
 import { NavLink, Link, useLocation } from "react-router-dom";
-import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone, FaFacebookF, FaYoutube, FaMailchimp, FaVoicemail, FaLetterboxd, FaMessage } from "react-icons/fa6";
+import { FaHouse, FaCircleInfo, FaPencil, FaBook, FaPhone, FaFacebookF, FaYoutube, FaMailchimp, FaVoicemail, FaLetterboxd, FaMessage, FaPeopleArrows, FaPeopleGroup, FaPerson } from "react-icons/fa6";
 import { RiTeamFill } from "react-icons/ri";
 import penBrush from "../../assets/images/caligraphy-img01.jpg";
 import logo from "../../assets/images/logo1.png";
@@ -67,7 +67,7 @@ const Header = () => {
   }, []);
   return (
     <div>
-      <div style={{ borderWidth: "10px", backgroundColor: "#f5a68c", color: "brown", borderColor: "brown" }} className="top-bar py-2">
+      <div style={{ borderWidth: "10px", backgroundColor: "#edd58e", color: "brown", borderColor: "brown" }} className="top-bar py-2">
         <div className="container d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">
             <FaMessage className="me-2" />
@@ -76,7 +76,8 @@ const Header = () => {
             <span>Phone: (+84) 234 567 890</span>
           </div>
           <div className="social-links">
-            <label>Visited count: {visitCount}</label>
+            <FaPerson className="mx-3 me-2"></FaPerson>
+            <span>Visited count: {visitCount}</span>
           </div>
         </div>
       </div>
@@ -115,11 +116,16 @@ const Header = () => {
                     <div className="text-center text-black fw-semibold aclonica-regular">
                       Hello, {user.name}
                     </div>
-                    <Link to="/login" className="">
-                      <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center">
-                        <label className="fw-semibold aclonica-regular text-black">Log out</label>
-                      </div>
-                    </Link>
+                    <div
+                      onClick={() => {
+                        localStorage.removeItem("access_token");
+                        window.location.href = "/login";
+                      }}
+                      style={{ "--brush-image": `url(${penBrush})` }}
+                      className="btn-header2 btn-with-image text-center"
+                    >
+                      <label className="fw-semibold aclonica-regular text-black">Log out</label>
+                    </div>
                   </>
                 ) : (
                   <div className="d-flex gap-2">
@@ -127,12 +133,12 @@ const Header = () => {
                       <div style={{
                         "--brush-image": `url(${penBrush})`,
                       }} className="btn-header2 btn-with-image text-center w-100">
-                        <label className="fw-semibold aclonica-regular text-black">Login</label>
+                        <span className="fw-semibold aclonica-regular text-black">Login</span>
                       </div>
                     </Link>
                     <Link to="/register" className="">
                       <div style={{ "--brush-image": `url(${penBrush})`, }} className="btn-header2 btn-with-image text-center w-100">
-                        <label className="fw-semibold aclonica-regular text-black">Register</label>
+                        <span className="fw-semibold aclonica-regular text-black">Register</span>
                       </div>
                     </Link>
                   </div>
