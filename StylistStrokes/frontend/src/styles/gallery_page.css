@@ -65,3 +65,10 @@
     border-image: url("https://media.istockphoto.com/id/1365125616/photo/wood-texture-with-natural-pattern-dark-wooden-background-brown-board.jpg?s=612x612&w=0&k=20&c=r4EnZEVOD7A6NXwtihnt-ym5dNwq6l50q7V2MGheJJo=") 30 round;
     background-color: rgb(245, 209, 143);
 }
+
+.img_frame{
+    border: 20px solid transparent;
+    padding: 0;
+    background-clip: padding-box;
+    border-image: url("https://media.istockphoto.com/id/1365125616/photo/wood-texture-with-natural-pattern-dark-wooden-background-brown-board.jpg?s=612x612&w=0&k=20&c=r4EnZEVOD7A6NXwtihnt-ym5dNwq6l50q7V2MGheJJo=") 30 round;
+}
