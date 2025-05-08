@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+CU:wght@100..400&family=Playwrite+MX+Guides&family=Special+Gothic+Expanded+One&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arizonia&family=Comforter&family=DM+Serif+Text:ital@0;1&family=Fleur+De+Leah&family=Galada&family=Lavishly+Yours&family=Mea+Culpa&family=Quintessential&family=Tangerine:wght@400;700&family=Updock&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arizonia&family=Comforter&family=DM+Serif+Text:ital@0;1&family=Fleur+De+Leah&family=Galada&family=Great+Vibes&family=Lavishly+Yours&family=Mea+Culpa&family=Quintessential&family=Tangerine:wght@400;700&family=Updock&display=swap" );
+
 .playwrite-mx {
   font-family: "Playwrite MX Guides", sans-serif;
 }
@@ -88,5 +89,13 @@
   font-weight: 400;
   font-style: italic;
 }
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
 
 
