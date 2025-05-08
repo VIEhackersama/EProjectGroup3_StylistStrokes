@@ -6,7 +6,7 @@ import '../styles/font.css'
 import '../styles/gallery_detail.css'
 import testImg from "../assets/images/Gallery/siah_masho.jpg"
 import GalleryCom from "../components/Gallery_page/g_page_item";
-
+import '../styles/gallery_page.css'
 const GalleryDetails = () => {
     function getFont(style){
         switch (style){
@@ -50,7 +50,7 @@ const GalleryDetails = () => {
                     <Link to='/gallery' className='text-decoration-none'>
                         <p className="back">Back to the Gallery</p>
                     </Link>
-                    <div className="col-8 justify-content-center info_border pb-4">
+                    <div className="col-8 justify-content-center info_border p-4">
                         <img className="img-fluid object-fit-contain w-100 " src={require(`../assets/images/Gallery/${art.image}`)}
                          alt={art.name}
                          style={{
