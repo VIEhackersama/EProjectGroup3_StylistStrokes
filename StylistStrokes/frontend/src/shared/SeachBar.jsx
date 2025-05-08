@@ -1,50 +1,92 @@
 import React from "react";
+import Slider from "react-slick";
 import './search-bar.css';
-import brushpenImg01 from '../assets/images/brushpen-1.jpg';
-import brushpenImg02 from '../assets/images/brushpen-2.jpg';
-import brushpenImg03 from '../assets/images/brushpen-3.jpg';
-import brushpenImg04 from '../assets/images/brushpen-4.jpg';
-import brushpenImg05 from '../assets/images/brushpen-5.jpg';
-import brushpenImg06 from '../assets/images/brushpen-6.jpg';
-import brushpenImg07 from '../assets/images/brushpen-7.jpg';
-import brushpenImg08 from '../assets/images/brushpen-8.jpg';
-import brushpenImg09 from '../assets/images/brushpen-9.jpg';
-import brushpenImg10 from '../assets/images/brushpen-10.jpg';
-import brushpenImg11 from '../assets/images/brushpen-11.jpg';
-import brushpenImg12 from '../assets/images/brushpen-12.jpg';
 
-const brushpenImages = [
-  brushpenImg01, brushpenImg02, brushpenImg03, brushpenImg04,
-  brushpenImg05, brushpenImg06, brushpenImg07, brushpenImg08,
-  brushpenImg09, brushpenImg10, brushpenImg11, brushpenImg12
+import calligrapherImg01 from '../assets/images/calligrapher-01.jpg';
+import calligrapherImg02 from '../assets/images/calligrapher-02.jpg';
+import calligrapherImg03 from '../assets/images/calligrapher-03.jpg';
+import calligrapherImg04 from '../assets/images/calligrapher-04.jpg';
+
+const calligraphers = [
+  {
+    name: "Wang Xizhi",
+    avatar: calligrapherImg01,
+    date: "米芾; 1051–1107",
+    description: "Saint of Calligraphy during the Eastern Jin period, renowned for his work Lanting Xu, laid the foundation for Chinese calligraphy art. I love VietNamese"
+  },
+  {
+    name: "Huai Su",
+    avatar: calligrapherImg02,
+    date: "米芾; 1051–1107",
+    description: "The Tang dynasty monk known for his wild cursive style, characterized by strong and free-spirited strokes, expressing intense emotions through each brushstroke."
+  },
+  {
+    name: "Mi Fu",
+    avatar: calligrapherImg03,
+    date: "米芾; 1051–1107",
+    description: "A highly talented artist of the Northern Song period, renowned for his expressive writing style, reflecting a creative personality that transcends time."
+  },
+  {
+    name: "Zhao Mengfu",
+    avatar: calligrapherImg04,
+    date: "米芾; 1051–1107",
+    description: "A renowned scholar of the Yuan dynasty, who revived the art of calligraphy with a harmonious blend of tradition and modern creativity. I love VietNamese"
+  },
 ];
 
 const SearchBar = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 3000,
+    swipeToSlide: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
-    <div className="search-bar-container">
-      {/* Phần giới thiệu nghệ thuật thư pháp */}
-      <div className="calligraphy-info mt-5 text-center">
-        <h2>Explore the Art of Calligraphy</h2>
-        <p>Timeless beauty with a collection of classic and modern calligraphy.</p>
-
-        <div className="image-gallery container mt-4">
-          <div className="row">
-            {brushpenImages.map((img, index) => (
-              <div key={index} className="col-6 col-md-3 mb-4 d-flex justify-content-center">
+    <div className="search-bar-container py-5">
+      <div className="text-center mb-4">
+        <h2 className="fw-bold">Top Calligraphy Artists</h2>
+        <p>Discover legendary calligraphers who shaped the beauty of script.</p>
+      </div>
+      <div className="container">
+        <Slider {...settings}>
+          {calligraphers.map((artist, index) => (
+            <div key={index} className="px-3">
+              <div className="wood-frame-card text-center h-100">
                 <img
-                  src={img}
-                  alt={`Calligraphy ${index + 1}`}
-                  className="img-fluid rounded-2"
-                  loading="lazy"
+                  src={artist.avatar}
+                  alt={artist.name}
+                  className="rounded-circle mx-auto mt-3"
+                  style={{ width: '100px', height: '100px', objectFit: 'cover' }}
                 />
+                <div className="parchment px-3 pt-3 pb-4 mt-3">
+                  <h5 className="fw-bold">{artist.name}</h5>
+                  <small className="text-muted mb-2 d-block">{artist.date}</small>
+                  <p className="small">{artist.description}</p>
+                </div>
               </div>
-            ))}
-          </div>
-        </div>
-
-        <p className="mt-3 text-muted">
-          Delicate pen strokes, inspirational quotes — perfect for decoration or gift giving.
-        </p>
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );
