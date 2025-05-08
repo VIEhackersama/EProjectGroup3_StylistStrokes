@@ -5,7 +5,7 @@ import GalleryCom from './g_page_item';
 
 function GalleryDisplay(){
     const [currentPage, setCurrentPage] = useState(0);
-    const itemsPerPage = 12;
+    const itemsPerPage = 9;
 
     const chunkArray = (arr, size) => {
         return Array.from({ length: Math.ceil(arr.length / size) }, (_, index) =>
@@ -36,49 +36,21 @@ function GalleryDisplay(){
         const start = 0;
         const end = totalPages - 1;
         const pageButtons = [];
-        pageButtons.push(
-            <button
-              key={0}
-              onClick={() => gotoPage(0)}
-              className={`btn mx-1 ${currentPage === 0 ? 'btn-primary' : 'btn-outline-light'} pag_btn`}
-            >
-              1
-            </button>
-        );
-        if (currentPage > 3) {
-            pageButtons.push(<span key="start-ellipsis" className="text-white pag_btn">...</span>);
-        }
-      
-        // Các trang gần currentPage
-        for (let i = currentPage - 1; i <= currentPage + 1; i++) {
-            if (i > 0 && i < end) {
-                pageButtons.push(
-                    <button
-                    key={i}
-                    onClick={() => gotoPage(i)}
-                    className={`btn mx-1 ${currentPage === i ? 'btn-primary' : 'btn-outline-light'} pag_btn`}
-                    >
-                    {i + 1}
-                    </button>
-                );
-            }
-        }
-        if (currentPage < totalPages - 4) {
-            pageButtons.push(<span key="end-ellipsis" className="text-white pag_btn">...</span>);
+        
+        for (let i = 0; i < totalPages; i++) {
+            pageButtons.push(
+              <button
+                key={i}
+                onClick={() => gotoPage(i)}
+                className={`btn mx-1 ${currentPage === i ? 'btn-primary' : 'btn-danger'} pag_btn`}
+              >
+                {i + 1}
+              </button>
+            );
         }
       
           // Luôn hiện trang cuối
-        if (end > 0) {
-            pageButtons.push(
-                <button
-                    key={end}
-                    onClick={() => gotoPage(end)}
-                    className={`btn mx-1 ${currentPage === end ? 'btn-primary' : 'btn-outline-light'} pag_btn`}
-                >
-                    {end + 1}
-                </button>
-            );
-        }
+        
         return(
             <>
                 <button
@@ -102,7 +74,7 @@ function GalleryDisplay(){
         <div>
             <div className='row g-4 m-2'>
                 {pages[currentPage].map((art) => (
-                    <div className='col-lg-3 col-md-6 col-sm-12' key={art.id}>
+                    <div className='col-lg-4 col-md-6 col-sm-12' key={art.id}>
                         <GalleryCom art={art} />
                     </div>            
                 ))}

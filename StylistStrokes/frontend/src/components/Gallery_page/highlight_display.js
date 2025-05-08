@@ -94,15 +94,18 @@ const HighlightDisplay=()=>{
 
     return<>
         <div className='row justify-content-center text-center '>
-            <h1 className={`region ${getFont(currentRegion)}`}>{currentRegion}</h1>
+            <h1 style={{fontSize:"3.6rem"}} className={`region ${getFont(currentRegion)}`}>{currentRegion}</h1>
 
             <div className="row justify-content-center ">
-                <motion.div className='col-1 justify-content-center d-flex flex-column '
+                <div className='col-1 justify-content-center d-flex flex-column '>
+                    <motion.div
                     whileTap={{scale:1.5}}
                     whileHover={{scale:1.2}}
-                >
-                    <FontAwesomeIcon className='arrow-icon' onClick={handlePrev} icon={faChevronLeft}/>
-                </motion.div>
+                    >
+                        <FontAwesomeIcon className='arrow-icon' onClick={handlePrev} icon={faChevronLeft}/>
+                    </motion.div>
+                    
+                </div>
                 <div className='col-9 m-2 justify-content-center d-flex flex-wrap'>
                     {currentArts.slice(0, 3).map((art) => (
                         <div className="col-md-12 col-lg-3 mb-4 mx-3" key={art.id}>
@@ -111,13 +114,15 @@ const HighlightDisplay=()=>{
                     ))}
                 </div>
                 
-                <motion.div className='col-1 justify-content-center d-flex flex-column '
-                    whileTap={{scale:1.5}}
-                    whileHover={{scale:1.2}}
+                <div className='col-1 justify-content-center d-flex flex-column '>
+                    <motion.div
+                         whileTap={{scale:1.5}}
+                         whileHover={{scale:1.2}}
+                    >
+                        <FontAwesomeIcon className='arrow-icon' onClick={handleNext} icon={faChevronRight}/>
+                    </motion.div>
                     
-                >
-                    <FontAwesomeIcon className='arrow-icon' onClick={handleNext} icon={faChevronRight}/>
-                </motion.div>
+                </div>
             </div>
             {/* Indicators */}
             <div className="d-flex justify-content-center mt-3">
