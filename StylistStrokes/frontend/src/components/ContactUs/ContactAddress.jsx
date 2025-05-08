@@ -31,7 +31,7 @@ export default function ContactAddress() {
                 <img src="https://jakhurikar.com/Birthday-Background/Brush-Stroke/abstract-brush.png" alt="Decoration" className="section-deco" />
             </h2>
 
-            <p><strong>V.N. | StylistStrokes Inc.</strong><br />8A Tôn Thất Thuyết, Mỹ Đình, Nam Từ Liêm, Hà Nội</p>
+            <p><strong>FPT Aptech Hanoi | StylistStrokes Headquarter</strong><br />8A Tôn Thất Thuyết, Mỹ Đình, Nam Từ Liêm, Hà Nội</p>
             <p><strong>Phone</strong><br />(+84) 234 567 890</p>
             <p><strong>Email</strong><br /><a href="mailto:partner@styliststrokes.com">partner@styliststrokes.com</a></p>
             {/* <p><strong>Support & Customer care</strong><br /><a href="mailto:support@styliststrokes.com">support@styliststrokes.com</a></p> */}

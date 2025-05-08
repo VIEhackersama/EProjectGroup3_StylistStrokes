@@ -1,61 +1,61 @@
-/* Vùng chứa chính */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Container chính bao toàn bộ nội dung */
 .search-bar-container {
-  padding: 2rem 1rem;
+  background-color: transparent !important;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column; /* sắp xếp theo chiều dọc */
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
-/* Tiêu đề chính với phông chữ thư pháp */
-.calligraphy-info h2 {
-  font-family: 'Great Vibes', cursive;
-  font-weight: normal;
-  font-size: 3rem;
-  color: #2c2c2c;
-  margin-bottom: 0.5rem;
+/* Phần tiêu đề đưa lên trên */
+.header-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e2e2e;
 }
 
-/* Đoạn mô tả dưới tiêu đề */
-.calligraphy-info p {
+.header-title p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Thẻ khung gỗ */
+.wood-frame-card {
+  background: linear-gradient(135deg, #8b5e3c, #6f3d20);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 1rem;
+}
+
+.wood-frame-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Nội dung giấy da bên trong thẻ */
+.parchment {
+  background: #fefae0;
+  border: 2px solid #c2b280;
+  border-radius: 12px;
+  padding: 1.5rem;
   font-family: 'Georgia', serif;
-  font-size: 1.2rem;
-  color: #555;
-}
-
-/* Đoạn mô tả cuối (trích dẫn thư pháp) */
-.calligraphy-info .text-muted {
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.8rem;
-  color: #888;
-  margin-top: 2rem;
-}
-
-/* Bộ sưu tập hình ảnh */
-.image-gallery {
-  margin-top: 2rem;
-}
-
-/* Căn lề để hình ảnh sát nhau hơn */
-.image-gallery .row {
-  margin-left: -6px;
-  margin-right: -6px;
-}
-
-.image-gallery .col-6,
-.image-gallery .col-md-3 {
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
-/* Kiểu hiển thị ảnh */
-.image-gallery img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hiệu ứng hover ảnh */
-.image-gallery img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+.parchment:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }

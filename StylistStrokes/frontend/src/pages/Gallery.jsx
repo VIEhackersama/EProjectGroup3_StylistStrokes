@@ -14,11 +14,12 @@ const Gallery = () => {
     const isInView = useInView(ref, { once: true });
     return <>
         <div
-            style={{ backgroundImage: `url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2JhY2tncm91bmRqb2IxNzE5LWJhY2tncm91bmQtMDIuanBn.jpg)`,
+            style={{
+                backgroundImage: `url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2JhY2tncm91bmRqb2IxNzE5LWJhY2tncm91bmQtMDIuanBn.jpg)`,
                 backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",       
+                backgroundSize: "cover",
                 backgroundPosition: "center ",
-             }}
+            }}
         >
             
                 <div className="position-relative container-fluid d-flex flex-column justify-content-center align-items-center">
@@ -73,6 +74,7 @@ const Gallery = () => {
                         
                     </motion.div>
 
+                    </motion.div>
                 </Container>
             </section>
             {/* Highlights */}
