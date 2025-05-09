@@ -26,8 +26,8 @@ export default function Abouthero()
                         <div className="h3">LEARN CALLIGRAPHY WITHIN YOUR OWN SCREEN</div><br></br>
                         Witness the ancient art of calligraphy defy modern chaos<br></br> We're not just writing; we're resurrecting history, one elegant stroke at a time.
                     </p>
-                    <a href='' className="btn btn-info my-4 px-5 btn-lg" style={{ borderRadius: '30px' }}>
-                        <label style={{color:"brown"}}>Learn more!</label>
+                    <a href='/about' className="btn btn-info my-4 px-5 btn-lg" style={{ borderRadius: '30px' }}>
+                        <span style={{color:"brown"}}>Learn more!</span>
                     </a>
                 </motion.div>
             </div>

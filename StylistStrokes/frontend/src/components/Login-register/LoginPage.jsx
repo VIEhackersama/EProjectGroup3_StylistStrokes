@@ -34,7 +34,7 @@ export default function LoginPage({
                     // backgroundImage: "url(https://i.ytimg.com/vi/9fmjCi6Cb_o/maxresdefault.jpg)",
                     //  backgroundPosition: "center", 
                     // backgroundSize: "",
-                    backgroundImage: "linear-gradient(#ffe6c5,rgb(134, 102, 43) 100%)"
+                    backgroundImage: "linear-gradient(#ffe6c5,rgb(167, 135, 120) 100%)"
                 }
                 }
             >
@@ -98,7 +98,7 @@ export default function LoginPage({
                             </div>
                             <Googlebtn></Googlebtn>
                             <label className="form-check-label text-white" htmlFor="acceptTos">
-                                By continuing with Google service, you are confirming that you have read and agreed to our <a className="fw-semibold tos" href="#">Terms of services</a>
+                                By continuing with Google service, you are confirming that you have read and agreed to <a className="fw-semibold tos" href="#">Terms of services</a>
                             </label>
                         </form>
                     </div>

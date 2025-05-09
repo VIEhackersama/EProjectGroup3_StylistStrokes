@@ -25,7 +25,7 @@ export default function ContactUs() {
                 >
                 </div>
                 <div className="position-relative text-center my-3" style={{ zIndex: 2 }}>
-                    <h1 className="intro1 mea-culpa-regular fw-medium text-white my-4">Let us know your feeling</h1>
+                    <h1 className="intro1 mea-culpa-regular fw-medium text-white my-4">You asked, you requested, we respond</h1>
                 </div>
             </div>
             <motion.div className="container py-3 justify-content-center d-flex flex-column align-items-center"

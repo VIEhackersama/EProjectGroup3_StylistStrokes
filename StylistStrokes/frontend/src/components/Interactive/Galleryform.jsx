@@ -71,7 +71,7 @@ const FeedbackForm = () => {
                 </FormGroup>
                 <FormGroup>
                     <label className="p-2 fw-semibold form-check-label">
-                        By submitting this form, you agree that you shall not share unauthorized copyrighted media and we have full authority to change, use or remove the content without notice. Learn more at <a className="" href="#">Terms of services.</a> Each submission may take minute to be recognized by server, please patiently wait and thank you!
+                        By submitting this form, you are agreeing that you shall not share unauthorized copyrighted media and we have full authority to change, use or remove the content at anytime if requested by the its owners or organizations. We commit to never sell, disclose or alter your media without your consent. Learn more at <a className="" href="#">Terms of services.</a><br></br> Each submission may take minute to be recognized by server, please patiently wait and thank you!
                     </label>
                 </FormGroup>
                 <Button className="btn-inf" type="submit">Submit</Button>

@@ -34,20 +34,21 @@ function LearnPage() {
       initial={{ opacity: 0, y: 50 }}
       animate={ { opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="text-center py-5">
-        <p>Hello everyone!</p>
+      style={{backgroundColor:"rgba(234, 224, 172, 0.8)"}}
+      className="container text-center p-5">
+        <h3>Hello everyone!</h3>
 
-        <p>
+        <h3>
           Are you fascinated by the elegance of flowing, graceful strokes? Would
           you like to explore the art of calligraphy — where every line speaks
           emotion, and every letter tells a story?
-        </p>
+        </h3>
 
-        <p>
+        <h3>
           Join our <span className="highlight text-danger">Art of Calligraphy Course</span>,
           where you will:
-        </p>
-        <ul className="list-unstyled">
+        </h3>
+        <ul className="list-unstyled h5">
           <li>
             Learn about the rich history and deep cultural meaning of
             calligraphy
@@ -56,16 +57,16 @@ function LearnPage() {
           <li>Create your own personal works of art with brush and ink</li>
         </ul>
 
-        <p>
+        <h3>
           With experienced instructors and a creative, friendly environment,
           we’ll guide you step by step into the beauty of this timeless art
           form.
-        </p>
+        </h3>
 
-        <p>
+        <h3>
           Don’t miss the chance to nurture your soul, practice patience, and
           express yourself through every stroke.
-        </p>
+        </h3>
 
         <p className="highlight text-danger">
           The Calligraphy Course – where your journey into the beauty of letters
@@ -93,7 +94,6 @@ function LearnPage() {
         <Learnlist />
        
       </section>
-        <h3 className="text-center">And many more to discover! Stay tuned!</h3>
     </div>
   );
 }
