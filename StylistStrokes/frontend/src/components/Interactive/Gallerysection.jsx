@@ -28,11 +28,11 @@ const GallerySection = () => {
                             <div className="card">
                                 <CardImg top width="100%" src={item.image} alt={item.title} />
                                 <div className="card-body">
-                                    <CardTitle tag="h5">{item.title}</CardTitle>
+                                    <CardTitle tag="h2">"{item.title}"</CardTitle>
                                     <div className="card-text">
-                                        <div className="fw-semibold">Author: {item.author}</div>
-                                        <small>Style: {item.style}</small><br />
-                                        <small>{item.description}</small>
+                                        <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
+                                        <h3>Style: {item.style}</h3><br />
+                                        <h5 className="tagesschrift-regular">{item.description}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -45,11 +45,11 @@ const GallerySection = () => {
                             <div className="card">
                                 <CardImg top width="100%" src={item.image} alt={item.title} />
                                 <div className="card-body">
-                                    <CardTitle tag="h5">{item.title}</CardTitle>
+                                    <CardTitle tag="h2">"{item.title}"</CardTitle>
                                     <div className="card-text">
-                                        <div className="fw-semibold">Author: {item.author}</div>
-                                         <small>Style: {item.style}</small><br />
-                                        <small>{item.description}</small>
+                                        <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
+                                        <h3>Style: {item.style}</h3><br />
+                                        <h5 className="tagesschrift-regular">{item.description}</h5>
                                     </div>
                                 </div>
                             </div>

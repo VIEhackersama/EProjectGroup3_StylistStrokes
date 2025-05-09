@@ -46,6 +46,7 @@ body {
   color: var(--secondary-color);
   background: linear-gradient(to right, var(--secondary-color), #fda085);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
 }

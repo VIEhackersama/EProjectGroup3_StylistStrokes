@@ -67,13 +67,13 @@ const Header = () => {
   }, []);
   return (
     <div>
-      <div style={{ borderWidth: "10px", backgroundColor: "#edd58e", color: "brown", borderColor: "brown" }} className="top-bar py-2">
+      <div style={{ borderWidth: "10px", backgroundColor: "#edd58e", color: "rgb(95, 46, 20)", borderColor: "brown" }} className="top-bar py-2">
         <div className="container d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">
             <FaMessage className="me-2" />
-            <span style={{ textDecoration: "underline" }}>Email: styliststrokes@customercare.com</span>
+            <span style={{ textDecoration: "underline" }}> styliststrokes@customercare.com</span>
             <FaPhone className="mx-3 me-2"></FaPhone>
-            <span>Phone: (+84) 234 567 890</span>
+            <span>(+84) 234 567 890</span>
           </div>
           <div className="social-links">
             <FaPerson className="mx-3 me-2"></FaPerson>

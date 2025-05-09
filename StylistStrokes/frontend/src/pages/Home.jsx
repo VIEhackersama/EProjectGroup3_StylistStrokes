@@ -123,10 +123,10 @@ const Home = () =>  {
                   <Subtitle subtitle={"Experience"}/>
 
                   <h2>
-                     with our all expreience <br/> we will serve you
+                     With our all expreience <br/> we will serve you
                   </h2>
                   <p>
-                  Over the past 15 years, we’ve dedicated ourselves to preserving the timeless art of traditional calligraphy. Our passion is reflected in every stroke, and our commitment is recognized by thousands of admirers. Whether you're seeking elegance, meaning, or cultural depth, our work speaks for itself.
+                  Over the past 2 weeks, we’ve dedicated ourselves to preserving the timeless art of traditional calligraphy. Our passion is reflected in every stroke, and our commitment is recognized by thousands of admirers. Whether you're seeking elegance, meaning, or cultural depth, our work speaks for itself.
                   <br />
                   Quas aliquam, hic tempore inventore suscipit unde.
                   </p>
@@ -134,16 +134,16 @@ const Home = () =>  {
                <div className="counter__wrapper d-flex align-items-center gap-5
                ">
                   <div className="counter__box">
-                      <span>12k+</span>
-                      <h6>calligraphy views</h6>
+                      <span>500+</span>
+                      <h6>Web traffic view per day</h6>
                   </div>
                   <div className="counter__box">
-                      <span>2k+</span>
-                      <h6>Regular clients</h6>
+                      <span>900+</span>
+                      <h6>Regular users</h6>
                   </div>
                   <div className="counter__box">
-                      <span>15</span>
-                      <h6>Years experience</h6>
+                      <span>2</span>
+                      <h6>Weeks experience</h6>
                   </div>
                </div>
             </Col>
