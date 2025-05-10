@@ -30,7 +30,8 @@ function BrushPen() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <h3 className="fw-semibold text-dark">What You'll Learn</h3>
+        <div className="content text-muted bg-white rounded-4 p-4 shadow-lg">
+        <h3 className="fw-semibold text-dark">What You'll Learn</h3>
           <ul className="custom-list mt-3">
             <li>✓ Mastering brush pen strokes for clean lines</li>
             <li>✓ Exploring expressive styles of calligraphy</li>
@@ -157,16 +158,18 @@ function BrushPen() {
               <p className="fw-bold">- Ryan K., Hobbyist</p>
             </div>
           </div>
-
-          {/* CTA */}
           <div className="mt-5 text-center">
             <a
               href="/contact"
-              className="btn btn-gradient-custom enroll-btn px-4 py-2"
+              className="btn btn-gradient-custom px-4 py-2"
             >
               Enroll now !
             </a>
           </div>
+        </div>
+
+          {/* CTA */}
+          
         </motion.div>
       </div>
     </div>
