@@ -10,6 +10,12 @@ function KoreanCalligraphy() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -40 }}
       transition={{ duration: 0.6 }}
+      style={{
+        backgroundImage: `url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2JhY2tncm91bmRqb2IxNzE5LWJhY2tncm91bmQtMDIuanBn.jpg)`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center ",
+      }}
     >
       <div className="content-box">
         <h1>The Art of Korean Calligraphy</h1>
@@ -18,6 +24,7 @@ function KoreanCalligraphy() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
+          
         >
           <iframe
             width="100%"
