@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import "../styles/Calligraphy.css"; 
+import "../styles/Calligraphy.css";
 
 function KoreanCalligraphy() {
   return (
@@ -13,11 +13,22 @@ function KoreanCalligraphy() {
     >
       <div className="content-box">
         <h1>The Art of Korean Calligraphy</h1>
-        <img
-          src="/image/Korean.jpg"
-          alt="Korean Calligraphy"
-          className="calligraphy-image"
-        />
+        <motion.div
+          className="video-container my-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 0.8 }}
+        >
+          <iframe
+            width="100%"
+            height="500px"
+            src="https://www.youtube.com/embed/HExu4YkfbQk"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="korean Calligraphy Video"
+          />
+        </motion.div>
         <p>
           Korean calligraphy is an exquisite art form using Hangul characters.
           Through centuries, it has evolved from simple scripts into expressive

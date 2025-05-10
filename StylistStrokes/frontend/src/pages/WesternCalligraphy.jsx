@@ -13,11 +13,22 @@ function WesternCalligraphy() {
     >
       <div className="content-box">
         <h1>The Art of Western Calligraphy</h1>
-        <img
-          src="/image/Western.jpg"
-          alt="Western Calligraphy"
-          className="calligraphy-image"
-        />
+        <motion.div
+          className="video-container my-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 0.8 }}
+        >
+          <iframe
+            width="100%"
+            height="500px"
+            src="https://www.youtube.com/embed/bdhVRGMIlFg"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Western Calligraphy Video"
+          />
+        </motion.div>
         <p>
           Western calligraphy has evolved from ancient Roman scripts to elegant
           medieval manuscripts. Through careful strokes and ornamental styles,
