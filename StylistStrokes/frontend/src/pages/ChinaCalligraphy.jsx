@@ -13,11 +13,22 @@ function ChinaCalligraphy() {
     >
       <div className="content-box">
         <h1>The Art of Chinese Calligraphy</h1>
-        <img
-          src="/image/china.jpg"
-          alt="Chinese Calligraphy"
-          className="calligraphy-image"
-        />
+        <motion.div
+          className="video-container my-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 0.8 }}
+        >
+          <iframe
+            width="100%"
+            height="500px"
+            src="https://www.youtube.com/embed/bYhbUiSbYZw"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Chinese Calligraphy Video"
+          />
+        </motion.div>
         <p>
           Chinese calligraphy is a timeless art that embodies elegance and philosophy.
           Each brushstroke carries profound meaning, symbolizing the unity of mind,

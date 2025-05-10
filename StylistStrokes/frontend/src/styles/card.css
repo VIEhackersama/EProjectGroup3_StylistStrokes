@@ -3,7 +3,7 @@
     transition: all 0.3s ease;
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 350px; /* Giới hạn kích thước tối đa của card */
+    max-width: 500px; /* Giới hạn kích thước tối đa của card */
     margin: auto; /* Canh giữa card trong container */
   }
   
@@ -17,12 +17,12 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover; /* Make image cover the area */
-    height: 220px;
+    height: 250px;
   }
   
   /* Card Body */
   .card-body {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
   }
   
