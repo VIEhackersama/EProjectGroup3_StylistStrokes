@@ -85,7 +85,9 @@ const HighlightDisplay=()=>{
             case "Korea":
                 return "arizonia-regular";
             case "Japan":
-                return "updock-regular"
+                return "updock-regular";
+            case "India":
+                return "pirata-one-regular"
             default:
                 return ''
         }
