@@ -32,7 +32,7 @@ const GallerySection = () => {
                                     <div className="card-text">
                                         <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
                                         <h3>Style: {item.style}</h3><br />
-                                        <h5 className="tagesschrift-regular">{item.description}</h5>
+                                        <h5 className="montserrat-nobro">{item.description}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ const GallerySection = () => {
                                     <div className="card-text">
                                         <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
                                         <h3>Style: {item.style}</h3><br />
-                                        <h5 className="tagesschrift-regular">{item.description}</h5>
+                                        <h5 className="montserrat-nobro">{item.description}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const GallerySection = () => {
                     </Col>
                 ))}
             </Row>
-            <h3 className="text-center text-white">This seems like you have reached the end. Refresh to see more content </h3>
+            <h3 className="text-center text-white">This seems like you have reached the end. You can click the button on the top of the side to see more content </h3>
         </motion.section>
     )
 };
