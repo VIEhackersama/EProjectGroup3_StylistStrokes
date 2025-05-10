@@ -14,7 +14,7 @@ const testimonialStyle = `
 }
 
 .testimonial {
-  background: linear-gradient(to bottom, #8B5E3C 0%, #fdf6e3 35%);
+  background: linear-gradient(to bottom, #f5ec9d 0%, #fdf6e3 35%);
   border: 4px solid #d2b48c; /* Viền vàng nâu */
   border-radius: 1.5rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
