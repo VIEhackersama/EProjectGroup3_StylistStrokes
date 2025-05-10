@@ -17,8 +17,9 @@ function getVideoRoute(id) {
 
 function Videolist() {
   return (
+    <div className="container">
     <motion.div
-      className="row g-4 m-2"
+      className=" row g-4 m-2"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -41,6 +42,7 @@ function Videolist() {
         </div>
       ))}
     </motion.div>
+    </div>
   );
 }
 

@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import "../styles/gallery_page.css"
 import "../styles/font.css"
 import introArt from "../assets/images/gallery-intro.jpeg"
-import highArt from "../assets/images/painting.jpg"
+import highArt from "../assets/images/calligraphyartist.jpg"
 import GalleryDisplay from "../components/Gallery_page/g_page_display";
 import HighlightDisplay from "../components/Gallery_page/highlight_display";
 import VideoPage from "./Videopage";
