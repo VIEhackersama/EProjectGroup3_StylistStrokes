@@ -345,6 +345,30 @@
     },
     {
         "id":30,
+        "name":"Shubh Drishti",
+        "image":"india_goodluck.jpg",
+        "style":"India",
+        "l_des":"Shubh Drishti draws heavily from Indian folk and tribal art traditions, particularly those found in the Bengal Patua and Pattachitra styles. At the center, a stylized female figure — possibly a form of the goddess Durga or a yogic symbol of awakening — rises from a sacred pot (kalasha), often used in rituals to invoke divine energy. The eyes below represent drishti — sight or vision — a concept deeply rooted in Indian metaphysics, where the divine gaze offers protection from evil and brings spiritual clarity. The surrounding Sanskrit text includes invocations and auspicious syllables, with the word Shree (श्री), a symbol of prosperity, prominently featured. This artwork serves as a talisman, harmonizing spiritual motifs with vibrant aesthetics in a devotional context.",
+        "author":"Rameshwar Nath Sharma",
+        "popularity":100,
+        "period":"late 20th century",
+        "s_des":"This vibrant folk-style painting uses symbolic imagery and Sanskrit script to invoke divine protection and good fortune. A stylized female face, sacred symbols, and watchful eyes are framed within a red cloth border, evoking blessings and spiritual awareness."
+
+    },
+    {
+        "id":31,
+        "name":"Surya Smaran",
+        "image":"india_sun.jpg",
+        "style":"India",
+        "l_des":"Surya Smaran is a striking modern composition that pays homage to the sun — a central element in Indian spiritual and Vedic traditions. At the top, a red dot radiating golden light symbolizes the rising sun, representing divine knowledge and inner light. Handwritten Marathi verses address the sun directly, invoking it as a guide and protector, reflecting both poetic devotion and folk spirituality. Below, the Devanagari word 'सूर्य' (Surya) is reimagined vertically, with descending yellow forms symbolizing light, energy, or even drops of consciousness. Set against a textured canvas with a vibrant yellow frame, the piece bridges traditional devotional sentiments and contemporary graphic aesthetics.",
+        "author":"Aniket Deshmukh",
+        "popularity":100,
+        "period":"2015",
+        "s_des":"This artwork blends abstract symbolism with sacred text in the Marathi language, centered around a glowing sun and the word 'Surya' stylized vertically in Devanagari. The image evokes spiritual awakening, clarity, and the cosmic significance of the sun."
+
+    },
+    {
+        "id":32,
         "name":"Spring",
         "image":"simple_kr.jpg",
         "style":"Korea",
@@ -353,6 +377,42 @@
         "popularity":100,
         "period":"2013",
         "s_des":"This minimalist Korean artwork features bold calligraphy spelling the word '봄' (Spring), surrounded by vivid red blossoms painted in a traditional brush style. The combination of sharp black ink and vibrant color symbolizes the arrival of spring and renewal."
+
+    },
+    {
+        "id":33,
+        "name":"Ghoomatee Huee Aurat",
+        "image":"india_woman.jpg",
+        "style":"India",
+        "l_des":"Ghoomatee Huee Aurat beautifully embodies the mystical energy of Sufism, particularly the Mevlevi Order known for their meditative dance — the whirling dervishes. The figure of the dervish, spinning in ecstatic devotion, is shaped entirely from flowing Arabic script, possibly verses from a Sufi poem or praise of the Divine. The artist's clever use of line and form integrates spiritual symbolism with visual movement, suggesting that the dancer is both expressing and embodying divine truth. With its restrained color palette and elegant script, the work is both meditative and celebratory — a homage to the unity of body, word, and soul in sacred tradition.",
+        "author":"Yusuf El-Salim",
+        "popularity":100,
+        "period":"early 21st century",
+        "s_des":"This artwork is a visual fusion of Arabic calligraphy and the silhouette of a whirling dervish. It captures the essence of Sufi mysticism, where spiritual motion and sacred text become one expressive form."
+
+    },
+    {
+        "id":34,
+        "name":"Praises to Tara",
+        "image":"india_ancient.jpg",
+        "style":"India",
+        "l_des":"This manuscript page exemplifies the spiritual and artistic traditions of Tibetan Vajrayana Buddhism. The central figure is Green Tara, a revered female bodhisattva known for her compassion and swiftness in aiding those in distress. Painted in vibrant mineral pigments with gold accents, she is seated in a lotus posture framed by a rainbow-like mandorla, symbolizing her transcendental nature. Surrounding her are elegant lines of Tibetan script written in a traditional uchen style, likely reciting mantras or verses of praise. As both a religious tool and an art object, this piece captures the intersection of devotion, meditation, and artistic mastery, preserving centuries of Himalayan spiritual heritage.",
+        "author":"Ngor Monastery",
+        "popularity":100,
+        "period":"15th century",
+        "s_des":"A sacred manuscript page featuring a central miniature painting of the goddess Tara, surrounded by Tibetan calligraphy in black ink on aged parchment. The script appears to be a prayer or praise, possibly from the 'Praises to the 21 Taras.'"
+
+    },
+    {
+        "id":35,
+        "name":"Bird of Praise",
+        "image":"india_bird.jpg",
+        "style":"India",
+        "l_des":"This artwork exemplifies zoomorphic calligraphy, an Islamic art tradition where words form the shapes of animals or objects. Here, the elegant form of a bird is composed entirely of flowing Arabic script, likely spelling out a religious phrase or verse such as “Bismillah” (In the name of God). The stylization captures the spirit of divine beauty and harmony, blending figurative and textual symbolism. The decorative floral motifs in the corners reflect the Mughal era's syncretic aesthetics, merging Persian, Indian, and Islamic visual traditions. This piece is not only a devotional object but also a fine example of the sophistication and poetic subtlety of South Asian Islamic art.",
+        "author":"Mustafa Râkim",
+        "popularity":100,
+        "period":"late 17th century",
+        "s_des":"A stylized bird rendered entirely in Arabic calligraphy, known as zoomorphic calligraphy, set against a minimalist cream background with ornate floral corner decorations typical of Indo-Persian manuscript art."
 
     }
 ]
