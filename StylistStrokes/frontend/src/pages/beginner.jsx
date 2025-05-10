@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 function Beginner() {
   return (
     <div
-      style={{
-        backgroundImage:
-          "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
-      }}
+    style={{
+      backgroundImage:
+        "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
+    }}
     >
       <div className="py-4 container container-fluid">
         <motion.div
@@ -100,9 +100,7 @@ function Beginner() {
           </div>
 
           <div className="mt-4">
-            <h5 className="fw-semibold text-dark">
-              Resources & Tools Included
-            </h5>
+            <h5 className="fw-semibold text-dark">Resources & Tools Included</h5>
             <ul className="custom-list mt-2">
               <li>Downloadable alphabet worksheets (PDF)</li>
               <li>Introductory videos and demos</li>
@@ -144,7 +142,10 @@ function Beginner() {
           </div>
 
           <div className="mt-5 text-center">
-            <a href="/contact" className="btn btn-gradient-custom px-4 py-2">
+            <a
+              href="/contact"
+              className="btn btn-gradient-custom px-4 py-2"
+            >
               Enroll now !
             </a>
           </div>
