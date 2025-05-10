@@ -47,8 +47,8 @@ const testimonialStyle = `
 }
 
 .testimonial p {
-  font-family: 'UTM Thu Phap', 'Great Vibes', cursive;
   font-size: 1.25rem;
+  font-weight: bold;
   line-height: 2rem;
   color: #333;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
