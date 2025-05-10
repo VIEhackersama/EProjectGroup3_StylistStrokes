@@ -5,14 +5,14 @@ export default function AboutMiddle() {
         <div className='d-flex row'>
             <div className="col-md-6 order-md-1">
                 <h3 className="fs-2 mb-1 fw-semibold">
-                    MEET OUR INCREDIBLE TEAM
+                    ABOUT THE GENERAL 
                 </h3>
                 <p className="mb-4">
                     We're not just a team; we're a league of extraordinary scribblers, battling the mundane with every flourish. Forget boring fonts; we wield calligraphy like a ninja sword, slicing through the ordinary!
                 </p>
                 <div className="row mt-3 gy-3">
-                    <AboutNumber n='24 days' text='The beginning of the journey'></AboutNumber>
-                    <AboutNumber n='60+' text='Active crews around the world'></AboutNumber>
+                    <AboutNumber n='24 days' text='The time of the journey'></AboutNumber>
+                    <AboutNumber n='60+' text='Active crews of the world'></AboutNumber>
                 </div>
                 <div className="row mt-3 gy-3">
                     <AboutNumber n='Over 900' text='Lessons for those who love'></AboutNumber>
@@ -25,9 +25,9 @@ export default function AboutMiddle() {
 
                     </div>
                      <a href="/learn" className=" text-decoration-none">
-                        <div className="btn border-success playwrite-cu p-3 px-5 fw-semibold">
-                            <h5 className="mb-0">Learn more!</h5>
-                         </div>
+                        <a href='/about' className="btn btn-info border-success playwrite-cu p-3 px-5 fw-semibold">
+                            <h5 className="mb-0 ">Learn more!</h5>
+                         </a>
                     </a>
                 </div>
             </div>
