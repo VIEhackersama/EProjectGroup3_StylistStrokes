@@ -14,7 +14,7 @@ const testimonialStyle = `
 }
 
 .testimonial {
-  background: linear-gradient(to bottom,rgb(219, 181, 152) 0%, #fdf6e3 35%);
+  background: linear-gradient(to bottom, #8B5E3C 0%, #fdf6e3 35%);
   border: 4px solid #d2b48c; /* Viền vàng nâu */
   border-radius: 1.5rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
@@ -48,7 +48,7 @@ const testimonialStyle = `
 
 .testimonial p {
   font-family: 'UTM Thu Phap', 'Great Vibes', cursive;
-  font-size: 2rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   color: #333;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
@@ -140,7 +140,7 @@ const Testimonials = () => {
           <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
             <div>
-              <h5 className="mb-0 mt-3">Tran Hoang Duong</h5>
+              <h5 className="mb-0 mt-3">John Doe</h5>
               <p>Custome</p>
             </div>
           </div>
@@ -160,7 +160,7 @@ const Testimonials = () => {
           <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
             <div>
-              <h5 className="mb-0 mt-3">John Kevin</h5>
+              <h5 className="mb-0 mt-3">John Doe</h5>
               <p>Custome</p>
             </div>
           </div>
@@ -179,7 +179,7 @@ const Testimonials = () => {
           <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
             <div>
-              <h5 className="mb-0 mt-3">Bombardicolo Kochinki</h5>
+              <h5 className="mb-0 mt-3">John Doe</h5>
               <p>Custome</p>
             </div>
           </div>
@@ -198,7 +198,7 @@ const Testimonials = () => {
           <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
             <div>
-              <h5 className="mb-0 mt-3">Dong Pham</h5>
+              <h5 className="mb-0 mt-3">John Doe</h5>
               <p>Custome</p>
             </div>
           </div>
