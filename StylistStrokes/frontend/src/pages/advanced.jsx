@@ -16,6 +16,7 @@ function Advanced() {
       </div>
 
       {/* Nội dung khóa học */}
+      <div className="content text-muted bg-white rounded-4 p-4 shadow-lg">
       <div className="content text-muted">
         <h3 className="fw-semibold text-dark">What You'll Master</h3>
         <ul className="custom-list mt-3">
@@ -71,10 +72,14 @@ function Advanced() {
         </div>
 
         <div className="mt-5 text-center">
-          <a href="/contact" className="btn btn-gradient-custom px-4 py-2">
-            Enroll now !
-          </a>
-        </div>
+            <a
+              href="/contact"
+              className="btn btn-gradient-custom px-4 py-2"
+            >
+              Enroll now !
+            </a>
+          </div>
+      </div>
       </div>
     </div>
     </div>
