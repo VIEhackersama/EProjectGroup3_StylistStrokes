@@ -22,7 +22,7 @@
   
   /* Card Body */
   .card-body {
-    padding: 50px;
+    padding: 25px;
     text-align: center;
   }
   
@@ -38,7 +38,7 @@
   /* Text Description */
   .card-text {
     font-size: 1em;
-    color: #777;
+    color: #0b0a0a;
     margin-bottom: 20px;
     font-family: 'Great Vibes', cursive;
   }
