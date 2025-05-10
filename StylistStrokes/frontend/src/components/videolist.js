@@ -8,7 +8,7 @@ function getVideoRoute(id) {
     case 1: return "/vietnam-calligraphy";
     case 2: return "/korean-calligraphy";
     case 3: return "/arabic-calligraphy";
-    case 4: return "/china-calligraphy";
+    case 4: return "/india-calligraphy";
     case 5: return "/japan-calligraphy";
     case 6: return "/western-calligraphy";
     default: return "/";

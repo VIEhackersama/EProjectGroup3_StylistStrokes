@@ -32,10 +32,10 @@ function BrushPen() {
         >
           <h3 className="fw-semibold text-dark">What You'll Learn</h3>
           <ul className="custom-list mt-3">
-            <li>✓ Mastering brush pen strokes for clean lines</li>
-            <li>✓ Exploring expressive styles of calligraphy</li>
-            <li>✓ Creating basic letterforms with brush pen</li>
-            <li>✓ Learning pressure control and fluid motions</li>
+            <li> Mastering brush pen strokes for clean lines</li>
+            <li> Exploring expressive styles of calligraphy</li>
+            <li> Creating basic letterforms with brush pen</li>
+            <li> Learning pressure control and fluid motions</li>
           </ul>
 
           <motion.div
@@ -162,7 +162,7 @@ function BrushPen() {
           <div className="mt-5 text-center">
             <a
               href="/contact"
-              className="btn btn-gradient-custom enroll-btn px-4 py-2"
+              className="btn btn-gradient-custom px-4 py-2"
             >
               Enroll now !
             </a>
