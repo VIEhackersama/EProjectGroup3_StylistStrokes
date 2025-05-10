@@ -8,7 +8,11 @@ function LearnPage() {
 
   
   return (
-    <div className="py-3" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)"}}>
+    <div className="py-3" style={{ backgroundImage:"url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    }}>
       <section
         className="text-white text-center py-5"
         style={{
