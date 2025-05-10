@@ -67,7 +67,7 @@ const Header = () => {
   }, []);
   return (
     <div>
-      <div style={{ borderWidth: "10px", backgroundColor: "#edd58e", color: "rgb(95, 46, 20)", borderColor: "brown" }} className="top-bar py-2">
+      <div style={{ borderWidth: "10px", backgroundColor: "#edd58e", color: "rgb(95, 46, 20)", borderColor: "brown" }} className="d-none d-md-block top-bar py-2">
         <div className="container d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">
             <FaMessage className="me-2" />

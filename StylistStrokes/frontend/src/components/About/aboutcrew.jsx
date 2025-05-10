@@ -38,7 +38,7 @@ export default function Aboutcrew() {
         <div className="container my-5 align-items-cente border"
             style={{ borderColor: "brown" }}>
             {members.map((member, index) => (
-                <div style={{ backgroundColor: "#e8d4ca" }} className="wood-frame p-3 row align-items-center mb-5" key={index}>
+                <div style={{ backgroundColor: "#e8e7ba" }} className="wood-frame p-3 row align-items-center mb-5" key={index}>
                     <div className={`col-md-4 ${index % 2 === 0 ? '' : 'order-md-2'}`}>
                         <img
                             ref={el => (imageRefs.current[index] = el)}
