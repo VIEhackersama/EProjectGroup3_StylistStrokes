@@ -58,7 +58,7 @@ export default function AboutPage() {
         <Aboutcrew></Aboutcrew>
       </div>
       <div className="container pt-5">
-        <AboutTitle desc={"We see. We do. We connect. We maintain tradition. And we leave nobody behind!"} title={'Our legacy'}></AboutTitle>
+        <AboutTitle desc={"We see. We do. We connect. We maintain tradition. And we leave nobody behind!"} title={'Our journey, our legacy'}></AboutTitle>
         <div className="row justify-content-center m-4 py-1 h5 text-center">Rooted in heritage, our work pays tribute to centuries of calligraphic art. Every line we draw echoes the hands of masters before us, leaving our own mark on the evolving story of the written word.
 
           <FaHandshakeSimple className="m-3" size={80}></FaHandshakeSimple></div>

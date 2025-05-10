@@ -55,7 +55,7 @@ export default function RegisterPage({
                                     value={name}
                                     onChange={(e) => SetName(e.target.value)}
                                     required
-                                    placeholder="Jane Doe? You have a much better name!"
+                                    placeholder="All human beings are born free and equal in dignity and rights"
                                 />
                             </div>
                             <div className="mb-3">
@@ -77,7 +77,7 @@ export default function RegisterPage({
                                     value={password}
                                     onChange={(e) => SetPassword(e.target.value)}
                                     required
-                                    placeholder="Password is obligatory"
+                                    placeholder="Please set your password"
                                 />
                                 <div className={`fw-semibold ${show ? "text-danger" : "text-success"}`} onClick={() => setShow(!show)}>
                                     {show ? "Password is being shown! Click to hide" : "Password is hided! Click to show"}

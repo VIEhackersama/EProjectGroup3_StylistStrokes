@@ -43,7 +43,7 @@ export default function LoginPage({
                 >
                     <img src={logo} alt="" style={{ filter: "invert(00%)", width: "300px" }} />
                 </div>
-                <h3 style={{ color: "#9c4414" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Already have an account? Welcome back!</h3>
+                <h3 style={{ color: "#9c4414" }} className="cal-sans-regular h1 mb-3 p-3 text-center">Welcome back to StylistStrokes!</h3>
                 <div className="d-flex justify-content-center">
                     {/* <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <img

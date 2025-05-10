@@ -33,17 +33,17 @@ export default function InteractivePage() {
                         className="btn btn-inf my-4 px-5 btn-lg"
                         style={{ borderRadius: "30px" }}
                     >
-                        <label style={{ color: "wheat" }}>THE TRUE GALLERY</label>
+                        <span style={{ color: "wheat" }}>THE TRUE GALLERY IS THE MIND</span>
                     </a>
                 </div>
             </div>
             <div className="container py-4">
-                <h1 className="mb-4 text-center text-white montserrat-nobro  ">The StylistStrokes Hall of Fame, but it is for everyone!</h1>
-                <h5 className="mb-4 text-center text-white montserrat-nobro ">Share your artistic creations with the world and let them shine.
+                <h1 className="mb-4 text-center text-white montserrat-nobro  ">Show off to the world your own imaginary world!</h1>
+                <h6 className="mb-4 text-center text-white montserrat-nobro ">Share your artistic creations with the world and let them shine.
                     <br></br> Or simply your favorite calligraphy piece that you have made or seen.
                     <br></br> Or basically anything, maybe jusy a mild improvement that you think is worth sharing with the world.
 
-                </h5>
+                </h6>
                 <GallerySection />
                 <hr className="my-5 text-white" />
                 <h1 className="text-white mb-4 text-center montserrat-nobro ">It's your turn now! Don't let the world miss out</h1>

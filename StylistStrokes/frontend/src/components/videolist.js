@@ -8,7 +8,7 @@ function getVideoRoute(id) {
     case 1: return "/vietnam-calligraphy";
     case 2: return "/korean-calligraphy";
     case 3: return "/arabic-calligraphy";
-    case 4: return "/china-calligraphy";
+    case 4: return "/india-calligraphy";
     case 5: return "/japan-calligraphy";
     case 6: return "/western-calligraphy";
     default: return "/";
@@ -17,8 +17,9 @@ function getVideoRoute(id) {
 
 function Videolist() {
   return (
+    <div className="container">
     <motion.div
-      className="row g-4 m-2"
+      className=" row g-4 m-2"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -41,6 +42,7 @@ function Videolist() {
         </div>
       ))}
     </motion.div>
+    </div>
   );
 }
 

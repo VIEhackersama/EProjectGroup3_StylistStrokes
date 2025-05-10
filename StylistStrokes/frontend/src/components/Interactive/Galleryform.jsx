@@ -50,7 +50,7 @@ const FeedbackForm = () => {
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Author</div>
-                    <Input placeholder="What's name of you or the owner of the art?" type="text" name="author" required value={formData.author} onChange={handleChange} />
+                    <Input placeholder="Who's the owner of this art? Or what's your name?" type="text" name="author" required value={formData.author} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Style</div>
@@ -58,7 +58,7 @@ const FeedbackForm = () => {
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Description</div>
-                    <Input placeholder="Whereas disregard and contempt for human rights have resulted" type="textarea" name="description" required value={formData.description} onChange={handleChange} />
+                    <Input placeholder="Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world" type="textarea" name="description" required value={formData.description} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Image URL</div>

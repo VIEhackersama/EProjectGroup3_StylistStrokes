@@ -31,7 +31,7 @@ StylistStrokes is proudly crafted by a passionate team of 4 developers:
 - Huy Le
 - Duong Phung
 - An Do
-- Dong Pham
+- Dong Pham (Team Leader)
 
 We worked collaboratively to bridge the gap between artistic design and technical implementation.
 

@@ -33,10 +33,10 @@ function BrushPen() {
         <div className="content text-muted bg-white rounded-4 p-4 shadow-lg">
         <h3 className="fw-semibold text-dark">What You'll Learn</h3>
           <ul className="custom-list mt-3">
-            <li>✓ Mastering brush pen strokes for clean lines</li>
-            <li>✓ Exploring expressive styles of calligraphy</li>
-            <li>✓ Creating basic letterforms with brush pen</li>
-            <li>✓ Learning pressure control and fluid motions</li>
+            <li> Mastering brush pen strokes for clean lines</li>
+            <li> Exploring expressive styles of calligraphy</li>
+            <li> Creating basic letterforms with brush pen</li>
+            <li> Learning pressure control and fluid motions</li>
           </ul>
 
           <motion.div
