@@ -22,11 +22,12 @@
     },
     {
         "id": 4,
-        "name": "The art of South China Calligraphy.",
-        "des": "Flowing brush strokes from Chinese calligraphy.",
-        "image": "image/china.jpg",
-        "link": "https://en.wikipedia.org/wiki/Chinese_calligraphy"
+        "name": "The Art of Indian Calligraphy",
+        "des": "Elegant strokes inspired by centuries of Indian scripts and styles.",
+        "image": "image/indian.jpg",
+        "link": "https://en.wikipedia.org/wiki/Indian_calligraphy"
     },
+    
     {
         "id": 5,
         "name": "The art of Japan Calligraphy.",

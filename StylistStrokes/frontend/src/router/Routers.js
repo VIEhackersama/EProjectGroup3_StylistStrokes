@@ -17,7 +17,7 @@ import ContactUs from "../pages/ContactUs";
 import VietnamCalligraphy from "../pages/VNcaligraphy";
 import KoreanCalligraphy from "../pages/KoreanCaligraphy";
 import ArabicCalligraphy from "../pages/ArabicCalligraphy";
-import ChinaCalligraphy from "../pages/ChinaCalligraphy";
+import IndianCalligraphy from "../pages/IndianCaligraphy";
 import JapanCalligraphy from "../pages/JapanCalligraphy";
 import WesternCalligraphy from "../pages/WesternCalligraphy";
 import Beginner from "../pages/beginner";
@@ -51,7 +51,7 @@ const Routers = () => {
         <Route path="/vietnam-calligraphy" element={<VietnamCalligraphy />} />
         <Route path="/korean-calligraphy" element={<KoreanCalligraphy />} />
         <Route path="/arabic-calligraphy" element={<ArabicCalligraphy />} />
-        <Route path="/china-calligraphy" element={<ChinaCalligraphy />} />
+        <Route path="/india-calligraphy" element={<IndianCalligraphy />} />
         <Route path="/japan-calligraphy" element={<JapanCalligraphy />} />
         <Route path="/western-calligraphy" element={<WesternCalligraphy />} />
         <Route path="/" element={<Learnlist/>}/>

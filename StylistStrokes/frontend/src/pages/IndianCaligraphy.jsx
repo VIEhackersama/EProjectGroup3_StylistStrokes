@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "../styles/Calligraphy.css";
 
-function ChinaCalligraphy() {
+function IndianCalligraphy() {
   return (
     <motion.div
       className="calligraphy-container"
@@ -10,9 +10,16 @@ function ChinaCalligraphy() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -30 }}
       transition={{ duration: 0.6 }}
+      style={{
+        backgroundImage: `url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2JhY2tncm91bmRqb2IxNzE5LWJhY2tncm91bmQtMDIuanBn.jpg)`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center ",
+    }}
     >
-      <div className="content-box">
-        <h1>The Art of Chinese Calligraphy</h1>
+      <div className="content-box"
+       >
+        <h1>The Art of Indian Calligraphy</h1>
         <motion.div
           className="video-container my-4"
           initial={{ opacity: 0 }}
@@ -22,21 +29,21 @@ function ChinaCalligraphy() {
           <iframe
             width="100%"
             height="500px"
-            src="https://www.youtube.com/embed/bYhbUiSbYZw"
+            src="https://www.youtube.com/embed/uqKnbNvQFzo"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            title="Chinese Calligraphy Video"
+            title="Indian Calligraphy Video"
           />
         </motion.div>
         <p>
-          Chinese calligraphy is a timeless art that embodies elegance and philosophy.
-          Each brushstroke carries profound meaning, symbolizing the unity of mind,
-          body, and spirit through the graceful movement of ink on paper.
+          Indian calligraphy is a graceful art rooted in centuries of spiritual and cultural
+          expression. From ancient scriptures to Mughal manuscripts, it reflects a deep
+          connection between language and aesthetics across multiple scripts and traditions.
         </p>
         <div className="button-group">
           <a
-            href="https://en.wikipedia.org/wiki/Chinese_calligraphy"
+            href="https://en.wikipedia.org/wiki/Indian_calligraphy"
             target="_blank"
             rel="noopener noreferrer"
             className="btn primary"
@@ -52,4 +59,4 @@ function ChinaCalligraphy() {
   );
 }
 
-export default ChinaCalligraphy;
+export default IndianCalligraphy;
