@@ -6,27 +6,26 @@ import '../components/ContactUs/font.css'
 // https://shoutoutdfw.com/wp-content/uploads/2020/09/c-PersonalFarzanaRazzaque__Sr_Farzana_Writing_1600379293187.jpg
 export default function ContactUs() {
     return (
-        <div style={{ backgroundImage: `url(https://img.freepik.com/free-photo/abstract-surface-wood-texture-background_74190-12071.jpg?semt=ais_hybrid&w=740)`,
+        <div style={{
+            backgroundImage: `url(https://media.istockphoto.com/id/1313248004/photo/wood-texture-with-empty-space-wooden-background.jpg?s=612x612&w=0&k=20&c=0IfeyNmpHkAkCZrSzO0mtplGr3_mDkovHxwhi4HDdUE=)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
          }}>
-            <div className="position-relative w-100 d-flex flex-column justify-content-center align-items-center">
-                <div
-                    className="position-absolute top-0 start-0 w-100 h-100"
+            <div className="position-relative container-fluid d-flex flex-column justify-content-center align-items-center">
+                <div className="position-absolute top-0 start-0 w-100 h-100"
                     style={{
                         backgroundImage: `url(https://shoutoutdfw.com/wp-content/uploads/2020/09/c-PersonalFarzanaRazzaque__Sr_Farzana_Writing_1600379293187.jpg)`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        filter: "brightness(50%)",
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',
                         zIndex: 1,
+                        filter: "brightness(65%)",
                     }}
-                ></div>
-                <div className="position-relative text-center" style={{ zIndex: 2 }}>
-                    <p className="container text-white">
-                        <br></br><div className="h1">TELL US WHAT YOU THINK </div><br></br>
-                    </p>
+                >
+                </div>
+                <div className="position-relative text-center my-3" style={{ zIndex: 2 }}>
+                    <h1 className="intro1 mea-culpa-regular fw-medium text-white my-4">You asked, you requested, we respond</h1>
                 </div>
             </div>
             <motion.div className="container py-3 justify-content-center d-flex flex-column align-items-center"

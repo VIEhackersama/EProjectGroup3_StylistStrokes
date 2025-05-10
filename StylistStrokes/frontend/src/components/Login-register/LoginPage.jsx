@@ -34,7 +34,7 @@ export default function LoginPage({
                     // backgroundImage: "url(https://i.ytimg.com/vi/9fmjCi6Cb_o/maxresdefault.jpg)",
                     //  backgroundPosition: "center", 
                     // backgroundSize: "",
-                    backgroundImage: "linear-gradient(#ffe6c5,rgb(179, 104, 13) 100%)"
+                    backgroundImage: "linear-gradient(#ffe6c5,rgb(167, 135, 120) 100%)"
                 }
                 }
             >
@@ -89,7 +89,7 @@ export default function LoginPage({
                                 style={{ backgroundColor: "orange" }}
                                 className=" btn w-100 text-white btn-gg"
                             >
-                                <label className="special-gothic">Login</label>
+                                <span className="special-gothic">Login</span>
                             </button>
                             <div style={{color:"white"}} className="d-flex align-items-center my-1">
                                 <hr className="flex-grow-1" />
@@ -98,7 +98,7 @@ export default function LoginPage({
                             </div>
                             <Googlebtn></Googlebtn>
                             <label className="form-check-label text-white" htmlFor="acceptTos">
-                                By continuing with Google service, you are confirming that you have read and agreed to our <a className="fw-semibold tos" href="#">Terms of services</a>
+                                By continuing with Google service, you are confirming that you have read and agreed to <a className="fw-semibold tos" href="#">Terms of services</a>
                             </label>
                         </form>
                     </div>

@@ -39,26 +39,26 @@ const FeedbackForm = () => {
     };
 
     return (
-        <section style={{ backgroundColor: "#9eb6f7" }} className="p-4 shadow-sm rounded">
+        <section style={{ backgroundColor: "wheat" }} className="p-4 shadow-sm rounded">
             {submitted && <Alert color="success">Your post has been made successfully!</Alert>}
             {error && <Alert color="danger">{error}</Alert>}
 
             <Form onSubmit={handleSubmit}>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Title</div>
-                    <Input type="text" name="title" required value={formData.title} onChange={handleChange} />
+                    <Input placeholder="This is the tilte of your post" type="text" name="title" required value={formData.title} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Author</div>
-                    <Input type="text" name="author" required value={formData.author} onChange={handleChange} />
+                    <Input placeholder="What's name of you or the owner of the art?" type="text" name="author" required value={formData.author} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Style</div>
-                    <Input type="text" name="style" required value={formData.style} onChange={handleChange} />
+                    <Input placeholder="Specify the style make it easier for other to see your art" type="text" name="style" required value={formData.style} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Description</div>
-                    <Input type="textarea" name="description" required value={formData.description} onChange={handleChange} />
+                    <Input placeholder="Whereas disregard and contempt for human rights have resulted" type="textarea" name="description" required value={formData.description} onChange={handleChange} />
                 </FormGroup>
                 <FormGroup>
                     <div className="form-label h3 pattaya-regular">Image URL</div>
@@ -71,7 +71,7 @@ const FeedbackForm = () => {
                 </FormGroup>
                 <FormGroup>
                     <label className="p-2 fw-semibold form-check-label">
-                        By submitting this form, you agree that you shall not share unauthorized copyrighted media and we might take legal action if anyone violate our Code of conduct. Learn more at <a className="text-danger" href="#">Terms of services</a>.
+                        By submitting this form, you are agreeing that you shall not share unauthorized copyrighted media and we have full authority to change, use or remove the content at anytime if requested by the its owners or organizations. We commit to never sell, disclose or alter your media without your consent. Learn more at <a className="" href="#">Terms of services.</a><br></br> Each submission may take minute to be recognized by server, please patiently wait and thank you!
                     </label>
                 </FormGroup>
                 <Button className="btn-inf" type="submit">Submit</Button>

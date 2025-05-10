@@ -1,6 +1,6 @@
 import React from "react";
 import './font.css'
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import Googlebtn from "./googlebtn";
 export default function RegisterPage({
     name,
@@ -99,14 +99,14 @@ export default function RegisterPage({
                                     required
                                 />
                                 <label className="form-check-label" htmlFor="acceptTos">
-                                    By creating account, you are confirming that you have read, understood and agreed to our <a className="fw-semibold" href="#">Terms and conditions</a>
+                                    By creating account, you are confirming that you have read, understood and agreed to our <a style={{color:"blue"}} className="fw-semibold" href="#">Terms and conditions</a>
                                 </label>
                             </div>
                             <button
                                 type="submit"
                                 className="btn w-100 text-white py-2 my-3 btn-inf"
                             >
-                                <label className="special-gothic">Create an account</label>
+                                <span className="special-gothic">Create an account</span>
                             </button>
 
                             <div className="d-flex align-items-center my-1">
@@ -119,7 +119,7 @@ export default function RegisterPage({
                             </button> */}
                             <Googlebtn></Googlebtn>
                             <label className="form-check-label mt-2" htmlFor="">
-                                By logging in via Google service, you are agreeing to our <a className="fw-semibold" href="#">Terms of services</a> and any related affiliated parties' terms. All rights reserved
+                                By logging in via Google service, you are agreeing to our <a style={{ color: "blue" }} className="fw-semibold" href="#">Terms of services</a> and any related affiliated parties' terms. All rights reserved
                             </label>
                         </form>
 
