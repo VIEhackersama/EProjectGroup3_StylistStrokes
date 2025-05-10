@@ -142,7 +142,7 @@ const Home = () =>  {
                       <h6>Regular users</h6>
                   </div>
                   <div className="counter__box">
-                      <span>2</span>
+                      <span>2+</span>
                       <h6>Weeks experience</h6>
                   </div>
                </div>
@@ -181,7 +181,7 @@ const Home = () =>  {
          <Row>
             <Col lg='12'>
                <Subtitle subtitle={'Fans Love'} />
-               <h2 className="testimonial__title">What our fans say about us</h2>
+               <h2 className="testimonial__title">What our users say about calligraphy</h2>
             </Col>
             <Col lg='12'>
                 <Testimonials />
