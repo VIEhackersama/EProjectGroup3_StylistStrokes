@@ -36,7 +36,7 @@ const GalleryCom=({art})=>{
                 <img className='img-fluid card-img-top rounded-0 w-100 object-fit-cover' src={ImgSrc}
                 style={{height:"300px"}} alt={art.name}></img>
                 </Link>
-                <div className='card-body px-3 text-start'style={{backgroundColor:"rgb(247, 245, 245)"}}>
+                <div className='card-body px-3 py-4 text-start'style={{backgroundColor:"rgb(247, 245, 245)"}}>
                     <h2 className={`great-vibes-regular`}>{art.name}</h2>
                     <p className='fst-italic fw-medium'>by {art.author}</p>
                     <p className='fw-thin fst-italic'>from {art.style} {art.period}</p>
