@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ff7e01;
-  --secondary-color: #faa935;
+  --secondary-color: #e3b069;
   --heading-color: #0b2727;
   --text-color: #6e7074;
   --font-name: "Montserrat", sans-serif;
@@ -71,14 +71,14 @@ ul {
 }
 
 .section__subtitle {
-  background: var(--secondary-color);
+  background: orange;
   font-family: var(--subtitle-font-name);
   width: max-content;
   padding: 0px 0.5rem;
   padding-right: 1rem;
 
   border-radius: 50px;
-  font-weight: 500;
-  font-size: 1.7rem;
+  font-weight: 900;
+  font-size: 2rem;
   color: var(--heading-color);
 }
