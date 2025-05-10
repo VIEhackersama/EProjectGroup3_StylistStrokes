@@ -47,7 +47,6 @@ const testimonialStyle = `
 }
 
 .testimonial p {
-
   font-size: 1.25rem;
   font-weight: bold;
   line-height: 2rem;
