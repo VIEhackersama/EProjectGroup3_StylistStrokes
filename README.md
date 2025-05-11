@@ -49,11 +49,11 @@ Installation:
    git clone https://github.com/your-username/StylistStrokes.git
 
 2. Install frontend dependencies:
-   cd frontend
+   cd StylistStrokes/frontend
    npm install
 
 3. Install backend dependencies:
-   cd ../backend
+   cd Styliststrokes/backend
    composer install
 
 4. Set up environment variables:
