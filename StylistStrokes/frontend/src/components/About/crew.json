@@ -1,37 +1,37 @@
 [
   {
-    "name": "Pham Hai DONG",
+    "name": "DONG Pham",
     "role": "Team Leader",
     "image": "/image/dongpham.png",
-    "fbdesc": "viehackersama",
-    "description": "The mastermind behind the crew, ensuring every project is a masterpiece.",
+    "fbdesc": "dp.hackersama",
+    "description": "The mastermind behind the crew, ensuring every project is a masterpiece. Aiming for nearly perfection in every detail.",
     "instadesc": "hackersama",
     "redditdesc": "dong.pham"
   },
   {
-    "name": "Le Nhat HUY",
+    "name": "HUY Le Nhat",
     "role": "Calligraphy Expert",
     "image": "/image/huyle.jpeg",
-    "description": "An enthusiast crew. Often comes up with witty but effective dicisions",
+    "description": "An enthusiast creating stunning calligraphy art, blending tradition with modernity.",
     "fbdesc": "lehuy-uii",
     "instadesc": "huy.le.nhat.98",
-    "redditdesc": "Huy_manunitedchampion"
+    "redditdesc": "Huyle-uiii"
   },
   {
-    "name": "Phung Cong DUONG",
+    "name": "DUONG Phung Cong",
     "role": "Style Artist",
     "image": "https://d2zp5xs5cp8zlg.cloudfront.net/image-79322-800.jpg",
-    "fbdesc": "duong2k3",
-    "description": "Duong is a passionate calligrapher who brings elegance to every stroke.",
-    "instadesc": "congduongphung23k",
+    "fbdesc": "duongphungking",
+    "description": "A passionate calligrapher who brings elegance to every stroke. His work is a blend of tradition and modernity.",
+    "instadesc": "duongdeveloper2k",
     "redditdesc": "duonghoclaptrinh"
   },
   {
-    "name": "Do Duy AN",
+    "name": "AN Duy Do",
     "role": "Gallery Manager",
     "image": "https://pbs.twimg.com/media/Gm-M9Q8bYAYOKTT.jpg",
     "fbdesc": "anduydo",
-    "description": "An blends tradition and innovation, crafting calligraphy that tells a story.",
+    "description": "An blends tradition and innovation, crafting calligraphy that tells a story. A true artist at heart.",
     "instadesc": "talkingbushes",
     "redditdesc": "duyan5359"
   }
