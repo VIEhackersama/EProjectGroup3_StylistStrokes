@@ -3,34 +3,34 @@ import Slider from "react-slick";
 import './search-bar.css';
 
 import calligrapherImg01 from '../assets/images/calligrapher-01.jpg';
-import calligrapherImg02 from '../assets/images/calligrapher-02.jpg';
+import calligrapherImg02 from '../assets/images/calligrapher-06.jpg';
 import calligrapherImg03 from '../assets/images/calligrapher-03.jpg';
-import calligrapherImg04 from '../assets/images/calligrapher-04.jpg';
+import calligrapherImg04 from '../assets/images/calligrapher-05.jpg';
 
 const calligraphers = [
   {
     name: "Wang Xizhi",
     avatar: calligrapherImg01,
-    date: "米芾; 1051–1107",
-    description: "Saint of Calligraphy during the Eastern Jin period, renowned for his work Lanting Xu, laid the foundation for Chinese calligraphy art. I love VietNamese"
+    date: "1051–1107",
+    description: "Saint of Calligraphy during the Eastern Jin period, renowned for his work Lanting Xu, laid the foundation for Chinese calligraphy art."
   },
   {
-    name: "Huai Su",
+    name: "Mir Emad Hassani",
     avatar: calligrapherImg02,
-    date: "米芾; 1051–1107",
-    description: "The Tang dynasty monk known for his wild cursive style, characterized by strong and free-spirited strokes, expressing intense emotions through each brushstroke."
+    date: "1554–1615",
+    description: "He was born in Qazvin, Iran. It is believed that the Nastaʿlīq style reached its highest elegance in Mir Emad's works.These are considered amongst the finest specimens of Nastaʿlīq calligraphy and are kept in several museums in the world."
   },
   {
     name: "Mi Fu",
     avatar: calligrapherImg03,
-    date: "米芾; 1051–1107",
+    date: "1051–1107",
     description: "A highly talented artist of the Northern Song period, renowned for his expressive writing style, reflecting a creative personality that transcends time."
   },
   {
-    name: "Zhao Mengfu",
+    name: "Aslam Kiratpuri",
     avatar: calligrapherImg04,
-    date: "米芾; 1051–1107",
-    description: "A renowned scholar of the Yuan dynasty, who revived the art of calligraphy with a harmonious blend of tradition and modern creativity. I love VietNamese"
+    date: "1951 - Now ",
+    description: "An Urdu journalist, artist and a professional Lahori Nastalique calligrapher. He creates his calligraphic Toghras, intricate works of calligraphy in different styles using verses from the Quran along with various geometric and floral designs."
   },
 ];
 
@@ -63,10 +63,6 @@ const SearchBar = () => {
 
   return (
     <div className="search-bar-container py-5">
-      <div className="text-center mb-4">
-        <h2 className="fw-bold">Ancient artists that have inspiried us!</h2>
-        <p>Discover legendary calligraphers who shaped the beauty of script.</p>
-      </div>
       <div className="container">
         <Slider {...settings}>
           {calligraphers.map((artist, index) => (

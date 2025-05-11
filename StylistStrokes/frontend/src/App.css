@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #ff7e01;
-  --secondary-color: #e3b069;
-  --heading-color: #0b2727;
-  --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Island Moments", cursive;
+  --primary-colorapp: #ff7e01;
+  --secondary-colorapp: #e3b069;
+  --heading-colorapp: #e8540a;
+  --text-colorapp: #6e7074;
+  --font-nameapp: "Montserrat", sans-serif;
+  --subtitle-font-nameapp: "Montserrat", sans-serif;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: var(--font-name) !important;
+  font-family: var(--font-nameapp) !important;
 }
 
 section {
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: var(--heading-colorapp);
 }
 
 a {
@@ -39,7 +39,7 @@ ul {
 }
 
 .primary__btn {
-  background: var(--secondary-color) !important;
+  background: var(--secondary-colorapp) !important;
   border: none !important;
   border-radius: 50px !important;
   padding: 0.4rem 1.5rem !important;
@@ -63,7 +63,7 @@ ul {
 .secondary__btn a {
   text-decoration: none;
   font-size: 1.1rem;
-  color: var(--heading-color);
+  color: var(--heading-colorapp);
 }
 
 .secondary__btn a:hover {
@@ -71,8 +71,8 @@ ul {
 }
 
 .section__subtitle {
-  background: orange;
-  font-family: var(--subtitle-font-name);
+  background: rgb(245, 245, 245);
+  font-family: var(--subtitle-font-nameapp)!important;
   width: max-content;
   padding: 0px 0.5rem;
   padding-right: 1rem;
@@ -80,5 +80,5 @@ ul {
   border-radius: 50px;
   font-weight: 900;
   font-size: 2rem;
-  color: var(--heading-color);
+  color: var(--heading-colorapp);
 }
