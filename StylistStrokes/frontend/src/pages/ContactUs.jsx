@@ -7,7 +7,7 @@ import '../components/ContactUs/font.css'
 export default function ContactUs() {
     return (
         <div style={{
-            backgroundImage: `url(https://media.istockphoto.com/id/1313248004/photo/wood-texture-with-empty-space-wooden-background.jpg?s=612x612&w=0&k=20&c=0IfeyNmpHkAkCZrSzO0mtplGr3_mDkovHxwhi4HDdUE=)`,
+            backgroundImage: `url(https://img.freepik.com/free-photo/paper-texture_1194-5999.jpg?semt=ais_hybrid&w=740)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",

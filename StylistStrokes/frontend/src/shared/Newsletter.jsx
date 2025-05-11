@@ -32,7 +32,7 @@ const Newsletter = () => {
         <Row>
           <Col lg="6">
             <div className="newsletter__content">
-              <h2>Subscribe now to get early access to future information.</h2>
+              <h2>Subscribe now to receive early access to future information.</h2>
 
               <div className="newsletter__input">
                 <input

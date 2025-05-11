@@ -42,8 +42,8 @@ export default function ContactForm() {
     return (
         <div className="container p-4">
             <form onSubmit={handleSubmit} className="form-container">
-                <p className="mb-3 h4 fw-bolder text-danger">
-                    * Each submission may take days for approval. Kindly be patient and thank you for understanding 💖
+                <p className="mb-3 h5 fw-bolder text-danger">
+                    * Each submission may take days for review. We recommend you to receive updates via email.
                 </p>
 
                 {[{ label: "Full Name", name: "full_name" },
@@ -111,7 +111,7 @@ export default function ContactForm() {
                         required
                     />
                     <label className="form-check-label" htmlFor="acceptTos">
-                        By submitting this form, you are agreeing to our <a className="fw-semibold" href="#">Terms of services</a> and our policy about personal information management. <a href="#">Learn more</a>
+                        By submitting this form, you are agreeing to our <a className="fw-semibold" href="#">Terms of services</a> and our policy about personal information management. 
                     </label>
                 </div>
                 <div className="form-check mb-4">

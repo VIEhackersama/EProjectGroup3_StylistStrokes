@@ -24,7 +24,7 @@ const Home = () => {
 
    return <>
       <div style={{
-         backgroundImage: "url(https://img.freepik.com/free-photo/canvas-background-with-paint-texture_91008-505.jpg?semt=ais_hybrid&w=740)",
+         backgroundImage: "url(https://img.freepik.com/free-photo/paperboard-texture_95678-72.jpg?semt=ais_hybrid&w=740)",
 
       }}>
          <Abouthero></Abouthero>
@@ -40,7 +40,7 @@ const Home = () => {
                         transition={{ duration: 1.2, ease: "easeOut" }}
                         className="hero__content">
                         <div className="hero__subtitle d-flex align-items-center">
-                           <Subtitle subtitle={"Calligraphy is the art of the soul in ink"} />
+                           <Subtitle subtitle={"The art of the soul in ink"} />
                            <img src={worldImg} alt="" />
                         </div>
                         <h1>
@@ -83,7 +83,11 @@ const Home = () => {
                         <img src={heroImg02} alt="" />
                      </motion.div>
                   </Col>
+               <Col lg='12' className="mt-5">
+               <Subtitle subtitle={"Who that have inspired us!"} />
+                     <h2 className="featured__caligraphy-title">Discover legendary calligraphers who shaped the beauty of script.</h2>
 
+               </Col>
                   <SearchBar />
                </Row>
             </Container>
@@ -117,23 +121,22 @@ const Home = () => {
 
          {/* ========= experience section start ============= */}
          <section>
-            <Container>
+            <Container className="p-5 rounded border" style={{ backgroundColor: "#f5ede4" }}>
                <Row>
                   <Col lg='6'>
                      <div className="experience__content">
                         <Subtitle subtitle={"Experience"} />
 
-                        <h2>
+                        <h3>
                            With our all expreience <br /> we will serve you
-                        </h2>
+                        </h3>
                         <p>
                            Over the past 2 weeks, we’ve dedicated ourselves to preserving the timeless art of traditional calligraphy. Our passion is reflected in every stroke, and our commitment is recognized by thousands of admirers. Whether you're seeking elegance, meaning, or cultural depth, our work speaks for itself.
                            <br />
                            Quas aliquam, hic tempore inventore suscipit unde.
                         </p>
                      </div>
-                     <div className="counter__wrapper d-flex align-items-center gap-5
-               ">
+                     <div className="counter__wrapper d-flex align-items-center gap-5">
                         <div className="counter__box">
                            <span>500+</span>
                            <h6>Web traffic view per day</h6>
@@ -164,7 +167,7 @@ const Home = () => {
             <Container>
                <Row>
                   <Col lg='12'>
-                     <Subtitle subtitle={'Gallery'} />
+                     <Subtitle subtitle={'Album'} />
                      <h2 className="gallery__title">
                         Visit our customers tour gallery
                      </h2>
@@ -181,8 +184,8 @@ const Home = () => {
             <Container>
                <Row>
                   <Col lg='12'>
-                     <Subtitle subtitle={'Fans Love'} />
-                     <h2 className="testimonial__title">What our users say about calligraphy</h2>
+                     <Subtitle subtitle={'Feedback'} />
+                     <h2 className="testimonial__title">What our users say about StylistStrokes</h2>
                   </Col>
                   <Col lg='12'>
                      <Testimonials />
