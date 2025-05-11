@@ -52,7 +52,7 @@ export default function Aboutcrew() {
                         <h6 className="text-muted">{member.role}</h6>
                         <p className='h4 fw-semibold'>{member.description}</p>
                         <p>Contact:</p>
-                        <div className='d-flex'>
+                        <div className='d-flex flex-wrap gap-3'>
                             <a href="https://facebook.com" className="text-black h3 me-3 social-icons" style={{ textDecoration: "none" }}>
                                 <div className='mx-1'><FaFacebook size={50} /><> {member.fbdesc}</></div>
                             </a>
