@@ -76,5 +76,6 @@ LINKS
 
 - Issues: https://github.com/your-username/StylistStrokes/issues
 - Discord: https://discord.gg/8J2TBuydTM
-
+- Deepwiki: https://deepwiki.com/VIEhackersama/StylistStrokes/1-overview
+  
 StylistStrokes – Learn calligraphy within your own screen.
