@@ -33,7 +33,7 @@ const GallerySection = () => {
                                 <div className="gallery-card-body">
                                     <CardTitle tag="h2">"{item.title}"</CardTitle>
                                     <div className="gallery-card-text">
-                                        <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
+                                        <h2 className="tagesschrift-regular fw-semibold">By: {item.author}</h2>
                                         <h3>Style: {item.style}</h3><br />
                                         <h5 className="montserrat-nobro">{item.description}</h5>
                                     </div>
@@ -53,7 +53,7 @@ const GallerySection = () => {
                                 <div className="gallery-card-body">
                                     <CardTitle tag="h2">"{item.title}"</CardTitle>
                                     <div className="gallery-card-text">
-                                        <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
+                                        <h2 className="tagesschrift-regular fw-semibold">By: {item.author}</h2>
                                         <h3>Style: {item.style}</h3><br />
                                         <h5 className="montserrat-nobro">{item.description}</h5>
                                     </div>
