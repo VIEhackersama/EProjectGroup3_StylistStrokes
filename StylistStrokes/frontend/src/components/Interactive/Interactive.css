@@ -5,15 +5,53 @@
   border-image: url("https://media.istockphoto.com/id/1365125616/photo/wood-texture-with-natural-pattern-dark-wooden-background-brown-board.jpg?s=612x612&w=0&k=20&c=r4EnZEVOD7A6NXwtihnt-ym5dNwq6l50q7V2MGheJJo=") 30 round;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
 .tagesschrift-regular {
   font-family: "Tagesschrift", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 .montserrat-nobro {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.gallery-card {
+  height: 500px; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.gallery-card:hover {
+  z-index: 10;
+}
+
+.gallery-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.gallery-card-text {
+  overflow-y: auto; 
+  flex-grow: 1;
+}
+
+.gallery-card-text::-webkit-scrollbar {
+  width: 6px;
+}
+.gallery-card-text::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
 }

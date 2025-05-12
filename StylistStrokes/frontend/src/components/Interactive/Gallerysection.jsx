@@ -24,36 +24,42 @@ const GallerySection = () => {
             <Row>
                 {galleryData.map((item, index) => (
                     <Col sm="12" md="6" lg="4" key={item.id || `placeholder-${index}`} className="mb-4">
-                        <div style={{ backgroundColor: "wheat" }} className="wood-frame">
-                            <div className="card">
+                        <motion.div style={{ backgroundColor: "wheat" }} className="wood-frame"
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}>
+                            <div className="gallery-card">
                                 <CardImg top width="100%" src={item.image} alt={item.title} />
-                                <div className="card-body">
+                                <div className="gallery-card-body">
                                     <CardTitle tag="h2">"{item.title}"</CardTitle>
-                                    <div className="card-text">
+                                    <div className="gallery-card-text">
                                         <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
                                         <h3>Style: {item.style}</h3><br />
                                         <h5 className="montserrat-nobro">{item.description}</h5>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
                     </Col>
                 ))}
                 {mockGallery.map((item, index) => (
                     <Col sm="12" md="6" lg="4" key={item.id || `placeholder-${index}`} className="mb-4">
-                        <div style={{ backgroundColor: "wheat" }} className="wood-frame">
-                            <div className="card">
+                        <motion.div style={{ backgroundColor: "wheat" }} className="wood-frame"
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}>
+                            <div className="gallery-card">
                                 <CardImg top width="100%" src={item.image} alt={item.title} />
-                                <div className="card-body">
+                                <div className="gallery-card-body">
                                     <CardTitle tag="h2">"{item.title}"</CardTitle>
-                                    <div className="card-text">
+                                    <div className="gallery-card-text">
                                         <h2 className="tagesschrift-regular fw-semibold">{item.author}</h2>
                                         <h3>Style: {item.style}</h3><br />
                                         <h5 className="montserrat-nobro">{item.description}</h5>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
                     </Col>
                 ))}
             </Row>
