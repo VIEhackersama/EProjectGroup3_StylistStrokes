@@ -66,6 +66,7 @@ export default function ContactForm() {
                 <div className="mb-3">
                     <label className="fw-semibold">Country (Region)</label>
                     <select className="form-control" name="country" value={formData.country} onChange={handleChange} required>
+                        <option>--Please select your region</option>
                         <option>United States, Canada - North America</option>
                         <option>Vietnam, Thailand, Indonesia, Philippines, Malaysia - South East Asia</option>
                         <option>Japan, South Korea, Hong Kong - East Asia</option>
@@ -79,6 +80,7 @@ export default function ContactForm() {
                 <div className="mb-3">
                     <label className="fw-semibold">What's your job or business type?</label>
                     <select className="form-control" name="business_type" value={formData.business_type} onChange={handleChange} required>
+                        <option>--Please select your job--</option>
                         <option>Agency</option>
                         <option>Advertiser</option>
                         <option>Affiliate</option>
